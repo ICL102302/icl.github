@@ -103,7 +103,7 @@
 						<!-- Publication 버튼 -->
 						<a href="publications.html" class="left-btn publication-btn">Journal</a>
 						<!-- Patent 버튼 -->
-						<a href="Patent.html" class="left-btn patent-btn">Patent</a>
+						<a href="patent.html" class="left-btn patent-btn">Patent</a>
 					</div>
 						<form name="sfrm" action="http://ejcho.cau.ac.kr/publication/journals.php">
 						<input type="hidden" name="code" value="journals">
