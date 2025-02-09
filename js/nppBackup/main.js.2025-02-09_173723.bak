@@ -1,0 +1,258 @@
+;(function () {
+	
+	'use strict';
+
+
+
+	var isMobile = {
+		Android: function() {
+			return navigator.userAgent.match(/Android/i);
+		},
+			BlackBerry: function() {
+			return navigator.userAgent.match(/BlackBerry/i);
+		},
+			iOS: function() {
+			return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+		},
+			Opera: function() {
+			return navigator.userAgent.match(/Opera Mini/i);
+		},
+			Windows: function() {
+			return navigator.userAgent.match(/IEMobile/i);
+		},
+			any: function() {
+			return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+		}
+	};
+
+	var fullHeight = function() {
+
+		if ( !isMobile.any() ) {
+			$('.js-fullheight').css('height', $(window).height());
+			$(window).resize(function(){
+				$('.js-fullheight').css('height', $(window).height());
+			});
+		}
+
+	};
+
+	// Animations
+
+	var contentWayPoint = function() {
+		var i = 0;
+		$('.animate-box').waypoint( function( direction ) {
+
+			if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+				
+				i++;
+
+				$(this.element).addClass('item-animate');
+				setTimeout(function(){
+
+					$('body .animate-box.item-animate').each(function(k){
+						var el = $(this);
+						setTimeout( function () {
+							var effect = el.data('animate-effect');
+							if ( effect === 'fadeIn') {
+								el.addClass('fadeIn animated');
+							} else if ( effect === 'fadeInLeft') {
+								el.addClass('fadeInLeft animated');
+							} else if ( effect === 'fadeInRight') {
+								el.addClass('fadeInRight animated');
+							} else {
+								el.addClass('fadeInUp animated');
+							}
+
+							el.removeClass('item-animate');
+						},  k * 200, 'easeInOutExpo' );
+					});
+					
+				}, 100);
+				
+			}
+
+		} , { offset: '85%' } );
+	};
+
+
+	var burgerMenu = function() {
+
+		$('.js-fh5co-nav-toggle').on('click', function(event){
+			event.preventDefault();
+			var $this = $(this);
+
+			if ($('body').hasClass('offcanvas')) {
+				$this.removeClass('active');
+				$('body').removeClass('offcanvas');	
+			} else {
+				$this.addClass('active');
+				$('body').addClass('offcanvas');	
+			}
+		});
+
+
+
+	};
+
+	// Click outside of offcanvass
+	var mobileMenuOutsideClick = function() {
+
+		$(document).click(function (e) {
+	    var container = $("#fh5co-aside, .js-fh5co-nav-toggle");
+	    if (!container.is(e.target) && container.has(e.target).length === 0) {
+
+	    	if ( $('body').hasClass('offcanvas') ) {
+
+    			$('body').removeClass('offcanvas');
+    			$('.js-fh5co-nav-toggle').removeClass('active');
+			
+	    	}
+	    	
+	    }
+		});
+
+		$(window).scroll(function(){
+			if ( $('body').hasClass('offcanvas') ) {
+
+    			$('body').removeClass('offcanvas');
+    			$('.js-fh5co-nav-toggle').removeClass('active');
+			
+	    	}
+		});
+
+	};
+
+	var sliderMain = function() {
+		
+	  	$('#fh5co-hero .flexslider').flexslider({
+			animation: "fade",
+			slideshowSpeed: 5000,
+			directionNav: true,
+			start: function(){
+				setTimeout(function(){
+					$('.slider-text').removeClass('animated fadeInUp');
+					$('.flex-active-slide').find('.slider-text').addClass('animated fadeInUp');
+				}, 500);
+			},
+			before: function(){
+				setTimeout(function(){
+					$('.slider-text').removeClass('animated fadeInUp');
+					$('.flex-active-slide').find('.slider-text').addClass('animated fadeInUp');
+				}, 500);
+			}
+
+	  	});
+
+	};
+
+	// Document on load.
+	$(function(){
+		fullHeight();
+		contentWayPoint();
+		burgerMenu();
+		mobileMenuOutsideClick();
+		sliderMain();
+	});	
+	
+	
+	////////////////////////////////////////////////////////////////////////
+	
+			
+		// 논문 하나는 .animate-box 요소 하나로 가정합니다.
+		const items = document.querySelectorAll('#papers-container .animate-box');
+		const itemsPerPage = 5;
+		let currentPage = 1;
+
+		// 현재 페이지에 해당하는 아이템만 표시
+		function showPage(page) {
+		  const start = (page - 1) * itemsPerPage;
+		  const end = page * itemsPerPage;
+		  items.forEach((item, index) => {
+			item.style.display = (index >= start && index < end) ? 'block' : 'none';
+		  });
+		}
+
+		// 페이지 번호 버튼 렌더링 함수
+		function renderPageNumbers() {
+		  const totalPages = Math.ceil(items.length / itemsPerPage);
+		  const pageNumbersContainer = document.getElementById('page-numbers');
+		  pageNumbersContainer.innerHTML = ''; // 기존 버튼 초기화
+
+		  // 현재 페이지를 중심으로 앞뒤 최대 3개씩 (총 최대 7개의 번호) 표시
+		  let startPage = Math.max(1, currentPage - 3);
+		  let endPage = Math.min(totalPages, currentPage + 3);
+
+		  // 시작쪽이 부족하면 보충
+		  if (currentPage <= 3) {
+			endPage = Math.min(totalPages, 7);
+		  }
+		  // 끝쪽이 부족하면 시작쪽을 보충
+		  if (currentPage > totalPages - 3) {
+			startPage = Math.max(1, totalPages - 6);
+		  }
+		  
+		  for (let i = startPage; i <= endPage; i++) {
+			const btn = document.createElement('button');
+			btn.textContent = i;
+			if (i === currentPage) {
+			  btn.classList.add('active');
+			}
+			btn.addEventListener('click', () => {
+			  currentPage = i;
+			  showPage(currentPage);
+			  renderPageNumbers();
+			});
+			pageNumbersContainer.appendChild(btn);
+		  }
+		}
+
+		// 첫 페이지 버튼
+		document.getElementById('first-page').addEventListener('click', () => {
+		  if (currentPage !== 1) {
+			currentPage = 1;
+			showPage(currentPage);
+			renderPageNumbers();
+		  }
+		});
+
+		// 이전 페이지 버튼 (<)
+		document.getElementById('prev-page').addEventListener('click', () => {
+		  if (currentPage > 1) {
+			currentPage--;
+			showPage(currentPage);
+			renderPageNumbers();
+		  }
+		});
+
+		// 다음 페이지 버튼 (>)
+		document.getElementById('next-page').addEventListener('click', () => {
+		  const totalPages = Math.ceil(items.length / itemsPerPage);
+		  if (currentPage < totalPages) {
+			currentPage++;
+			showPage(currentPage);
+			renderPageNumbers();
+		  }
+		});
+
+		// 마지막 페이지 버튼 (>>)
+		document.getElementById('last-page').addEventListener('click', () => {
+		  const totalPages = Math.ceil(items.length / itemsPerPage);
+		  if (currentPage !== totalPages) {
+			currentPage = totalPages;
+			showPage(currentPage);
+			renderPageNumbers();
+		  }
+		});
+
+		// 초기 실행: 첫 페이지 표시 및 페이지 번호 렌더링
+		showPage(currentPage);
+		renderPageNumbers();
+		
+		
+
+
+
+
+
+
+}());

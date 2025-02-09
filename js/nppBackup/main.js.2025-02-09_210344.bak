@@ -1,0 +1,285 @@
+;(function () {
+	
+	'use strict';
+
+
+
+	var isMobile = {
+		Android: function() {
+			return navigator.userAgent.match(/Android/i);
+		},
+			BlackBerry: function() {
+			return navigator.userAgent.match(/BlackBerry/i);
+		},
+			iOS: function() {
+			return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+		},
+			Opera: function() {
+			return navigator.userAgent.match(/Opera Mini/i);
+		},
+			Windows: function() {
+			return navigator.userAgent.match(/IEMobile/i);
+		},
+			any: function() {
+			return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+		}
+	};
+
+	var fullHeight = function() {
+
+		if ( !isMobile.any() ) {
+			$('.js-fullheight').css('height', $(window).height());
+			$(window).resize(function(){
+				$('.js-fullheight').css('height', $(window).height());
+			});
+		}
+
+	};
+
+	// Animations
+
+	var contentWayPoint = function() {
+		var i = 0;
+		$('.animate-box').waypoint( function( direction ) {
+
+			if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+				
+				i++;
+
+				$(this.element).addClass('item-animate');
+				setTimeout(function(){
+
+					$('body .animate-box.item-animate').each(function(k){
+						var el = $(this);
+						setTimeout( function () {
+							var effect = el.data('animate-effect');
+							if ( effect === 'fadeIn') {
+								el.addClass('fadeIn animated');
+							} else if ( effect === 'fadeInLeft') {
+								el.addClass('fadeInLeft animated');
+							} else if ( effect === 'fadeInRight') {
+								el.addClass('fadeInRight animated');
+							} else {
+								el.addClass('fadeInUp animated');
+							}
+
+							el.removeClass('item-animate');
+						},  k * 200, 'easeInOutExpo' );
+					});
+					
+				}, 100);
+				
+			}
+
+		} , { offset: '85%' } );
+	};
+
+
+	var burgerMenu = function() {
+
+		$('.js-fh5co-nav-toggle').on('click', function(event){
+			event.preventDefault();
+			var $this = $(this);
+
+			if ($('body').hasClass('offcanvas')) {
+				$this.removeClass('active');
+				$('body').removeClass('offcanvas');	
+			} else {
+				$this.addClass('active');
+				$('body').addClass('offcanvas');	
+			}
+		});
+
+
+
+	};
+
+	// Click outside of offcanvass
+	var mobileMenuOutsideClick = function() {
+
+		$(document).click(function (e) {
+	    var container = $("#fh5co-aside, .js-fh5co-nav-toggle");
+	    if (!container.is(e.target) && container.has(e.target).length === 0) {
+
+	    	if ( $('body').hasClass('offcanvas') ) {
+
+    			$('body').removeClass('offcanvas');
+    			$('.js-fh5co-nav-toggle').removeClass('active');
+			
+	    	}
+	    	
+	    }
+		});
+
+		$(window).scroll(function(){
+			if ( $('body').hasClass('offcanvas') ) {
+
+    			$('body').removeClass('offcanvas');
+    			$('.js-fh5co-nav-toggle').removeClass('active');
+			
+	    	}
+		});
+
+	};
+
+	var sliderMain = function() {
+		
+	  	$('#fh5co-hero .flexslider').flexslider({
+			animation: "fade",
+			slideshowSpeed: 5000,
+			directionNav: true,
+			start: function(){
+				setTimeout(function(){
+					$('.slider-text').removeClass('animated fadeInUp');
+					$('.flex-active-slide').find('.slider-text').addClass('animated fadeInUp');
+				}, 500);
+			},
+			before: function(){
+				setTimeout(function(){
+					$('.slider-text').removeClass('animated fadeInUp');
+					$('.flex-active-slide').find('.slider-text').addClass('animated fadeInUp');
+				}, 500);
+			}
+
+	  	});
+
+	};
+
+	// Document on load.
+	$(function(){
+		fullHeight();
+		contentWayPoint();
+		burgerMenu();
+		mobileMenuOutsideClick();
+		sliderMain();
+	});	
+	
+	
+	////////////////////////////////////////////////////////////////////////
+	
+			
+document.addEventListener('DOMContentLoaded', function() {
+  // 검색 폼 및 관련 요소
+  const searchForm = document.getElementById('searchForm');
+  const searchInput = document.getElementById('searchInput');
+  const yearSelect  = document.getElementById('yearSelect');
+
+  // Pagination 컨트롤 요소
+  const firstPageBtn = document.getElementById('first-page');
+  const prevPageBtn  = document.getElementById('prev-page');
+  const nextPageBtn  = document.getElementById('next-page');
+  const lastPageBtn  = document.getElementById('last-page');
+  const pageNumbersDiv = document.getElementById('page-numbers');
+
+  // 전체 논문 데이터가 들어있는 컨테이너 (여기서는 #papers-container)
+  const container = document.getElementById('papers-container');
+  
+  // 모든 논문 그룹(.journal-item)에서 개별 논문 항목(.journals_box)들을 수집
+  const groups = Array.from(container.querySelectorAll('.journal-item'));
+  let allItems = [];
+  groups.forEach(group => {
+    const boxes = Array.from(group.querySelectorAll('.journals_box'));
+    allItems = allItems.concat(boxes);
+  });
+  console.log("전체 논문 항목 개수:", allItems.length);
+
+  // 검색된 결과를 저장할 배열 (초기엔 전체 아이템)
+  let filteredItems = allItems.slice();
+  let currentPage = 1;
+  const itemsPerPage = 5;
+  let totalPages = Math.ceil(filteredItems.length / itemsPerPage);
+  if(totalPages < 1) totalPages = 1;
+
+  // 필터링 함수: 검색어와 선택한 년도를 기준으로 전체 아이템 필터링
+  function filterItems() {
+    const query = searchInput.value.trim().toLowerCase();
+    const selectedYear = yearSelect.value.trim();
+    filteredItems = allItems.filter(box => {
+      const boxText = box.textContent.toLowerCase();
+      // 각 개별 항목의 그룹은 .journal-item에 있음
+      const group = box.closest('.journal-item');
+      const groupYear = group ? (group.getAttribute('data-year') || "").trim() : "";
+      const matchesSearch = (query === '' || boxText.indexOf(query) !== -1);
+      const matchesYear = (selectedYear === '' || groupYear === selectedYear);
+      return matchesSearch && matchesYear;
+    });
+    currentPage = 1;
+    totalPages = Math.ceil(filteredItems.length / itemsPerPage);
+    if(totalPages < 1) totalPages = 1;
+    console.log("검색 후 항목 개수:", filteredItems.length, "총 페이지:", totalPages);
+  }
+
+  // 페이지 표시 함수 (페이드인 효과 추가)
+  function showPage(page) {
+    // 결과를 표시할 컨테이너; 기존 #papers-container의 내용을 대체할 새로운 컨테이너 'paginatedResults'
+    let paginatedContainer = document.getElementById('paginatedResults');
+    if (!paginatedContainer) {
+      paginatedContainer = document.createElement('div');
+      paginatedContainer.id = 'paginatedResults';
+      container.innerHTML = "";
+      container.appendChild(paginatedContainer);
+    } else {
+      paginatedContainer.innerHTML = "";
+    }
+
+    const startIndex = (page - 1) * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+    const pageItems = filteredItems.slice(startIndex, endIndex);
+    pageItems.forEach(item => {
+      const wrapper = document.createElement('div');
+      wrapper.className = 'journal-result';
+      // cloneNode(true)하여 원본 DOM에 영향을 주지 않도록 복제한 후,
+      // 애니메이션 클래스를 추가하여 페이드인 효과 적용 (animate.css 기준)
+      wrapper.appendChild(item.cloneNode(true));
+      wrapper.classList.add('animated', 'fadeIn');
+      paginatedContainer.appendChild(wrapper);
+    });
+    currentPage = page;
+    updatePaginationControls();
+  }
+
+  // 페이지네이션 버튼 업데이트 함수 (현재 페이지 전후 3개씩만 생성)
+  function updatePaginationControls() {
+    pageNumbersDiv.innerHTML = "";
+    const maxButtons = 7; // 최대 버튼 수
+    // 계산: 현재 페이지를 중심으로 전후 3개씩
+    let startPage = Math.max(1, currentPage - 3);
+    let endPage = Math.min(totalPages, currentPage + 3);
+    // 만약 전체 버튼 수가 7개 미만이면 조정
+    if (endPage - startPage < maxButtons - 1) {
+      if (startPage === 1) {
+        endPage = Math.min(totalPages, startPage + maxButtons - 1);
+      } else if (endPage === totalPages) {
+        startPage = Math.max(1, endPage - maxButtons + 1);
+      }
+    }
+    for (let i = startPage; i <= endPage; i++) {
+      const btn = document.createElement('button');
+      btn.textContent = i;
+      if (i === currentPage) {
+        btn.classList.add('active');
+      }
+      btn.addEventListener('click', function() {
+        showPage(i);
+      });
+      pageNumbersDiv.appendChild(btn);
+    }
+  }
+
+  // 검색 폼 제출 시에만 검색 실행 (엔터키나 검색 버튼 클릭)
+  searchForm.addEventListener('submit', function(e) {
+    e.preventDefault(); // 새로고침 방지
+    filterItems();
+    showPage(1);
+  });
+
+  // 기존에 아무 검색도 하지 않은 경우, 전체 데이터를 대상으로 페이지 표시
+  filterItems();
+  showPage(1);
+});
+
+		
+
+
+
+}());

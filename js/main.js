@@ -158,95 +158,152 @@
 	////////////////////////////////////////////////////////////////////////
 	
 			
-		// 논문 하나는 .animate-box 요소 하나로 가정합니다.
-		const items = document.querySelectorAll('#papers-container .animate-box');
-		const itemsPerPage = 5;
-		let currentPage = 1;
+document.addEventListener('DOMContentLoaded', function() {
+  // 검색 폼 및 관련 요소
+  const searchForm = document.getElementById('searchForm');
+  const searchInput = document.getElementById('searchInput');
+  const yearSelect  = document.getElementById('yearSelect');
 
-		// 현재 페이지에 해당하는 아이템만 표시
-		function showPage(page) {
-		  const start = (page - 1) * itemsPerPage;
-		  const end = page * itemsPerPage;
-		  items.forEach((item, index) => {
-			item.style.display = (index >= start && index < end) ? 'block' : 'none';
-		  });
-		}
+  // Pagination 컨트롤 요소
+  const firstPageBtn = document.getElementById('first-page');
+  const prevPageBtn  = document.getElementById('prev-page');
+  const nextPageBtn  = document.getElementById('next-page');
+  const lastPageBtn  = document.getElementById('last-page');
+  const pageNumbersDiv = document.getElementById('page-numbers');
 
-		// 페이지 번호 버튼 렌더링 함수
-		function renderPageNumbers() {
-		  const totalPages = Math.ceil(items.length / itemsPerPage);
-		  const pageNumbersContainer = document.getElementById('page-numbers');
-		  pageNumbersContainer.innerHTML = ''; // 기존 버튼 초기화
+  // 전체 논문 데이터가 들어있는 컨테이너 (여기서는 #papers-container)
+  const container = document.getElementById('papers-container');
+  
+  // 모든 논문 그룹(.journal-item)에서 개별 논문 항목(.journals_box)들을 수집
+  const groups = Array.from(container.querySelectorAll('.journal-item'));
+  let allItems = [];
+  groups.forEach(group => {
+    const boxes = Array.from(group.querySelectorAll('.journals_box'));
+    allItems = allItems.concat(boxes);
+  });
+  console.log("전체 논문 항목 개수:", allItems.length);
 
-		  // 현재 페이지를 중심으로 앞뒤 최대 3개씩 (총 최대 7개의 번호) 표시
-		  let startPage = Math.max(1, currentPage - 3);
-		  let endPage = Math.min(totalPages, currentPage + 3);
+  // 검색된 결과를 저장할 배열 (초기엔 전체 아이템)
+  let filteredItems = allItems.slice();
+  let currentPage = 1;
+  const itemsPerPage = 5;
+  let totalPages = Math.ceil(filteredItems.length / itemsPerPage);
+  if(totalPages < 1) totalPages = 1;
 
-		  // 시작쪽이 부족하면 보충
-		  if (currentPage <= 3) {
-			endPage = Math.min(totalPages, 7);
-		  }
-		  // 끝쪽이 부족하면 시작쪽을 보충
-		  if (currentPage > totalPages - 3) {
-			startPage = Math.max(1, totalPages - 6);
-		  }
-		  
-		  for (let i = startPage; i <= endPage; i++) {
-			const btn = document.createElement('button');
-			btn.textContent = i;
-			if (i === currentPage) {
-			  btn.classList.add('active');
-			}
-			btn.addEventListener('click', () => {
-			  currentPage = i;
-			  showPage(currentPage);
-			  renderPageNumbers();
-			});
-			pageNumbersContainer.appendChild(btn);
-		  }
-		}
+  // 필터링 함수: 검색어와 선택한 년도를 기준으로 전체 아이템 필터링
+  function filterItems() {
+    const query = searchInput.value.trim().toLowerCase();
+    const selectedYear = yearSelect.value.trim();
+    filteredItems = allItems.filter(box => {
+      const boxText = box.textContent.toLowerCase();
+      // 각 개별 항목은 그 상위 그룹(.journal-item)에 속함
+      const group = box.closest('.journal-item');
+      const groupYear = group ? (group.getAttribute('data-year') || "").trim() : "";
+      const matchesSearch = (query === '' || boxText.indexOf(query) !== -1);
+      const matchesYear = (selectedYear === '' || groupYear === selectedYear);
+      return matchesSearch && matchesYear;
+    });
+    currentPage = 1;
+    totalPages = Math.ceil(filteredItems.length / itemsPerPage);
+    if(totalPages < 1) totalPages = 1;
+    console.log("검색 후 항목 개수:", filteredItems.length, "총 페이지:", totalPages);
+  }
 
-		// 첫 페이지 버튼
-		document.getElementById('first-page').addEventListener('click', () => {
-		  if (currentPage !== 1) {
-			currentPage = 1;
-			showPage(currentPage);
-			renderPageNumbers();
-		  }
-		});
+  // 페이지 표시 함수 (페이드인 효과 추가)
+  function showPage(page) {
+    // 결과를 표시할 컨테이너; 기존 #papers-container의 내용을 대체할 새로운 컨테이너 'paginatedResults'
+    let paginatedContainer = document.getElementById('paginatedResults');
+    if (!paginatedContainer) {
+      paginatedContainer = document.createElement('div');
+      paginatedContainer.id = 'paginatedResults';
+      container.innerHTML = "";
+      container.appendChild(paginatedContainer);
+    } else {
+      paginatedContainer.innerHTML = "";
+    }
 
-		// 이전 페이지 버튼 (<)
-		document.getElementById('prev-page').addEventListener('click', () => {
-		  if (currentPage > 1) {
-			currentPage--;
-			showPage(currentPage);
-			renderPageNumbers();
-		  }
-		});
+    const startIndex = (page - 1) * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+    const pageItems = filteredItems.slice(startIndex, endIndex);
+    pageItems.forEach(item => {
+      const wrapper = document.createElement('div');
+      wrapper.className = 'journal-result';
+      // 복제 후 Animate.css 애니메이션 클래스를 추가하여 페이드인 효과 적용
+      wrapper.appendChild(item.cloneNode(true));
+      wrapper.classList.add('animated', 'fadeIn');
+      paginatedContainer.appendChild(wrapper);
+    });
+    currentPage = page;
+    updatePaginationControls();
+  }
 
-		// 다음 페이지 버튼 (>)
-		document.getElementById('next-page').addEventListener('click', () => {
-		  const totalPages = Math.ceil(items.length / itemsPerPage);
-		  if (currentPage < totalPages) {
-			currentPage++;
-			showPage(currentPage);
-			renderPageNumbers();
-		  }
-		});
+  // 페이지네이션 버튼 업데이트 함수 (현재 페이지 전후 3개씩만 생성)
+  function updatePaginationControls() {
+    pageNumbersDiv.innerHTML = "";
+    const maxButtons = 7; // 최대 버튼 수 (현재 페이지 전후 3개씩)
+    let startPage = Math.max(1, currentPage - 3);
+    let endPage = Math.min(totalPages, currentPage + 3);
+    // 만약 전체 버튼 수가 maxButtons 미만이면 조정
+    if (endPage - startPage < maxButtons - 1) {
+      if (startPage === 1) {
+        endPage = Math.min(totalPages, startPage + maxButtons - 1);
+      } else if (endPage === totalPages) {
+        startPage = Math.max(1, endPage - maxButtons + 1);
+      }
+    }
+    for (let i = startPage; i <= endPage; i++) {
+      const btn = document.createElement('button');
+      btn.textContent = i;
+      if (i === currentPage) {
+        btn.classList.add('active');
+      }
+      btn.addEventListener('click', function(e) {
+        e.preventDefault();
+        showPage(i);
+      });
+      pageNumbersDiv.appendChild(btn);
+    }
+  }
 
-		// 마지막 페이지 버튼 (>>)
-		document.getElementById('last-page').addEventListener('click', () => {
-		  const totalPages = Math.ceil(items.length / itemsPerPage);
-		  if (currentPage !== totalPages) {
-			currentPage = totalPages;
-			showPage(currentPage);
-			renderPageNumbers();
-		  }
-		});
+  // 검색 폼 제출 시에만 검색 실행 (엔터키나 검색 버튼 클릭)
+  searchForm.addEventListener('submit', function(e) {
+    e.preventDefault(); // 새로고침 방지
+    filterItems();
+    showPage(1);
+  });
 
-		// 초기 실행: 첫 페이지 표시 및 페이지 번호 렌더링
-		showPage(currentPage);
-		renderPageNumbers();
+  // Pagination navigation 버튼 이벤트
+  firstPageBtn.addEventListener('click', function(e) {
+    e.preventDefault();
+    if (currentPage > 1) {
+      showPage(1);
+    }
+  });
+  prevPageBtn.addEventListener('click', function(e) {
+    e.preventDefault();
+    if (currentPage > 1) {
+      showPage(currentPage - 1);
+    }
+  });
+  nextPageBtn.addEventListener('click', function(e) {
+    e.preventDefault();
+    if (currentPage < totalPages) {
+      showPage(currentPage + 1);
+    }
+  });
+  lastPageBtn.addEventListener('click', function(e) {
+    e.preventDefault();
+    if (currentPage < totalPages) {
+      showPage(totalPages);
+    }
+  });
+
+  // 초기 실행: 아무 검색도 하지 않은 경우, 전체 데이터를 대상으로 페이지 표시
+  filterItems();
+  showPage(1);
+});
+
+
 
 
 
