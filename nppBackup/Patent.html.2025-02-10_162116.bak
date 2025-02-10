@@ -139,7 +139,7 @@
 	<div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png"  alt="친수성 유기기를 가지는 PDMS 화합물 및 그 제조방법 (PDMS COMPOUND HAVING A HYDROPHILIC ORGANIC GROUP AND A METHOD FOR PREPARING THE SAME) ">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="친수성 유기기를 가지는 PDMS 화합물 및 그 제조방법 (PDMS COMPOUND HAVING A HYDROPHILIC ORGANIC GROUP AND A METHOD FOR PREPARING THE SAME) ">
             </div>
             <div class="tbox">
                 <h4>
@@ -153,7 +153,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="백운석으로부터 포름산 칼슘의 제조 및 마그네슘 화합물의 분해 방법 및 장치 (Preparation of calcium formate from the white meteorite, and the decomposition method and device of magnesium compounds) ">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="백운석으로부터 포름산 칼슘의 제조 및 마그네슘 화합물의 분해 방법 및 장치 (Preparation of calcium formate from the white meteorite, and the decomposition method and device of magnesium compounds) ">
             </div>
             <div class="tbox">
                 <h4>
@@ -172,7 +172,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png"  alt="포름산 칼슘의 제조 방법 및 제조 장치 (Method and apparatus for preparing calcium formate)">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="포름산 칼슘의 제조 방법 및 제조 장치 (Method and apparatus for preparing calcium formate)">
             </div>
             <div class="tbox">
                 <h4>
@@ -186,7 +186,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png"  alt="공유결합 트리아진 구조체를 이용한 알코올 투과증발용 복합 분리막 (Pervaporation composite membranes using covalent triazine framework for alcohol recovery)">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="공유결합 트리아진 구조체를 이용한 알코올 투과증발용 복합 분리막 (Pervaporation composite membranes using covalent triazine framework for alcohol recovery)">
             </div>
             <div class="tbox">
                 <h4>
@@ -200,7 +200,7 @@
 	<div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png"  alt="바이페닐 기반의 공유결합 트리아진 구조체를 이용한 부탄올 투과증발용 폴리디메틸실옥산 복합분리막 (Polydimethylsiloxane pervaporation composite membranes using biphenyl-based covalent triazine framework for n-butanol recovery) ">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="바이페닐 기반의 공유결합 트리아진 구조체를 이용한 부탄올 투과증발용 폴리디메틸실옥산 복합분리막 (Polydimethylsiloxane pervaporation composite membranes using biphenyl-based covalent triazine framework for n-butanol recovery) ">
             </div>
             <div class="tbox">
                 <h4>

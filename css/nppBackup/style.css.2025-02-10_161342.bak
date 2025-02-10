@@ -1277,7 +1277,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 .thumb_list .journals_box .pic{
 	position:relative;
 	width: 300px; 
-	height: 250px;
+	height: 200px;
 	overflow: hidden; 
 	aspect-ratio: 3;
 	display: flex;

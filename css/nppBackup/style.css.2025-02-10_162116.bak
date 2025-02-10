@@ -1285,7 +1285,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 
 
 .thumb_list .journals_box .pic img {
-    width: 100%;
+    width: 100% !important;
     display: flex;
     height: 100%;
     object-fit: contain;

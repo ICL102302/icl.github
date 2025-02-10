@@ -70,7 +70,6 @@
 	<body class="publication-page">
 	<div id="fh5co-page">
 		<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-		<script src="js/jquery.min.js"></script>
 		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
 
 			<h1 id="fh5co-logo"><a href="index.html">Inorganic Chemistry Lab</a></h1>
@@ -150,14 +149,12 @@
 			<div class="thumb_list">
 				<div id="papers-container">
 
-
-
 <div class="journal-item" data-year="2025">
 
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Simultaneous utilization of CO2 and potassium-rich biomass for the environmentally friendly production of potassium formate, <i>RSC Advances</i>, <b>2025</b>, <i>15</i>, 1, 348–356">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Simultaneous utilization of CO2 and potassium-rich biomass for the environmentally friendly production of potassium formate, <i>RSC Advances</i>, <b>2025</b>, <i>15</i>, 1, 348–356">
             </div>
             <div class="tbox">
                 <h4>
@@ -171,7 +168,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="A stable acyl cobalt-based catalyst with exceptionally elevated activity for the carbonylation of epoxides into β-lactones, <i>Chinese Journal of Catalysis</i>, <b>2025</b>, <i>68</i>, 336–344">
+                <img src="images/publications/pub-2.png"  alt="A stable acyl cobalt-based catalyst with exceptionally elevated activity for the carbonylation of epoxides into β-lactones, <i>Chinese Journal of Catalysis</i>, <b>2025</b>, <i>68</i>, 336–344">
             </div>
             <div class="tbox">
                 <h4>
@@ -189,7 +186,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Pelletizing highly porous covalent triazine framework under mild conditions and applying it as adsorbent for Ru3+ ions, <i>Microporous and Mesoporous Materials</i>, <b>2024</b>, <i>365</i>, 112852">
+                <img src="images/publications/pub-4.png" style="max-width: 50%; height: auto;" alt="Pelletizing highly porous covalent triazine framework under mild conditions and applying it as adsorbent for Ru3+ ions, <i>Microporous and Mesoporous Materials</i>, <b>2024</b>, <i>365</i>, 112852">
             </div>
             <div class="tbox">
                 <h4>
@@ -203,7 +200,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Photocatalytic degradation of 4-nitrophenol by using multicomponent Cu2O-Cu@TiO2 nanoparticle aggregates, <i>Bulletin of the Korean Chemical Society</i>, <b>2024</b>, <i>45</i>, 4, 373–377">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Photocatalytic degradation of 4-nitrophenol by using multicomponent Cu2O-Cu@TiO2 nanoparticle aggregates, <i>Bulletin of the Korean Chemical Society</i>, <b>2024</b>, <i>45</i>, 4, 373–377">
             </div>
             <div class="tbox">
                 <h4>
@@ -217,7 +214,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Sustainable Formate Production via Highly Active CO2 Hydrogenation Using Porous Organometallic Polymer with Ru-PNP Active Sites, <i>ChemSusChem</i>, <b>2024</b>">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Sustainable Formate Production via Highly Active CO2 Hydrogenation Using Porous Organometallic Polymer with Ru-PNP Active Sites, <i>ChemSusChem</i>, <b>2024</b>">
             </div>
             <div class="tbox">
                 <h4>
@@ -231,7 +228,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Influence of Solvents on Catalytic C-H Bond Oxidation by a Copper(II)-Alkylperoxo Complex, <i>ACS Catalysis</i>, <b>2024</b>, <i>14</i>, 5, 3524–3532">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Influence of Solvents on Catalytic C-H Bond Oxidation by a Copper(II)-Alkylperoxo Complex, <i>ACS Catalysis</i>, <b>2024</b>, <i>14</i>, 5, 3524–3532">
             </div>
             <div class="tbox">
                 <h4>
@@ -245,7 +242,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Recent progress in heterogeneous CO2 hydrogenation to formic acid towards practical application, <i>Catalysis Science and Technology</i>, <b>2024</b>, <i>14</i>, 20, 5811–5832">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Recent progress in heterogeneous CO2 hydrogenation to formic acid towards practical application, <i>Catalysis Science and Technology</i>, <b>2024</b>, <i>14</i>, 20, 5811–5832">
             </div>
             <div class="tbox">
                 <h4>
@@ -259,7 +256,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Investigating the Catalytic Deactivation of a Pd Catalyst during the Continuous Hydrogenation of CO2 into Formate Using a Trickle-Bed Reactor, <i>Catalysts</i>, <b>2024</b>, <i>14</i>, 3, 187">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Investigating the Catalytic Deactivation of a Pd Catalyst during the Continuous Hydrogenation of CO2 into Formate Using a Trickle-Bed Reactor, <i>Catalysts</i>, <b>2024</b>, <i>14</i>, 3, 187">
             </div>
             <div class="tbox">
                 <h4>
@@ -277,7 +274,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Living ring-opening polymerization of β-butyrolactone initiated by mononuclear zirconium compounds containing sterically hindered N,O-chelate and anionic dimethylamide ligands, <i>RSC Advances</i>, <b>2023</b>, <i>13</i>, 15, 10379–10383">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Living ring-opening polymerization of β-butyrolactone initiated by mononuclear zirconium compounds containing sterically hindered N,O-chelate and anionic dimethylamide ligands, <i>RSC Advances</i>, <b>2023</b>, <i>13</i>, 15, 10379–10383">
             </div>
             <div class="tbox">
                 <h4>
@@ -291,7 +288,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="CO-Free H2 Production by Aqueous-Phase Reforming of Methanol Utilizing Heterogenized Ru-MACHO at Low Temperature, <i>ACS Sustainable Chemistry and Engineering</i>, <b>2023</b>, <i>11</i>, 32, 12036–12044">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="CO-Free H2 Production by Aqueous-Phase Reforming of Methanol Utilizing Heterogenized Ru-MACHO at Low Temperature, <i>ACS Sustainable Chemistry and Engineering</i>, <b>2023</b>, <i>11</i>, 32, 12036–12044">
             </div>
             <div class="tbox">
                 <h4>
@@ -305,7 +302,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Integrated kinetics-computational fluid dynamic-optimization for catalytic hydrogenation of CO2 to formic acid, <i>Journal of CO2 Utilization</i>, <b>2023</b>, <i>78</i>, 102635">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Integrated kinetics-computational fluid dynamic-optimization for catalytic hydrogenation of CO2 to formic acid, <i>Journal of CO2 Utilization</i>, <b>2023</b>, <i>78</i>, 102635">
             </div>
             <div class="tbox">
                 <h4>
@@ -319,7 +316,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Kinetic conversion of magnesium and calcium ions of dolomite into useful value-added products using CO2, <i>Chemical Engineering Journal</i>, <b>2023</b>, <i>469</i>, 143684">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Kinetic conversion of magnesium and calcium ions of dolomite into useful value-added products using CO2, <i>Chemical Engineering Journal</i>, <b>2023</b>, <i>469</i>, 143684">
             </div>
             <div class="tbox">
                 <h4>
@@ -333,7 +330,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Production of Ca(HCO2)2 from formate solution through CO2 hydrogenation, <i>Computer Aided Chemical Engineering</i>, <b>2023</b>, <i>52</i>, 2387–2392">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Production of Ca(HCO2)2 from formate solution through CO2 hydrogenation, <i>Computer Aided Chemical Engineering</i>, <b>2023</b>, <i>52</i>, 2387–2392">
             </div>
             <div class="tbox">
                 <h4>
@@ -347,7 +344,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Heterogenized Phenanthroline-Pd(2+)-Catalyzed Alkoxycarbonylation of Aryl Iodides in Base-Free Conditions, <i>Journal of Organic Chemistry</i>, <b>2023</b>, <i>88</i>, 8, 5127–5134">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Heterogenized Phenanthroline-Pd(2+)-Catalyzed Alkoxycarbonylation of Aryl Iodides in Base-Free Conditions, <i>Journal of Organic Chemistry</i>, <b>2023</b>, <i>88</i>, 8, 5127–5134">
             </div>
             <div class="tbox">
                 <h4>
@@ -361,7 +358,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Chloride-Bridged Dimeric SalphenZr(IV) Cobaltate Catalyst Unleashes the Potential of Base-Free Carbonylative Polymerization for Biodegradable PHAs†, <i>Chinese Journal of Chemistry</i>, <b>2023</b>, <i>41</i>, 24, 3560–3566">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Chloride-Bridged Dimeric SalphenZr(IV) Cobaltate Catalyst Unleashes the Potential of Base-Free Carbonylative Polymerization for Biodegradable PHAs†, <i>Chinese Journal of Chemistry</i>, <b>2023</b>, <i>41</i>, 24, 3560–3566">
             </div>
             <div class="tbox">
                 <h4>
@@ -375,7 +372,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Carbonylative ring expansion of oxetane into γ-butyrolactone using bimetallic cobaltate catalysts: Insight into the deactivation mechanism, <i>Bulletin of the Korean Chemical Society</i>, <b>2023</b>, <i>44</i>, 12, 1049–1055">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Carbonylative ring expansion of oxetane into γ-butyrolactone using bimetallic cobaltate catalysts: Insight into the deactivation mechanism, <i>Bulletin of the Korean Chemical Society</i>, <b>2023</b>, <i>44</i>, 12, 1049–1055">
             </div>
             <div class="tbox">
                 <h4>
@@ -393,7 +390,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Reductive Carbonylation of Nitroarenes Using a Heterogenized Phen-Pd Catalyst, <i>Inorganic Chemistry</i>, <b>2022</b>, <i>61</i>, 3, 1552–1561">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Reductive Carbonylation of Nitroarenes Using a Heterogenized Phen-Pd Catalyst, <i>Inorganic Chemistry</i>, <b>2022</b>, <i>61</i>, 3, 1552–1561">
             </div>
             <div class="tbox">
                 <h4>
@@ -407,7 +404,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Efficient Nicotinamide Adenine Dinucleotide Regeneration with a Rhodium-Carbene Catalyst and Isolation of a Hydride Intermediate, <i>Inorganic Chemistry</i>, <b>2022</b>, <i>61</i>, 15, 5683–5690">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Efficient Nicotinamide Adenine Dinucleotide Regeneration with a Rhodium-Carbene Catalyst and Isolation of a Hydride Intermediate, <i>Inorganic Chemistry</i>, <b>2022</b>, <i>61</i>, 15, 5683–5690">
             </div>
             <div class="tbox">
                 <h4>
@@ -421,7 +418,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Synthesis and Hydrophilicity Analysis of bis(propane‐1,2‐diol) Terminated Polydimethylsiloxanes (PDMSs), <i>Materials</i>, <b>2022</b>, <i>15</i>, 3, 753">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Synthesis and Hydrophilicity Analysis of bis(propane‐1,2‐diol) Terminated Polydimethylsiloxanes (PDMSs), <i>Materials</i>, <b>2022</b>, <i>15</i>, 3, 753">
             </div>
             <div class="tbox">
                 <h4>
@@ -435,7 +432,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Atomically dispersed Ru(III) on N-doped mesoporous carbon hollow spheres as catalysts for CO2 hydrogenation to formate, <i>Chemical Engineering Journal</i>, <b>2022</b>, <i>442</i>, 136185">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Atomically dispersed Ru(III) on N-doped mesoporous carbon hollow spheres as catalysts for CO2 hydrogenation to formate, <i>Chemical Engineering Journal</i>, <b>2022</b>, <i>442</i>, 136185">
             </div>
             <div class="tbox">
                 <h4>
@@ -449,7 +446,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Structural information of nanosized iron oxide clusters serendipitously poses the solution of long-standing problems on nanomaterials: Intra/inter surfactant and core–surfactant interaction, <i>Bulletin of the Korean Chemical Society</i>, <b>2022</b>, <i>43</i>, 2, 299–304">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Structural information of nanosized iron oxide clusters serendipitously poses the solution of long-standing problems on nanomaterials: Intra/inter surfactant and core–surfactant interaction, <i>Bulletin of the Korean Chemical Society</i>, <b>2022</b>, <i>43</i>, 2, 299–304">
             </div>
             <div class="tbox">
                 <h4>
@@ -463,7 +460,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Formation of mononuclear N,O-chelate zirconium complexes by direct insertion of epoxide into tetrakis(dimethylamido)zirconium: highly promising approach for developing an ALD precursor of ZrO2 thin films, <i>Dalton Transactions</i>, <b>2022</b>, <i>51</i>, 13, 5315–5321">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Formation of mononuclear N,O-chelate zirconium complexes by direct insertion of epoxide into tetrakis(dimethylamido)zirconium: highly promising approach for developing an ALD precursor of ZrO2 thin films, <i>Dalton Transactions</i>, <b>2022</b>, <i>51</i>, 13, 5315–5321">
             </div>
             <div class="tbox">
                 <h4>
@@ -477,7 +474,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Eco-friendly and techno-economic conversion of CO2 into calcium formate, a valuable resource, <i>Green Chemistry</i>, <b>2022</b>, <i>24</i>, 4, 1738–1745">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Eco-friendly and techno-economic conversion of CO2 into calcium formate, a valuable resource, <i>Green Chemistry</i>, <b>2022</b>, <i>24</i>, 4, 1738–1745">
             </div>
             <div class="tbox">
                 <h4>
@@ -495,7 +492,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="A CO2 Absorbent Articulated by Imitating the RuBisCO Regulation Site, <i>Bulletin of the Korean Chemical Society</i>, <b>2021</b>, <i>42</i>, 2, 235–239">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="A CO2 Absorbent Articulated by Imitating the RuBisCO Regulation Site, <i>Bulletin of the Korean Chemical Society</i>, <b>2021</b>, <i>42</i>, 2, 235–239">
             </div>
             <div class="tbox">
                 <h4>
@@ -509,7 +506,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Biomimetic Cubane-Type Manganese Complex: Structurally Inspired by Photosystem II, <i>Bulletin of the Korean Chemical Society</i>, <b>2021</b>, <i>42</i>, 10, 1375–1378">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Biomimetic Cubane-Type Manganese Complex: Structurally Inspired by Photosystem II, <i>Bulletin of the Korean Chemical Society</i>, <b>2021</b>, <i>42</i>, 10, 1375–1378">
             </div>
             <div class="tbox">
                 <h4>
@@ -523,7 +520,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Direct Heterogenization of the Ru-Macho Catalyst for the Chemoselective Hydrogenation of α,β-Unsaturated Carbonyl Compounds, <i>Inorganic Chemistry</i>, <b>2021</b>, <i>60</i>, 10, 6881–6888">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Direct Heterogenization of the Ru-Macho Catalyst for the Chemoselective Hydrogenation of α,β-Unsaturated Carbonyl Compounds, <i>Inorganic Chemistry</i>, <b>2021</b>, <i>60</i>, 10, 6881–6888">
             </div>
             <div class="tbox">
                 <h4>
@@ -537,7 +534,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Shifting the scaling relations of single-atom catalysts for facile methane activation by tuning the coordination number, <i>Chemical Science</i>, <b>2021</b>, <i>12</i>, 10, 3551–3557">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Shifting the scaling relations of single-atom catalysts for facile methane activation by tuning the coordination number, <i>Chemical Science</i>, <b>2021</b>, <i>12</i>, 10, 3551–3557">
             </div>
             <div class="tbox">
                 <h4>
@@ -551,7 +548,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="CO2hydrogenation into formate and methyl formate using Ru molecular catalysts supported on NNN pincer porous organic polymers, <i>Inorganic Chemistry Frontiers</i>, <b>2021</b>, <i>8</i>, 7, 1727–1735">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="CO2hydrogenation into formate and methyl formate using Ru molecular catalysts supported on NNN pincer porous organic polymers, <i>Inorganic Chemistry Frontiers</i>, <b>2021</b>, <i>8</i>, 7, 1727–1735">
             </div>
             <div class="tbox">
                 <h4>
@@ -565,7 +562,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Heterogenized Catalyst for the Hydrogenation of CO2 to Formic Acid or Its Derivatives, <i>Hydrogenation Catalysis</i>, <b>2021</b>, 149–177">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Heterogenized Catalyst for the Hydrogenation of CO2 to Formic Acid or Its Derivatives, <i>Hydrogenation Catalysis</i>, <b>2021</b>, 149–177">
             </div>
             <div class="tbox">
                 <h4>
@@ -579,7 +576,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="NNN Pincer-functionalized Porous Organic Polymer Supported Ru(III) as a Heterogeneous Catalyst for Levulinic Acid Hydrogenation to γ-Valerolactone, <i>ChemCatChem</i>, <b>2021</b>, <i>13</i>, 2, 695–703">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="NNN Pincer-functionalized Porous Organic Polymer Supported Ru(III) as a Heterogeneous Catalyst for Levulinic Acid Hydrogenation to γ-Valerolactone, <i>ChemCatChem</i>, <b>2021</b>, <i>13</i>, 2, 695–703">
             </div>
             <div class="tbox">
                 <h4>
@@ -593,7 +590,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Chemoselective hydrogenation of α,β-unsaturated carbonyl compounds using a recyclable Ru catalyst embedded on a bisphosphine based POP, <i>Journal of Industrial and Engineering Chemistry</i>, <b>2021</b>, <i>94</i>, 361–367">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Chemoselective hydrogenation of α,β-unsaturated carbonyl compounds using a recyclable Ru catalyst embedded on a bisphosphine based POP, <i>Journal of Industrial and Engineering Chemistry</i>, <b>2021</b>, <i>94</i>, 361–367">
             </div>
             <div class="tbox">
                 <h4>
@@ -611,7 +608,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Pt stabilization on Pt/SBA-15 through surface modification using MPTMS for sulfuric acid decomposition in SI cycle to produce hydrogen, <i>International Journal of Hydrogen Energy</i>, <b>2020</b>, <i>45</i>, 10, 5772–5782">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Pt stabilization on Pt/SBA-15 through surface modification using MPTMS for sulfuric acid decomposition in SI cycle to produce hydrogen, <i>International Journal of Hydrogen Energy</i>, <b>2020</b>, <i>45</i>, 10, 5772–5782">
             </div>
             <div class="tbox">
                 <h4>
@@ -625,7 +622,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Eco-friendly upconversion of limestone into value-added calcium formate, <i>Green Chemistry</i>, <b>2020</b>, <i>22</i>, 15, 4995–5001">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Eco-friendly upconversion of limestone into value-added calcium formate, <i>Green Chemistry</i>, <b>2020</b>, <i>22</i>, 15, 4995–5001">
             </div>
             <div class="tbox">
                 <h4>
@@ -639,7 +636,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Direct Heterogenization of Salphen Coordination Complexes to Porous Organic Polymers: Catalysts for Ring-Expansion Carbonylation of Epoxides, <i>Inorganic Chemistry</i>, <b>2020</b>, <i>59</i>, 5, 2881–2889">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Direct Heterogenization of Salphen Coordination Complexes to Porous Organic Polymers: Catalysts for Ring-Expansion Carbonylation of Epoxides, <i>Inorganic Chemistry</i>, <b>2020</b>, <i>59</i>, 5, 2881–2889">
             </div>
             <div class="tbox">
                 <h4>
@@ -653,7 +650,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Hollow porous Cu-Au particles with high catalytic activity for the reduction of 4-nitrophenol, <i>CrystEngComm</i>, <b>2020</b>, <i>22</i>, 26, 4386–4392">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Hollow porous Cu-Au particles with high catalytic activity for the reduction of 4-nitrophenol, <i>CrystEngComm</i>, <b>2020</b>, <i>22</i>, 26, 4386–4392">
             </div>
             <div class="tbox">
                 <h4>
@@ -667,7 +664,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="CO2 hydrogenation to formic acid over heterogenized ruthenium catalysts using a fixed bed reactor with separation units, <i>Green Chemistry</i>, <b>2020</b>, <i>22</i>, 5, 1639–1649">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="CO2 hydrogenation to formic acid over heterogenized ruthenium catalysts using a fixed bed reactor with separation units, <i>Green Chemistry</i>, <b>2020</b>, <i>22</i>, 5, 1639–1649">
             </div>
             <div class="tbox">
                 <h4>
@@ -681,7 +678,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Cr-phthalocyanine porous organic polymer as an efficient and selective catalyst for mono carbonylation of epoxides to lactones, <i>Catalysts</i>, <b>2020</b>, <i>10</i>, 8, 905, 1–11">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Cr-phthalocyanine porous organic polymer as an efficient and selective catalyst for mono carbonylation of epoxides to lactones, <i>Catalysts</i>, <b>2020</b>, <i>10</i>, 8, 905, 1–11">
             </div>
             <div class="tbox">
                 <h4>
@@ -695,7 +692,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Biphenyl-based covalent triazine framework-incorporated polydimethylsiloxane membranes with high pervaporation performance for n-butanol recovery, <i>Journal of Membrane Science</i>, <b>2020</b>, <i>598</i>, 117654">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Biphenyl-based covalent triazine framework-incorporated polydimethylsiloxane membranes with high pervaporation performance for n-butanol recovery, <i>Journal of Membrane Science</i>, <b>2020</b>, <i>598</i>, 117654">
             </div>
             <div class="tbox">
                 <h4>
@@ -709,7 +706,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Hydrogenation of CO2 to formates on ruthenium(III) coordinated on melamine polymer network, <i>Journal of CO2 Utilization</i>, <b>2020</b>, <i>35</i>, 245–255">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Hydrogenation of CO2 to formates on ruthenium(III) coordinated on melamine polymer network, <i>Journal of CO2 Utilization</i>, <b>2020</b>, <i>35</i>, 245–255">
             </div>
             <div class="tbox">
                 <h4>
@@ -723,7 +720,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="An Efficient and Practical System for the Synthesis of N,N-Dimethylformamide by CO2 Hydrogenation using a Heterogeneous Ru Catalyst: From Batch to Continuous Flow, <i>ChemSusChem</i>, <b>2020</b>, <i>13</i>, 7, 1735–1739">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="An Efficient and Practical System for the Synthesis of N,N-Dimethylformamide by CO2 Hydrogenation using a Heterogeneous Ru Catalyst: From Batch to Continuous Flow, <i>ChemSusChem</i>, <b>2020</b>, <i>13</i>, 7, 1735–1739">
             </div>
             <div class="tbox">
                 <h4>
@@ -737,7 +734,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="The pronounced effect of Sn on RhSn catalysts for propane dehydrogenation, <i>Journal of Catalysis</i>, <b>2020</b>, <i>392</i>, 8–20">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="The pronounced effect of Sn on RhSn catalysts for propane dehydrogenation, <i>Journal of Catalysis</i>, <b>2020</b>, <i>392</i>, 8–20">
             </div>
             <div class="tbox">
                 <h4>
@@ -751,7 +748,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Revisiting the Palladium-Catalyzed Carbonylation of Allyl Alcohol: Mechanistic Insight and Improved Catalytic Efficiency, <i>Organometallics</i>, <b>2020</b>, <i>39</i>, 10, 1881–1886">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Revisiting the Palladium-Catalyzed Carbonylation of Allyl Alcohol: Mechanistic Insight and Improved Catalytic Efficiency, <i>Organometallics</i>, <b>2020</b>, <i>39</i>, 10, 1881–1886">
             </div>
             <div class="tbox">
                 <h4>
@@ -765,7 +762,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="New aspects of covalent triazine frameworks in heterogeneous catalysis, <i>Emerging Carbon Materials for Catalysis</i>, <b>2020</b>, 1–32">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="New aspects of covalent triazine frameworks in heterogeneous catalysis, <i>Emerging Carbon Materials for Catalysis</i>, <b>2020</b>, 1–32">
             </div>
             <div class="tbox">
                 <h4>
@@ -783,7 +780,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="A phenanthroline-based porous organic polymer for the iridium-catalyzed hydrogenation of carbon dioxide to formate, <i>Journal of Materials Chemistry A</i>, <b>2019</b>, <i>7</i>, 23, 14019–14026">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="A phenanthroline-based porous organic polymer for the iridium-catalyzed hydrogenation of carbon dioxide to formate, <i>Journal of Materials Chemistry A</i>, <b>2019</b>, <i>7</i>, 23, 14019–14026">
             </div>
             <div class="tbox">
                 <h4>
@@ -797,7 +794,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Acid-mediated surface etching of a nano-sized metal-organic framework for improved reactivity in the fixation of CO2 into polymers, <i>Journal of Industrial and Engineering Chemistry</i>, <b>2019</b>, <i>71</i>, 336–344">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Acid-mediated surface etching of a nano-sized metal-organic framework for improved reactivity in the fixation of CO2 into polymers, <i>Journal of Industrial and Engineering Chemistry</i>, <b>2019</b>, <i>71</i>, 336–344">
             </div>
             <div class="tbox">
                 <h4>
@@ -811,7 +808,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Surface modification of a mof-based catalyst with lewis metal salts for improved catalytic activity in the fixation of Co2 into polymers, <i>Catalysts</i>, <b>2019</b>, <i>9</i>, 11, 892">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Surface modification of a mof-based catalyst with lewis metal salts for improved catalytic activity in the fixation of Co2 into polymers, <i>Catalysts</i>, <b>2019</b>, <i>9</i>, 11, 892">
             </div>
             <div class="tbox">
                 <h4>
@@ -825,7 +822,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Hyper-Cross-Linked Porous Porphyrin Aluminum(III) Tetracarbonylcobaltate as a Highly Active Heterogeneous Bimetallic Catalyst for the Ring-Expansion Carbonylation of Epoxides, <i>ACS Applied Materials and Interfaces</i>, <b>2019</b>, <i>11</i>, 20, 18609–18616">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Hyper-Cross-Linked Porous Porphyrin Aluminum(III) Tetracarbonylcobaltate as a Highly Active Heterogeneous Bimetallic Catalyst for the Ring-Expansion Carbonylation of Epoxides, <i>ACS Applied Materials and Interfaces</i>, <b>2019</b>, <i>11</i>, 20, 18609–18616">
             </div>
             <div class="tbox">
                 <h4>
@@ -839,7 +836,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Balancing between Heterogeneity and Reactivity in Porphyrin Chromium-Cobaltate Catalyzed Ring Expansion Carbonylation of Epoxide into β-Lactone, <i>Inorganic Chemistry</i>, <b>2019</b>, <i>58</i>, 5, 3283–3289">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Balancing between Heterogeneity and Reactivity in Porphyrin Chromium-Cobaltate Catalyzed Ring Expansion Carbonylation of Epoxide into β-Lactone, <i>Inorganic Chemistry</i>, <b>2019</b>, <i>58</i>, 5, 3283–3289">
             </div>
             <div class="tbox">
                 <h4>
@@ -853,7 +850,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Recyclable Covalent Triazine Framework-based Ru Catalyst for Transfer Hydrogenation of Carbonyl Compounds in Water, <i>ACS Sustainable Chemistry and Engineering</i>, <b>2019</b>, <i>7</i>, 9, 8893–8899">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Recyclable Covalent Triazine Framework-based Ru Catalyst for Transfer Hydrogenation of Carbonyl Compounds in Water, <i>ACS Sustainable Chemistry and Engineering</i>, <b>2019</b>, <i>7</i>, 9, 8893–8899">
             </div>
             <div class="tbox">
                 <h4>
@@ -867,7 +864,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Turning Harmful Deposition of Metal Impurities into Activation of Nitrogen-Doped Carbon Catalyst toward Durable Electrochemical CO2 Reduction, <i>ACS Energy Letters</i>, <b>2019</b>, <i>4</i>, 9, 2343–2350">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Turning Harmful Deposition of Metal Impurities into Activation of Nitrogen-Doped Carbon Catalyst toward Durable Electrochemical CO2 Reduction, <i>ACS Energy Letters</i>, <b>2019</b>, <i>4</i>, 9, 2343–2350">
             </div>
             <div class="tbox">
                 <h4>
@@ -881,7 +878,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Double Ring-Expanding Carbonylation Using an In Situ Generated Aluminum Phthalocyanine Cobalt Carbonyl Complex, <i>Asian Journal of Organic Chemistry</i>, <b>2019</b>, <i>8</i>, 1, 151–154">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Double Ring-Expanding Carbonylation Using an In Situ Generated Aluminum Phthalocyanine Cobalt Carbonyl Complex, <i>Asian Journal of Organic Chemistry</i>, <b>2019</b>, <i>8</i>, 1, 151–154">
             </div>
             <div class="tbox">
                 <h4>
@@ -895,7 +892,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="An aluminum(III) picket fence phthalocyanine-based heterogeneous catalyst for ring-expansion carbonylation of epoxides, <i>Journal of Materials Chemistry A</i>, <b>2019</b>, <i>7</i>, 11, 6120–6125">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="An aluminum(III) picket fence phthalocyanine-based heterogeneous catalyst for ring-expansion carbonylation of epoxides, <i>Journal of Materials Chemistry A</i>, <b>2019</b>, <i>7</i>, 11, 6120–6125">
             </div>
             <div class="tbox">
                 <h4>
@@ -909,7 +906,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Hydrogenation of CO2 to Formate using a Simple, Recyclable, and Efficient Heterogeneous Catalyst, <i>Inorganic Chemistry</i>, <b>2019</b>, <i>58</i>, 6, 3717–3723">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Hydrogenation of CO2 to Formate using a Simple, Recyclable, and Efficient Heterogeneous Catalyst, <i>Inorganic Chemistry</i>, <b>2019</b>, <i>58</i>, 6, 3717–3723">
             </div>
             <div class="tbox">
                 <h4>
@@ -923,7 +920,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Dehydrogenation of formic acid using molecular Rh and Ir catalysts immobilized on bipyridine-based covalent triazine frameworks, <i>Sustainable Energy and Fuels</i>, <b>2019</b>, <i>3</i>, 4, 1042–1047">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Dehydrogenation of formic acid using molecular Rh and Ir catalysts immobilized on bipyridine-based covalent triazine frameworks, <i>Sustainable Energy and Fuels</i>, <b>2019</b>, <i>3</i>, 4, 1042–1047">
             </div>
             <div class="tbox">
                 <h4>
@@ -937,7 +934,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Differences in bifunctionality of ZnO and ZrO2 in Cu/ZnO/ZrO2/Al2O3 catalysts in hydrogenation of carbon oxides for methanol synthesis, <i>Applied Catalysis B: Environmental</i>, <b>2019</b>, <i>258</i>, 117971">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Differences in bifunctionality of ZnO and ZrO2 in Cu/ZnO/ZrO2/Al2O3 catalysts in hydrogenation of carbon oxides for methanol synthesis, <i>Applied Catalysis B: Environmental</i>, <b>2019</b>, <i>258</i>, 117971">
             </div>
             <div class="tbox">
                 <h4>
@@ -955,7 +952,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Design Strategy toward Recyclable and Highly Efficient Heterogeneous Catalysts for the Hydrogenation of CO2 to Formate, <i>ACS Catalysis</i>, <b>2018</b>, <i>8</i>, 5, 4346–4353">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Design Strategy toward Recyclable and Highly Efficient Heterogeneous Catalysts for the Hydrogenation of CO2 to Formate, <i>ACS Catalysis</i>, <b>2018</b>, <i>8</i>, 5, 4346–4353">
             </div>
             <div class="tbox">
                 <h4>
@@ -969,7 +966,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="A heterogenized cobaltate catalyst on a bis-imidazolium-based covalent triazine framework for hydroesterification of epoxides, <i>New Journal of Chemistry</i>, <b>2018</b>, <i>42</i>, 14, 12256–12262">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="A heterogenized cobaltate catalyst on a bis-imidazolium-based covalent triazine framework for hydroesterification of epoxides, <i>New Journal of Chemistry</i>, <b>2018</b>, <i>42</i>, 14, 12256–12262">
             </div>
             <div class="tbox">
                 <h4>
@@ -983,7 +980,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="High-Performance Stretchable Conductive Composite Fibers from Surface-Modified Silver Nanowires and Thermoplastic Polyurethane by Wet Spinning, <i>ACS Applied Materials and Interfaces</i>, <b>2018</b>, <i>10</i>, 2, 2093–2104">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="High-Performance Stretchable Conductive Composite Fibers from Surface-Modified Silver Nanowires and Thermoplastic Polyurethane by Wet Spinning, <i>ACS Applied Materials and Interfaces</i>, <b>2018</b>, <i>10</i>, 2, 2093–2104">
             </div>
             <div class="tbox">
                 <h4>
@@ -997,7 +994,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="One-pot synthesis of Pt–Sn bimetallic mesoporous alumina catalysts with worm-like pore structure for n-butane dehydrogenation, <i>Journal of Industrial and Engineering Chemistry</i>, <b>2018</b>, <i>63</i>, 380–390">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="One-pot synthesis of Pt–Sn bimetallic mesoporous alumina catalysts with worm-like pore structure for n-butane dehydrogenation, <i>Journal of Industrial and Engineering Chemistry</i>, <b>2018</b>, <i>63</i>, 380–390">
             </div>
             <div class="tbox">
                 <h4>
@@ -1011,7 +1008,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="A Metalated Porous Porphyrin Polymer with [Co(CO)4]− Anion as an Efficient Heterogeneous Catalyst for Ring Expanding Carbonylation, <i>Scientific Reports</i>, <b>2018</b>, <i>8</i>, 1, 13243">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="A Metalated Porous Porphyrin Polymer with [Co(CO)4]− Anion as an Efficient Heterogeneous Catalyst for Ring Expanding Carbonylation, <i>Scientific Reports</i>, <b>2018</b>, <i>8</i>, 1, 13243">
             </div>
             <div class="tbox">
                 <h4>
@@ -1025,7 +1022,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Catalytic reactivity of an iridium complex with a proton responsive N-donor ligand in CO2 hydrogenation to formate, <i>RSC Advances</i>, <b>2018</b>, <i>8</i>, 3, 1346–1350">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Catalytic reactivity of an iridium complex with a proton responsive N-donor ligand in CO2 hydrogenation to formate, <i>RSC Advances</i>, <b>2018</b>, <i>8</i>, 3, 1346–1350">
             </div>
             <div class="tbox">
                 <h4>
@@ -1039,7 +1036,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="A Zn-MOF-catalyzed terpolymerization of propylene oxide, CO2, and β-butyrolactone, <i>Catalysts</i>, <b>2018</b>, <i>8</i>, 9, 393">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="A Zn-MOF-catalyzed terpolymerization of propylene oxide, CO2, and β-butyrolactone, <i>Catalysts</i>, <b>2018</b>, <i>8</i>, 9, 393">
             </div>
             <div class="tbox">
                 <h4>
@@ -1053,7 +1050,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Hierarchical Cu nanoparticle-aggregated cages with high catalytic activity for reduction of 4-nitrophenol and carbon dioxide, <i>Materials Research Bulletin</i>, <b>2018</b>, <i>100</i>, 184–190">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Hierarchical Cu nanoparticle-aggregated cages with high catalytic activity for reduction of 4-nitrophenol and carbon dioxide, <i>Materials Research Bulletin</i>, <b>2018</b>, <i>100</i>, 184–190">
             </div>
             <div class="tbox">
                 <h4>
@@ -1067,7 +1064,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Molecular Rh(III) and Ir(III) catalysts immobilized on bipyridine-based covalent triazine frameworks for the hydrogenation of CO2 to formate, <i>Catalysts</i>, <b>2018</b>, <i>8</i>, 7, 295">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Molecular Rh(III) and Ir(III) catalysts immobilized on bipyridine-based covalent triazine frameworks for the hydrogenation of CO2 to formate, <i>Catalysts</i>, <b>2018</b>, <i>8</i>, 7, 295">
             </div>
             <div class="tbox">
                 <h4>
@@ -1081,7 +1078,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Exceptionally stable Rh-based molecular catalyst heterogenized on a cationically charged covalent triazine framework support for efficient methanol carbonylation, <i>Catalysis Science and Technology</i>, <b>2018</b>, <i>8</i>, 11, 2894–2900">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Exceptionally stable Rh-based molecular catalyst heterogenized on a cationically charged covalent triazine framework support for efficient methanol carbonylation, <i>Catalysis Science and Technology</i>, <b>2018</b>, <i>8</i>, 11, 2894–2900">
             </div>
             <div class="tbox">
                 <h4>
@@ -1099,7 +1096,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Size-tunable Synthesis of Silver Nanobelts Using a Polyaniline Derived Polymer as a Template, <i>Scientific Reports</i>, <b>2017</b>, <i>7</i>, 44796">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Size-tunable Synthesis of Silver Nanobelts Using a Polyaniline Derived Polymer as a Template, <i>Scientific Reports</i>, <b>2017</b>, <i>7</i>, 44796">
             </div>
             <div class="tbox">
                 <h4>
@@ -1113,7 +1110,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Preparation of covalent triazine frameworks with imidazolium cations embedded in basic sites and their application for CO2 capture, <i>Journal of Materials Chemistry A</i>, <b>2017</b>, <i>5</i>, 18, 8576–8582">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Preparation of covalent triazine frameworks with imidazolium cations embedded in basic sites and their application for CO2 capture, <i>Journal of Materials Chemistry A</i>, <b>2017</b>, <i>5</i>, 18, 8576–8582">
             </div>
             <div class="tbox">
                 <h4>
@@ -1127,7 +1124,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Base Effects on Carbonylative Polymerization of Propylene Oxide with a [(salph)Cr(THF)2]+[Co(CO)4]− Catalyst, <i>Topics in Catalysis</i>, <b>2017</b>, <i>60</i>, 09월 11일, 750–754">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Base Effects on Carbonylative Polymerization of Propylene Oxide with a [(salph)Cr(THF)2]+[Co(CO)4]− Catalyst, <i>Topics in Catalysis</i>, <b>2017</b>, <i>60</i>, 09월 11일, 750–754">
             </div>
             <div class="tbox">
                 <h4>
@@ -1141,7 +1138,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Ionic-Liquid-Based Heterogeneous Covalent Triazine Framework Cobalt Catalyst for the Direct Synthesis of Methyl 3-Hydroxybutyrate from Propylene Oxide, <i>Inorganic Chemistry</i>, <b>2017</b>, <i>56</i>, 12, 7270–7277">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Ionic-Liquid-Based Heterogeneous Covalent Triazine Framework Cobalt Catalyst for the Direct Synthesis of Methyl 3-Hydroxybutyrate from Propylene Oxide, <i>Inorganic Chemistry</i>, <b>2017</b>, <i>56</i>, 12, 7270–7277">
             </div>
             <div class="tbox">
                 <h4>
@@ -1155,7 +1152,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Role of acid solvent to prepare highly active PtSn/Θ-Al2O3 catalysts in dehydrogenation of propane to propylene, <i>Catalysis Today</i>, <b>2017</b>, <i>293-294</i>, 33–41">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Role of acid solvent to prepare highly active PtSn/Θ-Al2O3 catalysts in dehydrogenation of propane to propylene, <i>Catalysis Today</i>, <b>2017</b>, <i>293-294</i>, 33–41">
             </div>
             <div class="tbox">
                 <h4>
@@ -1169,7 +1166,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Hollow porous Cu particles from silica-encapsulated Cu2O nanoparticle aggregates effectively catalyze 4-nitrophenol reduction, <i>Nanoscale</i>, <b>2017</b>, <i>9</i>, 11, 3873–3880">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Hollow porous Cu particles from silica-encapsulated Cu2O nanoparticle aggregates effectively catalyze 4-nitrophenol reduction, <i>Nanoscale</i>, <b>2017</b>, <i>9</i>, 11, 3873–3880">
             </div>
             <div class="tbox">
                 <h4>
@@ -1183,7 +1180,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="A covalent triazine framework-based heterogenized Al-Co bimetallic catalyst for the ring-expansion carbonylation of epoxide to β-lactone, <i>RSC Advances</i>, <b>2017</b>, <i>7</i>, 8, 4635–4638">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="A covalent triazine framework-based heterogenized Al-Co bimetallic catalyst for the ring-expansion carbonylation of epoxide to β-lactone, <i>RSC Advances</i>, <b>2017</b>, <i>7</i>, 8, 4635–4638">
             </div>
             <div class="tbox">
                 <h4>
@@ -1197,7 +1194,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Correlation between the Structure and Catalytic Activity of [Cp*Rh(Substituted Bipyridine)] Complexes for NADH Regeneration, <i>Inorganic Chemistry</i>, <b>2017</b>, <i>56</i>, 3, 1366–1374">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Correlation between the Structure and Catalytic Activity of [Cp*Rh(Substituted Bipyridine)] Complexes for NADH Regeneration, <i>Inorganic Chemistry</i>, <b>2017</b>, <i>56</i>, 3, 1366–1374">
             </div>
             <div class="tbox">
                 <h4>
@@ -1211,7 +1208,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Direct conversion of propylene oxide to 3-hydroxy butyric acid using a cobalt carbonyl ionic liquid catalyst, <i>Catalysts</i>, <b>2017</b>, <i>7</i>, 8, 228">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Direct conversion of propylene oxide to 3-hydroxy butyric acid using a cobalt carbonyl ionic liquid catalyst, <i>Catalysts</i>, <b>2017</b>, <i>7</i>, 8, 228">
             </div>
             <div class="tbox">
                 <h4>
@@ -1225,7 +1222,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="A Covalent Triazine Framework, Functionalized with Ir/N-Heterocyclic Carbene Sites, for the Efficient Hydrogenation of CO2 to Formate, <i>Chemistry of Materials</i>, <b>2017</b>, <i>29</i>, 16, 6740–6748">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="A Covalent Triazine Framework, Functionalized with Ir/N-Heterocyclic Carbene Sites, for the Efficient Hydrogenation of CO2 to Formate, <i>Chemistry of Materials</i>, <b>2017</b>, <i>29</i>, 16, 6740–6748">
             </div>
             <div class="tbox">
                 <h4>
@@ -1243,7 +1240,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Recent developments in the catalytic hydrogenation of CO2 to formic acid/formate using heterogeneous catalysts, <i>Inorganic Chemistry Frontiers</i>, <b>2016</b>, <i>3</i>, 7, 882–895">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Recent developments in the catalytic hydrogenation of CO2 to formic acid/formate using heterogeneous catalysts, <i>Inorganic Chemistry Frontiers</i>, <b>2016</b>, <i>3</i>, 7, 882–895">
             </div>
             <div class="tbox">
                 <h4>
@@ -1257,7 +1254,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Salicylic acid-based organic dyes acting as the photosensitizer for solar cells, <i>Journal of Nanoscience and Nanotechnology</i>, <b>2016</b>, <i>16</i>, 5, 4880–4885">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Salicylic acid-based organic dyes acting as the photosensitizer for solar cells, <i>Journal of Nanoscience and Nanotechnology</i>, <b>2016</b>, <i>16</i>, 5, 4880–4885">
             </div>
             <div class="tbox">
                 <h4>
@@ -1271,7 +1268,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Recyclable and efficient heterogenized Rh and Ir catalysts for the transfer hydrogenation of carbonyl compounds in aqueous medium, <i>Green Chemistry</i>, <b>2016</b>, <i>18</i>, 24, 6456–6461">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Recyclable and efficient heterogenized Rh and Ir catalysts for the transfer hydrogenation of carbonyl compounds in aqueous medium, <i>Green Chemistry</i>, <b>2016</b>, <i>18</i>, 24, 6456–6461">
             </div>
             <div class="tbox">
                 <h4>
@@ -1285,7 +1282,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Effect of potassium addition on bimetallic PtSn/θ-Al2O3 catalyst for dehydrogenation of propane to propylene, <i>Research on Chemical Intermediates</i>, <b>2016</b>, <i>42</i>, 1, 123–140">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Effect of potassium addition on bimetallic PtSn/θ-Al2O3 catalyst for dehydrogenation of propane to propylene, <i>Research on Chemical Intermediates</i>, <b>2016</b>, <i>42</i>, 1, 123–140">
             </div>
             <div class="tbox">
                 <h4>
@@ -1299,7 +1296,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Water as an agent for the morphology modification of metal oxalate materials on the nanoscale: From sheets to rods, <i>Scientific Reports</i>, <b>2016</b>, <i>6</i>, 19282">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Water as an agent for the morphology modification of metal oxalate materials on the nanoscale: From sheets to rods, <i>Scientific Reports</i>, <b>2016</b>, <i>6</i>, 19282">
             </div>
             <div class="tbox">
                 <h4>
@@ -1313,7 +1310,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Structural characterization of [Zn(O2CAr4F-Ph)2(TAD)] and determination of its stable conformation by DFT calculations, <i>Bulletin of the Korean Chemical Society</i>, <b>2016</b>, <i>37</i>, 6, 815–819">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Structural characterization of [Zn(O2CAr4F-Ph)2(TAD)] and determination of its stable conformation by DFT calculations, <i>Bulletin of the Korean Chemical Society</i>, <b>2016</b>, <i>37</i>, 6, 815–819">
             </div>
             <div class="tbox">
                 <h4>
@@ -1327,7 +1324,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Electrochemical NADH regeneration and electroenzymatic CO2 reduction on Cu nanorods/glassy carbon electrode prepared by cyclic deposition, <i>Electrochimica Acta</i>, <b>2016</b>, <i>210</i>, 837–845">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Electrochemical NADH regeneration and electroenzymatic CO2 reduction on Cu nanorods/glassy carbon electrode prepared by cyclic deposition, <i>Electrochimica Acta</i>, <b>2016</b>, <i>210</i>, 837–845">
             </div>
             <div class="tbox">
                 <h4>
@@ -1341,7 +1338,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Copolymerization of Epichlorohydrin and CO2 Using Zinc Glutarate: An Additional Application of ZnGA in Polycarbonate Synthesis, <i>Macromolecular Rapid Communications</i>, <b>2016</b>, <i>37</i>, 9, 788–793">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Copolymerization of Epichlorohydrin and CO2 Using Zinc Glutarate: An Additional Application of ZnGA in Polycarbonate Synthesis, <i>Macromolecular Rapid Communications</i>, <b>2016</b>, <i>37</i>, 9, 788–793">
             </div>
             <div class="tbox">
                 <h4>
@@ -1355,7 +1352,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="A discrete {Co4(μ3-OH)4}4+ cluster with an oxygen-rich coordination environment as a catalyst for the epoxidation of various olefins, <i>Dalton Transactions</i>, <b>2016</b>, <i>45</i>, 4, 1727–1736">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="A discrete {Co4(μ3-OH)4}4+ cluster with an oxygen-rich coordination environment as a catalyst for the epoxidation of various olefins, <i>Dalton Transactions</i>, <b>2016</b>, <i>45</i>, 4, 1727–1736">
             </div>
             <div class="tbox">
                 <h4>
@@ -1369,7 +1366,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="An effective heterogeneous Ir(III) catalyst, immobilized on a heptazine-based organic framework, for the hydrogenation of CO2 to formate, <i>Catalysis Today</i>, <b>2016</b>, <i>265</i>, 52–55">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="An effective heterogeneous Ir(III) catalyst, immobilized on a heptazine-based organic framework, for the hydrogenation of CO2 to formate, <i>Catalysis Today</i>, <b>2016</b>, <i>265</i>, 52–55">
             </div>
             <div class="tbox">
                 <h4>
@@ -1383,7 +1380,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Communication—highly efficient electroenzymatic nadh regeneration by an electron-relay flavoenzyme, <i>Journal of the Electrochemical Society</i>, <b>2016</b>, <i>163</i>, 5, G50–G52">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Communication—highly efficient electroenzymatic nadh regeneration by an electron-relay flavoenzyme, <i>Journal of the Electrochemical Society</i>, <b>2016</b>, <i>163</i>, 5, G50–G52">
             </div>
             <div class="tbox">
                 <h4>
@@ -1401,7 +1398,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Spin decoherence processes in the S = 1/2 scalene triangular cluster (Cu3(OH)), <i>New Journal of Physics</i>, <b>2015</b>, <i>17</i>, 33042, 1–10">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Spin decoherence processes in the S = 1/2 scalene triangular cluster (Cu3(OH)), <i>New Journal of Physics</i>, <b>2015</b>, <i>17</i>, 33042, 1–10">
             </div>
             <div class="tbox">
                 <h4>
@@ -1415,7 +1412,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Site-specific bioconjugation of an organometallic electron mediator to an enzyme with retained photocatalytic cofactor regenerating capacity and enzymatic activity, <i>Molecules</i>, <b>2015</b>, <i>20</i>, 4, 5975–5986">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Site-specific bioconjugation of an organometallic electron mediator to an enzyme with retained photocatalytic cofactor regenerating capacity and enzymatic activity, <i>Molecules</i>, <b>2015</b>, <i>20</i>, 4, 5975–5986">
             </div>
             <div class="tbox">
                 <h4>
@@ -1429,7 +1426,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="A Highly Efficient Heterogenized Iridium Complex for the Catalytic Hydrogenation of Carbon Dioxide to Formate, <i>ChemSusChem</i>, <b>2015</b>, <i>8</i>, 20, 3410–3413">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="A Highly Efficient Heterogenized Iridium Complex for the Catalytic Hydrogenation of Carbon Dioxide to Formate, <i>ChemSusChem</i>, <b>2015</b>, <i>8</i>, 20, 3410–3413">
             </div>
             <div class="tbox">
                 <h4>
@@ -1443,7 +1440,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Quantitative analysis of the relationship between the dispersion stability of mixed-surfactant Ag nanoparticles and their composition, <i>RSC Advances</i>, <b>2015</b>, <i>5</i>, 50, 40135–40140">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Quantitative analysis of the relationship between the dispersion stability of mixed-surfactant Ag nanoparticles and their composition, <i>RSC Advances</i>, <b>2015</b>, <i>5</i>, 50, 40135–40140">
             </div>
             <div class="tbox">
                 <h4>
@@ -1457,7 +1454,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="A Facile Method to Fabricate a 3-D Porous Structure with Ag Nanowires as a Sensor Platform, <i>Science of Advanced Materials</i>, <b>2015</b>, <i>7</i>, 4, 784–788">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="A Facile Method to Fabricate a 3-D Porous Structure with Ag Nanowires as a Sensor Platform, <i>Science of Advanced Materials</i>, <b>2015</b>, <i>7</i>, 4, 784–788">
             </div>
             <div class="tbox">
                 <h4>
@@ -1475,7 +1472,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="N3S-ligated copper(II) complex catalyzed selective oxidation of benzylic alcohols to aldehydes under mild reaction conditions, <i>Bulletin of the Korean Chemical Society</i>, <b>2014</b>, <i>35</i>, 3, 715–720">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="N3S-ligated copper(II) complex catalyzed selective oxidation of benzylic alcohols to aldehydes under mild reaction conditions, <i>Bulletin of the Korean Chemical Society</i>, <b>2014</b>, <i>35</i>, 3, 715–720">
             </div>
             <div class="tbox">
                 <h4>
@@ -1489,7 +1486,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Synthesis of thermally stable porous SiC hollow spheres and control of the shell thickness, <i>Microporous and Mesoporous Materials</i>, <b>2014</b>, <i>199</i>, 11–17">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Synthesis of thermally stable porous SiC hollow spheres and control of the shell thickness, <i>Microporous and Mesoporous Materials</i>, <b>2014</b>, <i>199</i>, 11–17">
             </div>
             <div class="tbox">
                 <h4>
@@ -1503,7 +1500,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Conversion of CO2 to formate in an electroenzymatic cell using Candida boidinii formate dehydrogenase, <i>Journal of Molecular Catalysis B: Enzymatic</i>, <b>2014</b>, <i>102</i>, 9–15">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Conversion of CO2 to formate in an electroenzymatic cell using Candida boidinii formate dehydrogenase, <i>Journal of Molecular Catalysis B: Enzymatic</i>, <b>2014</b>, <i>102</i>, 9–15">
             </div>
             <div class="tbox">
                 <h4>
@@ -1517,7 +1514,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Water is a key factor to alter the structure and electrochemical properties of carboxylate-bridged dimanganese(ii) complexes, <i>Dalton Transactions</i>, <b>2014</b>, <i>43</i>, 30, 11465–11469">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Water is a key factor to alter the structure and electrochemical properties of carboxylate-bridged dimanganese(ii) complexes, <i>Dalton Transactions</i>, <b>2014</b>, <i>43</i>, 30, 11465–11469">
             </div>
             <div class="tbox">
                 <h4>
@@ -1531,7 +1528,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="An amphipathic polypeptide derived from poly-γ-glutamic acid for the stabilization of membrane proteins, <i>Protein Science</i>, <b>2014</b>, <i>23</i>, 12, 1800–1807">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="An amphipathic polypeptide derived from poly-γ-glutamic acid for the stabilization of membrane proteins, <i>Protein Science</i>, <b>2014</b>, <i>23</i>, 12, 1800–1807">
             </div>
             <div class="tbox">
                 <h4>
@@ -1549,7 +1546,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Evaluating the CO2-capturing efficacy of amine and carboxylic acid motifs: Ab initio studies on thermodynamic versus kinetic properties, <i>Tetrahedron</i>, <b>2013</b>, <i>69</i>, 32, 6693–6697">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Evaluating the CO2-capturing efficacy of amine and carboxylic acid motifs: Ab initio studies on thermodynamic versus kinetic properties, <i>Tetrahedron</i>, <b>2013</b>, <i>69</i>, 32, 6693–6697">
             </div>
             <div class="tbox">
                 <h4>
@@ -1563,7 +1560,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="CO2 absorption and sequestration as various polymorphs of CaCO3 using sterically hindered amine, <i>Langmuir</i>, <b>2013</b>, <i>29</i>, 50, 15655–15663">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="CO2 absorption and sequestration as various polymorphs of CaCO3 using sterically hindered amine, <i>Langmuir</i>, <b>2013</b>, <i>29</i>, 50, 15655–15663">
             </div>
             <div class="tbox">
                 <h4>
@@ -1577,7 +1574,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Bis(4-aminopyridine){2,2′-[1,2-phenylenebis(nitrilomethanylylidene)] diphenolato}cobalt(III) nitrate, <i>Acta Crystallographica Section E: Structure Reports Online</i>, <b>2013</b>, <i>69</i>, 9, m495–m496">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Bis(4-aminopyridine){2,2′-[1,2-phenylenebis(nitrilomethanylylidene)] diphenolato}cobalt(III) nitrate, <i>Acta Crystallographica Section E: Structure Reports Online</i>, <b>2013</b>, <i>69</i>, 9, m495–m496">
             </div>
             <div class="tbox">
                 <h4>
@@ -1591,7 +1588,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Preparation Method of the RuO2 Film on a Silver Substrate Using the Cyclic Voltammetry, <i>Journal of Nanoelectronics and Optoelectronics</i>, <b>2013</b>, <i>8</i>, 6, 584–587">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Preparation Method of the RuO2 Film on a Silver Substrate Using the Cyclic Voltammetry, <i>Journal of Nanoelectronics and Optoelectronics</i>, <b>2013</b>, <i>8</i>, 6, 584–587">
             </div>
             <div class="tbox">
                 <h4>
@@ -1605,7 +1602,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Chlorido(dimethyl 2,2′-bipyridine-4,4′-dicarboxylate- κ2N,N′)(n5-pentamethylcyclopentadienyl) rhodium(III) chloride 1-hydroxypyrrolidine-2,5-dione disolvate, <i>Acta Crystallographica Section C: Crystal Structure Communications</i>, <b>2013</b>, <i>69</i>, 6, 584–587">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Chlorido(dimethyl 2,2′-bipyridine-4,4′-dicarboxylate- κ2N,N′)(n5-pentamethylcyclopentadienyl) rhodium(III) chloride 1-hydroxypyrrolidine-2,5-dione disolvate, <i>Acta Crystallographica Section C: Crystal Structure Communications</i>, <b>2013</b>, <i>69</i>, 6, 584–587">
             </div>
             <div class="tbox">
                 <h4>
@@ -1619,7 +1616,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Bis(4,4''-difluoro-1,1':3',1''-terphenyl-2'-carboxylato-κO) tetrakis(methanol-κO)calcium methanol tetrasolvate, <i>Acta Crystallographica Section E: Structure Reports Online</i>, <b>2013</b>, <i>69</i>, 2, m122–m123">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Bis(4,4''-difluoro-1,1':3',1''-terphenyl-2'-carboxylato-κO) tetrakis(methanol-κO)calcium methanol tetrasolvate, <i>Acta Crystallographica Section E: Structure Reports Online</i>, <b>2013</b>, <i>69</i>, 2, m122–m123">
             </div>
             <div class="tbox">
                 <h4>
@@ -1633,7 +1630,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Structural tailoring effects on the magnetic behavior of symmetric and asymmetric cubane-type Ni complexes, <i>Chemistry - An Asian Journal</i>, <b>2013</b>, <i>8</i>, 6, 1152–1159">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Structural tailoring effects on the magnetic behavior of symmetric and asymmetric cubane-type Ni complexes, <i>Chemistry - An Asian Journal</i>, <b>2013</b>, <i>8</i>, 6, 1152–1159">
             </div>
             <div class="tbox">
                 <h4>
@@ -1647,7 +1644,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Functionalized bipyridyl rhodium complex capable of electrode attachment for regeneration of NADH, <i>Polyhedron</i>, <b>2013</b>, <i>57</i>, 52–56">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Functionalized bipyridyl rhodium complex capable of electrode attachment for regeneration of NADH, <i>Polyhedron</i>, <b>2013</b>, <i>57</i>, 52–56">
             </div>
             <div class="tbox">
                 <h4>
@@ -1661,7 +1658,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Synthesis of Cu2ZnSnS4 thin films by a precursor solution paste for thin film solar cell applications, <i>ACS Applied Materials and Interfaces</i>, <b>2013</b>, <i>5</i>, 10, 4162–4165">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Synthesis of Cu2ZnSnS4 thin films by a precursor solution paste for thin film solar cell applications, <i>ACS Applied Materials and Interfaces</i>, <b>2013</b>, <i>5</i>, 10, 4162–4165">
             </div>
             <div class="tbox">
                 <h4>
@@ -1675,7 +1672,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="A facile one-step method to prepare size controlled Fe3O 4 submicro/nanoparticles, <i>Materials Letters</i>, <b>2013</b>, <i>96</i>, 27–30">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="A facile one-step method to prepare size controlled Fe3O 4 submicro/nanoparticles, <i>Materials Letters</i>, <b>2013</b>, <i>96</i>, 27–30">
             </div>
             <div class="tbox">
                 <h4>
@@ -1689,7 +1686,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Synthesis and magnetic characterization of a cubane-type Mn4 cluster, housed in a sterically hindered carboxylate ligand pocket, <i>Polyhedron</i>, <b>2013</b>, <i>50</i>, 1, 339–344">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Synthesis and magnetic characterization of a cubane-type Mn4 cluster, housed in a sterically hindered carboxylate ligand pocket, <i>Polyhedron</i>, <b>2013</b>, <i>50</i>, 1, 339–344">
             </div>
             <div class="tbox">
                 <h4>
@@ -1703,7 +1700,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Assembling Ag nanoparticles into morphology controlled secondary structures on loosely packed self-assembled monolayers, <i>Journal of Colloid and Interface Science</i>, <b>2013</b>, <i>394</i>, 1, 639–642">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Assembling Ag nanoparticles into morphology controlled secondary structures on loosely packed self-assembled monolayers, <i>Journal of Colloid and Interface Science</i>, <b>2013</b>, <i>394</i>, 1, 639–642">
             </div>
             <div class="tbox">
                 <h4>
@@ -1721,7 +1718,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Bis(3,5-dimethyl-1H-pyrazole-κN 2)-bis(3,3′′, 5,5′′-tetramethyl-[1,1′:3′,1′′-terphenyl] -2′-carboxylato-κO)iron(II) dichloromethane monosolvate, <i>Acta Crystallographica Section E: Structure Reports Online</i>, <b>2012</b>, <i>68</i>, 5, m631–m632">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Bis(3,5-dimethyl-1H-pyrazole-κN 2)-bis(3,3′′, 5,5′′-tetramethyl-[1,1′:3′,1′′-terphenyl] -2′-carboxylato-κO)iron(II) dichloromethane monosolvate, <i>Acta Crystallographica Section E: Structure Reports Online</i>, <b>2012</b>, <i>68</i>, 5, m631–m632">
             </div>
             <div class="tbox">
                 <h4>
@@ -1735,7 +1732,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Selective Fe2+ ion recognition using a fluorescent pyridinyl-benzoimidazole-derived ionophore, <i>Bulletin of the Korean Chemical Society</i>, <b>2012</b>, <i>33</i>, 11, 3625–3628">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Selective Fe2+ ion recognition using a fluorescent pyridinyl-benzoimidazole-derived ionophore, <i>Bulletin of the Korean Chemical Society</i>, <b>2012</b>, <i>33</i>, 11, 3625–3628">
             </div>
             <div class="tbox">
                 <h4>
@@ -1749,7 +1746,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Silver nanoparticles are assembled only on the two facets of the rod template, <i>Journal of Nanoscience and Nanotechnology</i>, <b>2012</b>, <i>12</i>, 2, 1638–1640">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Silver nanoparticles are assembled only on the two facets of the rod template, <i>Journal of Nanoscience and Nanotechnology</i>, <b>2012</b>, <i>12</i>, 2, 1638–1640">
             </div>
             <div class="tbox">
                 <h4>
@@ -1763,7 +1760,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Bis(μ-4,4″-difluoro-1,1′:3′,1″-terphenyl- 2′-carboxylato-k2O:O′)bis[aqua(4,4″-difluoro-1, 1′:3′, 1″-terphenyl-2′-carboxylato-kO)(pyridine-kN) cobalt(II)] diethyl ether disolvate, <i>Acta Crystallographica Section E: Structure Reports Online</i>, <b>2012</b>, <i>68</i>, 10, m1264–m1265">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Bis(μ-4,4″-difluoro-1,1′:3′,1″-terphenyl- 2′-carboxylato-k2O:O′)bis[aqua(4,4″-difluoro-1, 1′:3′, 1″-terphenyl-2′-carboxylato-kO)(pyridine-kN) cobalt(II)] diethyl ether disolvate, <i>Acta Crystallographica Section E: Structure Reports Online</i>, <b>2012</b>, <i>68</i>, 10, m1264–m1265">
             </div>
             <div class="tbox">
                 <h4>
@@ -1777,7 +1774,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Bis(4,4′′-difluoro-1,1′:3′,1′′- terphenyl-2′-carboxylato-κO)bis(3,5-dimethyl-1H-pyrazole- κN2)manganese(II), <i>Acta Crystallographica Section E: Structure Reports Online</i>, <b>2012</b>, <i>68</i>, 5, m582–m583">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Bis(4,4′′-difluoro-1,1′:3′,1′′- terphenyl-2′-carboxylato-κO)bis(3,5-dimethyl-1H-pyrazole- κN2)manganese(II), <i>Acta Crystallographica Section E: Structure Reports Online</i>, <b>2012</b>, <i>68</i>, 5, m582–m583">
             </div>
             <div class="tbox">
                 <h4>
@@ -1791,7 +1788,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Dichloridobis(2-phenyl-pyridine-κN)zinc(II), <i>Acta Crystallographica Section E: Structure Reports Online</i>, <b>2012</b>, <i>68</i>, 4, m431–m432">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Dichloridobis(2-phenyl-pyridine-κN)zinc(II), <i>Acta Crystallographica Section E: Structure Reports Online</i>, <b>2012</b>, <i>68</i>, 4, m431–m432">
             </div>
             <div class="tbox">
                 <h4>
@@ -1805,7 +1802,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="A tailor designed fluorescent 'turn-on' sensor of formaldehyde based on the BODIPY motif, <i>Tetrahedron Letters</i>, <b>2012</b>, <i>53</i>, 37, 4913–4916">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="A tailor designed fluorescent 'turn-on' sensor of formaldehyde based on the BODIPY motif, <i>Tetrahedron Letters</i>, <b>2012</b>, <i>53</i>, 37, 4913–4916">
             </div>
             <div class="tbox">
                 <h4>
@@ -1819,7 +1816,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Fluorescence enhancement of N 2O 2-type dipyrrin ligand in two step responding to zinc(II) ion, <i>Journal of Luminescence</i>, <b>2012</b>, <i>132</i>, 11, 3089–3092">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Fluorescence enhancement of N 2O 2-type dipyrrin ligand in two step responding to zinc(II) ion, <i>Journal of Luminescence</i>, <b>2012</b>, <i>132</i>, 11, 3089–3092">
             </div>
             <div class="tbox">
                 <h4>
@@ -1837,7 +1834,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Crystal-to-crystal conversion of Cu2O nanoparticles to Cu crystals and applications in printed electronics, <i>Journal of Materials Chemistry</i>, <b>2011</b>, <i>21</i>, 19, 6928–6933">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Crystal-to-crystal conversion of Cu2O nanoparticles to Cu crystals and applications in printed electronics, <i>Journal of Materials Chemistry</i>, <b>2011</b>, <i>21</i>, 19, 6928–6933">
             </div>
             <div class="tbox">
                 <h4>
@@ -1851,7 +1848,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Preparation of silver nanoparticles from silver(I) carboxylate: Multicrystallity and mechanisms, <i>Asian Journal of Chemistry</i>, <b>2011</b>, <i>23</i>, 11, 5013–5015">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Preparation of silver nanoparticles from silver(I) carboxylate: Multicrystallity and mechanisms, <i>Asian Journal of Chemistry</i>, <b>2011</b>, <i>23</i>, 11, 5013–5015">
             </div>
             <div class="tbox">
                 <h4>
@@ -1865,7 +1862,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Fabrication of wafer-scale polystyrene photonic crystal multilayers via the layer-by-layer scooping transfer technique, <i>Journal of Materials Chemistry</i>, <b>2011</b>, <i>21</i>, 37, 14167–14172">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Fabrication of wafer-scale polystyrene photonic crystal multilayers via the layer-by-layer scooping transfer technique, <i>Journal of Materials Chemistry</i>, <b>2011</b>, <i>21</i>, 37, 14167–14172">
             </div>
             <div class="tbox">
                 <h4>
@@ -1879,7 +1876,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Mechanism of organogel formation from mixed-ligand silver (I) carboxylates, <i>Bulletin of the Korean Chemical Society</i>, <b>2011</b>, <i>32</i>, 9, 3267–3273">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Mechanism of organogel formation from mixed-ligand silver (I) carboxylates, <i>Bulletin of the Korean Chemical Society</i>, <b>2011</b>, <i>32</i>, 9, 3267–3273">
             </div>
             <div class="tbox">
                 <h4>
@@ -1893,7 +1890,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Mononuclear transition metal complexes with sterically hindered carboxylate ligands: Synthesis, structural and spectral properties, <i>Polyhedron</i>, <b>2011</b>, <i>30</i>, 2, 340–346">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Mononuclear transition metal complexes with sterically hindered carboxylate ligands: Synthesis, structural and spectral properties, <i>Polyhedron</i>, <b>2011</b>, <i>30</i>, 2, 340–346">
             </div>
             <div class="tbox">
                 <h4>
@@ -1907,7 +1904,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Ab initio study on the interaction of CO2 to the acetate, <i>Bulletin of the Korean Chemical Society</i>, <b>2011</b>, <i>32</i>, 12, 4441–4443">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Ab initio study on the interaction of CO2 to the acetate, <i>Bulletin of the Korean Chemical Society</i>, <b>2011</b>, <i>32</i>, 12, 4441–4443">
             </div>
             <div class="tbox">
                 <h4>
@@ -1921,7 +1918,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Fabrication of micro-patterned 2D Nanorod and nanohole arrays by a combination of photolithography and nanosphere lithography, <i>Journal of the Electrochemical Society</i>, <b>2011</b>, <i>158</i>, 5, J143–J149">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Fabrication of micro-patterned 2D Nanorod and nanohole arrays by a combination of photolithography and nanosphere lithography, <i>Journal of the Electrochemical Society</i>, <b>2011</b>, <i>158</i>, 5, J143–J149">
             </div>
             <div class="tbox">
                 <h4>
@@ -1935,7 +1932,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="A facile synthetic method of silver nanoparticles with a continuous size range from sub-10 nm to 40 nm, <i>Bulletin of the Korean Chemical Society</i>, <b>2011</b>, <i>32</i>, 1, 117–121">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="A facile synthetic method of silver nanoparticles with a continuous size range from sub-10 nm to 40 nm, <i>Bulletin of the Korean Chemical Society</i>, <b>2011</b>, <i>32</i>, 1, 117–121">
             </div>
             <div class="tbox">
                 <h4>
@@ -1949,7 +1946,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="A fluorescent ammonia sensor based on a porphyrin cobalt(II)-dansyl complex, <i>Tetrahedron Letters</i>, <b>2011</b>, <i>52</i>, 21, 2645–2648">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="A fluorescent ammonia sensor based on a porphyrin cobalt(II)-dansyl complex, <i>Tetrahedron Letters</i>, <b>2011</b>, <i>52</i>, 21, 2645–2648">
             </div>
             <div class="tbox">
                 <h4>
@@ -1963,7 +1960,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Robust, functionalizable, nanometer-thick poly(acrylic acid) films spontaneously assembled on oxidized aluminum substrates: Structures and chemical properties, <i>Langmuir</i>, <b>2011</b>, <i>27</i>, 7, 3638–3653">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Robust, functionalizable, nanometer-thick poly(acrylic acid) films spontaneously assembled on oxidized aluminum substrates: Structures and chemical properties, <i>Langmuir</i>, <b>2011</b>, <i>27</i>, 7, 3638–3653">
             </div>
             <div class="tbox">
                 <h4>
@@ -1981,7 +1978,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Colloidal synthesis of Cu2SnSe3 nanocrystals, <i>Materials Letters</i>, <b>2010</b>, <i>64</i>, 19, 2043–2045">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Colloidal synthesis of Cu2SnSe3 nanocrystals, <i>Materials Letters</i>, <b>2010</b>, <i>64</i>, 19, 2043–2045">
             </div>
             <div class="tbox">
                 <h4>
@@ -1995,7 +1992,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Facile synthesis and size control of spherical aggregates composed of Cu2O nanoparticles, <i>Journal of Colloid and Interface Science</i>, <b>2010</b>, <i>342</i>, 1, 198–201">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Facile synthesis and size control of spherical aggregates composed of Cu2O nanoparticles, <i>Journal of Colloid and Interface Science</i>, <b>2010</b>, <i>342</i>, 1, 198–201">
             </div>
             <div class="tbox">
                 <h4>
@@ -2013,7 +2010,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="The simple and facile methods to improve dispersion stability of nanoparticles: Different chain length alkylcarboxylate mixtures, <i>Journal of Colloid and Interface Science</i>, <b>2009</b>, <i>334</i>, 2, 208–211">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="The simple and facile methods to improve dispersion stability of nanoparticles: Different chain length alkylcarboxylate mixtures, <i>Journal of Colloid and Interface Science</i>, <b>2009</b>, <i>334</i>, 2, 208–211">
             </div>
             <div class="tbox">
                 <h4>
@@ -2027,7 +2024,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Synthesis of CIGS absorber layers via a paste coating, <i>Journal of Crystal Growth</i>, <b>2009</b>, <i>311</i>, 9, 2621–2625">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Synthesis of CIGS absorber layers via a paste coating, <i>Journal of Crystal Growth</i>, <b>2009</b>, <i>311</i>, 9, 2621–2625">
             </div>
             <div class="tbox">
                 <h4>
@@ -2041,7 +2038,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Synthesis and reactivity of a mononuclear manganese (II) complex having pseudo-seven coordination environment, <i>Bulletin of the Korean Chemical Society</i>, <b>2009</b>, <i>30</i>, 3, 679–682">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Synthesis and reactivity of a mononuclear manganese (II) complex having pseudo-seven coordination environment, <i>Bulletin of the Korean Chemical Society</i>, <b>2009</b>, <i>30</i>, 3, 679–682">
             </div>
             <div class="tbox">
                 <h4>
@@ -2055,7 +2052,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" alt="Hydrothermal-electrochemical synthesis of ZnO nanorods, <i>Crystal Growth and Design</i>, <b>2009</b>, <i>9</i>, 8, 3615–3620">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="Hydrothermal-electrochemical synthesis of ZnO nanorods, <i>Crystal Growth and Design</i>, <b>2009</b>, <i>9</i>, 8, 3615–3620">
             </div>
             <div class="tbox">
                 <h4>
@@ -2065,9 +2062,7 @@
             </div>
         </div>
     </div>
-
-</div>
-
+ </div>		
 		
 				</div>	
 			</div>	
