@@ -518,20 +518,22 @@ figure figcaption {
   font-weight: 400;
   margin: 0 0 10px;
   display: block;
-  position: relative;          /* 자식의 절대 위치 지정에 필요 */
+  text-align:left !important;
+   position: relative;          /* 자식의 절대 위치 지정에 필요 */
   display: inline-block;       /* block이나 inline-block으로 변경 */
+  padding-left: 10px; 
 }
 
 .p11::before {
   content: "";
   position: absolute;
-  top: -30%;                      /* span의 상단에 위치 */
-  left: 50%;                   
-  transform: translateX(-50%);
-  width: 40px;                 /* 선의 길이 */
-  height: 2px;                 /* 선의 두께 (필요에 따라 조정) */
-  background-color: #18103c;   /* 원하는 색상으로 변경 */
+  top: 0;                      /* span의 상단에 위치 */
+  left: 0;                     /* 왼쪽에 붙임 */
+  width: 4px;                  /* 선의 두께 (필요에 따라 조정) */
+  height: 40px;                /* 선의 길이 */
+  background-color: #3498db;   /* 원하는 색상으로 변경 */
 }
+
 
 /* Fancybox 배경 및 모달 커스터마이징 예시 */
 .fancybox-bg {

@@ -73,10 +73,10 @@
 					
 					<li><a href="Professor.html">PI</a></li>
 					<li><a href="Research.html">Research</a></li>
-					<li><a href="Members.html">Members</a></li>
+					<li class="fh5co-active"><a href="Members.html">Members</a></li>
 					<li><a href="Publications.html">Publications</a></li>
 					<li><a href="Gallery.html">Gallery</a></li>
-					<li class="fh5co-active"><a href="Alumni.html">Alumni</a></li>
+					<li><a href="Alumni.html">Alumni</a></li>
 			
 				</ul>
 			</nav>
@@ -93,23 +93,20 @@
 				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Faculty</h2>
 					<div class="row row-bottom-padded-md">
 						
-						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
+						<div class="col-md-3 col-sm-6 col-padding text-center animate-box">
 							<div class="work g2" style="background-image: url(images/members/Jiang.png);"></div>
 							<div class="caption">
 								<h3>Jiang</h3>
-								<span class="p4"> Jiang@cau.ac.kr <br> </span>
-								<span class="p6">2015–present<br><br></span>
-								<span class="p11"> Ph.D. Chungnam National University, 2010 <br></span>
+								<span class="p6">2015–present<br></span>
+								<span class="p4">Jiang@cau.ac.kr</span>
 							</div>
 						</div>
-						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
+						<div class="col-md-2 col-sm-6 col-padding text-center animate-box">
 								<div class="work g2" style="background-image: url(images/members/Cho_Jaeeock.jpg);"></div>
 									<div class="caption">
 										<h3>Cho Jaeeock</h3>
-										<span class="p4"> jaeeock@naver.com <br> </span>
-										<span class="p6">2024–present<br><br></span>
-										<span class="p11"> Ph.D. Seoul National University, 1994 <br></span>
-										
+										<span class="p6">2024–present<br></span>
+										<span class="p4"> jaeeock@naver.com</span>
 								</div>
 						</div>
 						
@@ -124,23 +121,20 @@
 		<div class="fh5co-narrow-content">
 				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Postdoctoral Fellows</h2>
 				<div class="row row-bottom-padded-md">
-				
-						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
+						<div class="col-md-3 col-sm-6 col-padding text-center animate-box">
 							<div class="work g2" style="background-image: url(images/members/Senku.png);"></div>
 							<div class="caption">
 								<h3>Senku</h3>
-								<span class="p4">senku@cau.ac.kr<br></span>
-								<span class="p6">2015–present<br><br></span>
-								<span class="p11"> Ph.D. Seoul National University, 1994 <br></span>
+								<span class="p6">2015–present<br></span>
+								<span class="p4">senku@cau.ac.kr</span>
 							</div>
 						</div>
-						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
+						<div class="col-md-3 col-sm-6 col-padding text-center animate-box">
 							<div class="work g2" style="background-image: url(images/members/Vinoth.png);"></div>
 							<div class="caption">
 								<h3>Vinoth</h3>
-								<span class="p4">Vinoth@cau.ac.kr<br></span>
-								<span class="p6">2015–present<br><br></span>
-								<span class="p11"> Ph.D. Seoul National University, 1994 <br></span>
+								<span class="p6">2015–present<br></span>
+								<span class="p4">Vinoth@cau.ac.kr</span>
 							</div>
 						</div>
 						
@@ -151,52 +145,46 @@
 			<div class="fh5co-narrow-content">
 				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Ph.D Program</h2>
 				<div class="row row-bottom-padded-md">
-						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
+						<div class="col-md-3 col-sm-6 col-padding text-center animate-box">
 							<div class="work g2" style="background-image: url(images/members/Park_Hongjin.png);"></div>
 							<div class="caption">
 								<h3>Park Hongjin</h3>
-								<span class="p4">hongjin@cau.ac.kr<br></span>
-								<span class="p6">2019–present<br><br></span>
-								
-								<span class="p11"> Ph.D. Seoul National University, 1994 <br></span>
+								<span class="p6">2019–present<br></span>
+								<span class="p4">hongjin@cau.ac.kr</span>
 							</div>
 						</div>
 						
-						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
+						<div class="col-md-3 col-sm-6 col-padding text-center animate-box">
 							<div class="work g2" style="background-image: url(images/members/Yoon_Hayoung.png);"></div>
 							<div class="caption">
 								<h3>Yoon Haoung</h3>
-								<span class="p4">hayoung@cau.ac.kr<br></span>
-								<span class="p6">2020–present<br><br></span>
-								<span class="p11"> Ph.D. Seoul National University, 1994 <br></span>
+								<span class="p6">2020–present<br></span>
+								<span class="p4">hayoung@cau.ac.kr</span>
 							</div>
 						</div>
 						
-						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
+						<div class="col-md-3 col-sm-6 col-padding text-center animate-box">
 							<div class="work g2" style="background-image: url(images/members/Ali.png);"></div>
 							<div class="caption">
-								<h3>Ali Hasnain</h3>
-								<span class="p4">ali@cau.ac.kr<br></span>
-								<span class="p6">2021–present<br><br></span>
-								<span class="p11"> Ph.D. Seoul National University, 1994 <br></span>
+								<h3>Ali</h3>
+								<span class="p6">2021–present<br></span>
+								<span class="p4">ali@cau.ac.kr</span>
 							</div>
 						</div>
-						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
+						<div class="col-md-3 col-sm-6 col-padding text-center animate-box">
 							<div class="work g2" style="background-image: url(images/members/Choi_Inrack.png);"></div>
 							<div class="caption">
 								<h3>Choi Inrack</h3>
-								<span class="p4">fkr9733@cau.ac.kr<br></span>
-								<span class="p6">2022–present<br><br></span>
-								<span class="p11"> B.S. Chung-Ang University, 2022 <br></span>
+								<span class="p6">2022–present<br></span>
+								<span class="p4">fkr9733@cau.ac.kr</span>
 							</div>
 						</div>
-						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
+						<div class="col-md-3 col-sm-6 col-padding text-center animate-box">
 							<div class="work g2" style="background-image: url(images/members/Hadi.png);"></div>
 							<div class="caption">
-								<h3>Muhammad Hadi</h3>
-								<span class="p4">hadi@cau.ac.kr<br></span>
-								<span class="p6">2023–present<br><br></span>
-								<span class="p11"> Ph.D. Seoul National University, 1994 <br></span>
+								<h3>Hadi</h3>
+								<span class="p6">2023–present<br></span>
+								<span class="p4">hadi@cau.ac.kr</span>
 							</div>
 						</div>
 				</div>
@@ -207,67 +195,60 @@
 				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">M.S Program</h2>
 				<div class="row row-bottom-padded-md">
 					
-						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
-							<div class="work g2" style="background-image: url(images/members/Lee_Jihyeon.png);"></div>
+						<div class="col-md-3 col-sm-6 col-padding text-center animate-box">
+							<div class="work g2" style="background-image: url(images/members/Lee_Jihyun.png);"></div>
 							<div class="caption">
-								<h3>Lee Jihyeon</h3>
-								<span class="p4">Jihyeon@cau.ac.kr<br></span>
-								<span class="p6">2023–present<br><br></span>
-								<span class="p11"> B.S. University of Seoul, 2023 <br></span>
+								<h3>Lee Jihyun</h3>
+								<span class="p6">2023–present<br></span>
+								<span class="p4">Jihyun@cau.ac.kr</span>
 							</div>
 						</div>
-						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
+						<div class="col-md-3 col-sm-6 col-padding text-center animate-box">
 							<div class="work g2" style="background-image: url(images/members/Ko_Minkyoung.png);"></div>
 							<div class="caption">
 								<h3>Ko Minkyoung</h3>
-								<span class="p4">minkyoung@cau.ac.kr<br></span>
-								<span class="p6">2024–present<br><br></span>
-								<span class="p11"> B.S. Chung-Ang University, 2024 <br></span>
+								<span class="p6">2024–present<br></span>
+								<span class="p4">minkyoung@cau.ac.kr</span>
 							</div>
 						</div>
-						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
+						<div class="col-md-3 col-sm-6 col-padding text-center animate-box">
 							<div class="work g2" style="background-image: url(images/members/Jeon_Hyunjin.png);"></div>
 							<div class="caption">
 								<h3>Jeon Hyeonjin</h3>
-								<span class="p4">hyunjin@cau.ac.kr<br></span>
-								<span class="p6">2024–present<br><br></span>
-								<span class="p11"> B.S. Chung-Ang University, 2024 <br></span>
+								<span class="p6">2024–present<br></span>
+								<span class="p4">hyunjin@cau.ac.kr</span>
 							</div>
 						</div>
-						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
+						<div class="col-md-3 col-sm-6 col-padding text-center animate-box">
 							<div class="work g2" style="background-image: url(images/members/Baek_Jiseong.png);"></div>
 							<div class="caption">
 								<h3>Baek Jiseong</h3>
-								<span class="p4">jiseong@cau.ac.kr<br></span>
-								<span class="p6">2025–present<br><br></span>
-								<span class="p11"> B.S. Chung-Ang University, 2025 <br></span>
+								<span class="p6">2025–present<br></span>
+								<span class="p4">jiseong@cau.ac.kr</span>
 							</div>
 						</div>
-						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
+						<div class="col-md-3 col-sm-6 col-padding text-center animate-box">
 							<div class="work g2" style="background-image: url(images/members/Kang_Minji.png);"></div>
 							<div class="caption">
 								<h3>Kang Minji</h3>
-								<span class="p4">minji@cau.ac.kr<br></span>
-								<span class="p6">2025–present<br><br></span>
-								<span class="p11"> B.S. Chung-Ang University, 2025 <br></span>
+								<span class="p6">2025–present<br></span>
+								<span class="p4">minji@cau.ac.kr</span>
 							</div>
 						</div>
-						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
+						<div class="col-md-3 col-sm-6 col-padding text-center animate-box">
 							<div class="work g2" style="background-image: url(images/members/Kim_Jeonghun.png);"></div>
 							<div class="caption">
 								<h3>Kim Jeonghun</h3>
-								<span class="p4">ptjeonghun@cau.ac.kr<br></span>
-								<span class="p6">2025–present<br><br></span>
-								<span class="p11"> B.S. Chung-Ang University, 2025 <br></span>
+								<span class="p6">2025–present<br></span>
+								<span class="p4">ptjeonghun@cau.ac.kr</span>
 							</div>
 						</div>
-						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
+						<div class="col-md-3 col-sm-6 col-padding text-center animate-box">
 							<div class="work g2" style="background-image: url(images/members/Byun_Sanghun.png);"></div>
 							<div class="caption">
 								<h3>Byun Sanghun</h3>
-								<span class="p4">andy0163@cau.ac.kr<br></span>
-								<span class="p6">2025–present<br><br></span>
-								<span class="p11"> B.S. Chung-Ang University, 2025 <br></span>
+								<span class="p6">2025–present<br></span>
+								<span class="p4">andy0163@cau.ac.kr</span>
 							</div>
 						</div>
 					
@@ -278,7 +259,7 @@
 		<div class="fh5co-narrow-content">
 				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Staff</h2>
 				<div class="row row-bottom-padded-md">
-					<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
+					<div class="col-md-3 col-sm-6 col-padding text-center animate-box">
 							<div class="work g2" style="background-image: url(images/members/Kim_Eunyoung.png);"></div>
 							<div class="caption">
 								<h3>Kim Eunyoung</h3>

@@ -73,10 +73,10 @@
 					
 					<li><a href="Professor.html">PI</a></li>
 					<li><a href="Research.html">Research</a></li>
-					<li><a href="Members.html">Members</a></li>
+					<li class="fh5co-active"><a href="Members.html">Members</a></li>
 					<li><a href="Publications.html">Publications</a></li>
 					<li><a href="Gallery.html">Gallery</a></li>
-					<li class="fh5co-active"><a href="Alumni.html">Alumni</a></li>
+					<li><a href="Alumni.html">Alumni</a></li>
 			
 				</ul>
 			</nav>
@@ -187,7 +187,7 @@
 								<h3>Choi Inrack</h3>
 								<span class="p4">fkr9733@cau.ac.kr<br></span>
 								<span class="p6">2022–present<br><br></span>
-								<span class="p11"> B.S. Chung-Ang University, 2022 <br></span>
+								<span class="p11"> Ph.D. Seoul National University, 1994 <br></span>
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">

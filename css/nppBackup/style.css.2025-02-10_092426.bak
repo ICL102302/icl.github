@@ -464,7 +464,7 @@ figure figcaption {
   font-size: 12pt;
   color:#228896;
   font-weight: 500;
-  margin: 0 10px 0;
+  margin: 0 0 0;
 }
 
 .p5{
@@ -472,9 +472,9 @@ figure figcaption {
 }
 
 .p6{
-  font-size: 11pt;
+  font-size: 14pt;
   color:#555;
-  font-weight: 400;
+  font-weight: 500;
   margin: 0 0 10px;
 }
 
@@ -507,31 +507,17 @@ figure figcaption {
 }
 
 .p10{
-    border: 1px solid #bbb;
-	margin: 0 20px 15px;
-	border-radius: 3px;
+    border: 1px solid #999;
+	margin: 0 20px 0;
 }
 
 .p11{
   font-size: 11pt;
   color:#555;
-  font-weight: 400;
+  font-weight: 300;
   margin: 0 0 10px;
-  display: block;
-  position: relative;          /* 자식의 절대 위치 지정에 필요 */
-  display: inline-block;       /* block이나 inline-block으로 변경 */
 }
 
-.p11::before {
-  content: "";
-  position: absolute;
-  top: -30%;                      /* span의 상단에 위치 */
-  left: 50%;                   
-  transform: translateX(-50%);
-  width: 40px;                 /* 선의 길이 */
-  height: 2px;                 /* 선의 두께 (필요에 따라 조정) */
-  background-color: #18103c;   /* 원하는 색상으로 변경 */
-}
 
 /* Fancybox 배경 및 모달 커스터마이징 예시 */
 .fancybox-bg {
@@ -1649,9 +1635,6 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 
 .row-bottom-padded-md {
   padding-bottom: 4em;
-  display: flex;
-  flex-wrap: wrap;    /* 여러 줄에 걸쳐 있더라도 적용 */
-  align-items: stretch; /* 모든 자식 요소의 높이를 동일하게 */
 }
 @media screen and (max-width: 768px) {
   .row-bottom-padded-md {

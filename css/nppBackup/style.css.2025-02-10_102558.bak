@@ -530,7 +530,7 @@ figure figcaption {
   transform: translateX(-50%);
   width: 40px;                 /* 선의 길이 */
   height: 2px;                 /* 선의 두께 (필요에 따라 조정) */
-  background-color: #18103c;   /* 원하는 색상으로 변경 */
+  background-color: #3498db;   /* 원하는 색상으로 변경 */
 }
 
 /* Fancybox 배경 및 모달 커스터마이징 예시 */

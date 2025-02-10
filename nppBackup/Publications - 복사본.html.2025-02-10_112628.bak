@@ -67,7 +67,7 @@
 	<![endif]-->
 
 	</head>
-	<body class="patent-page">
+	<body class="publication-page">
 	<div id="fh5co-page">
 		<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
 		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
@@ -103,7 +103,7 @@
 					<!-- 왼쪽 버튼 영역 -->
 					<div class="bbs_left_buttons">
 						<!-- Publication 버튼 -->
-						<a href="Publications.html" class="left-btn publication-btn">Journal</a>
+						<a href="publications.html" class="left-btn publication-btn">Journal</a>
 						<!-- Patent 버튼 -->
 						<a href="Patent.html" class="left-btn patent-btn">Patent</a>
 					</div>
@@ -172,7 +172,7 @@
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="pic">
-                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="포름산 칼슘의 제조 방법 및 제조 장치 (Method and apparatus for preparing calcium formate)">
+                <img src="images/publications/pub-1.png" style="max-width: 50%; height: auto;" alt="포름산 칼슘의 제조 방법 및 제조 장치 (Method and apparatus for preparing calcium formate)"
             </div>
             <div class="tbox">
                 <h4>
