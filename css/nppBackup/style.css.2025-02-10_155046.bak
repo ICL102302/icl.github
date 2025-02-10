@@ -291,7 +291,6 @@ figure figcaption {
 
 
 #fh5co-hero {
-  height: 90vh;
   min-height: 500px;
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
