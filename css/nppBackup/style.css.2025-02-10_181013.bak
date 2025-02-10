@@ -157,7 +157,7 @@ figure figcaption {
   text-decoration: none;
   letter-spacing: .1em;
   font-size: 16pt;
-  font-weight: 500;
+  font-weight: 600;
   position: relative;
   padding: 10px 10px;
   letter-spacing: .1em;
@@ -1250,7 +1250,6 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 @media screen and (max-width: 768px) {
   .fh5co-heading {
     margin-bottom: 1em;
-	margin-top: 2em;
   }
 }
 
@@ -1544,9 +1543,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
     display: flex;
     justify-content: center;
     align-items: center;
-	margin-top: 40px; 
     margin-bottom: 10px; /* 버튼 행과 검색폼 사이 여백 */
-	
   }
   
   .bbs_left_buttons a {
