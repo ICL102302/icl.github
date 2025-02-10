@@ -303,34 +303,18 @@ document.addEventListener('DOMContentLoaded', function() {
   showPage(1);
 });
 
-$('#fh5co-hero .flexslider').flexslider({
-  animation: "fade",
-  slideshowSpeed: 5000,
-  directionNav: true,
-  start: function(){
-    setTimeout(function(){
-      // 슬라이더 텍스트 애니메이션
-      $('.slider-text').removeClass('animated fadeInUp');
-      $('.flex-active-slide').find('.slider-text').addClass('animated fadeInUp');
-      // CONTACT 헤딩 애니메이션: 슬라이드 텍스트와 동시에 실행
-      $('.contact-heading').removeClass('animated fadeInLeft');
-      $('.contact-heading').addClass('animated fadeInLeft');
-    }, 500);
-  },
-  before: function(){
-    setTimeout(function(){
-      $('.slider-text').removeClass('animated fadeInUp');
-      $('.flex-active-slide').find('.slider-text').addClass('animated fadeInUp');
-    }, 500);
-  },
-  after: function(){
-    setTimeout(function(){
-      $('.slider-text').removeClass('animated fadeInUp');
-      $('.flex-active-slide').find('.slider-text').addClass('animated fadeInUp');
-      // 슬라이드 전환 후에도 CONTACT 헤딩 애니메이션을 재실행
-      $('.contact-heading').removeClass('animated fadeInLeft');
-      $('.contact-heading').addClass('animated fadeInLeft');
-    }, 500);
+document.addEventListener('DOMContentLoaded', function() {
+  if (window.innerWidth < 768) {
+    // "CONTACT" 헤딩 요소(예: .fh5co-heading.animate-box[data-animate-effect="fadeInLeft"])를 선택
+    var contactHeading = document.querySelector('.fh5co-heading.animate-box[data-animate-effect="fadeInLeft"]');
+    if (contactHeading) {
+      // 만약 이미 animate-box가 있다면 기존 애니메이션 클래스 제거 후, 재추가하여 애니메이션을 강제 실행
+      contactHeading.classList.remove('animated', 'fadeInLeft');
+      // 강제로 리플로우(reflow) 시키기 위해 읽기
+      void contactHeading.offsetWidth;
+      // fadeInLeft 효과(왼쪽에서 나타나는 효과)를 적용
+      contactHeading.classList.add('animated', 'fadeInLeft');
+    }
   }
 });
 
