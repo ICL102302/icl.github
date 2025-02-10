@@ -97,130 +97,49 @@
 				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">2025</h2>
 					<div class="row row-bottom-padded-md">
 						<div class="col-md-custom col-sm-6 col-padding text-center animate-box">
-							<a href="images/68.png" data-toggle="lightbox" data-gallery="gallery">
 								<div class="work g1" style="background-image: url(images/68.png);"></div>
-							</a>	
 								<div class="caption">
 								<span class="p8">Graduation<br></span>
 								</div>
 						</div>
 						
 						<div class="col-md-custom col-sm-6 col-padding text-center animate-box">
-							<a href="images/64.png" data-toggle="lightbox" data-gallery="gallery">
 								<div class="work g1" style="background-image: url(images/64.png);"></div>
-							</a>
 								<div class="caption">
 								<span class="p8">Graduation<br></span>
 								</div>
 						</div>
 						
 						<div class="col-md-custom col-sm-6 col-padding text-center animate-box">
-							<a href="images/112.png" data-toggle="lightbox" data-gallery="gallery">
 								<div class="work g1" style="background-image: url(images/112.png);"></div>
-							</a>
 								<div class="caption">
 								<span class="p8">New Year's dinner party<br></span>
 								</div>
 						</div>
 						
 						<div class="col-md-custom col-sm-6 col-padding text-center animate-box">
-							<a href="images/64.png" data-toggle="lightbox" data-gallery="gallery">
 								<div class="work g1" style="background-image: url(images/64.png);"></div>
-							</a>
 								<div class="caption">
 								<span class="p8">Graduation<br></span>
 								</div>
 						</div>
 						
 						<div class="col-md-custom col-sm-6 col-padding text-center animate-box">
-							<a href="images/105.png" data-toggle="lightbox" data-gallery="gallery">
 								<div class="work g1" style="background-image: url(images/105.png);"></div>
-							</a>
 								<div class="caption">
 								<span class="p8">Vinoth's birthday<br></span>
 								</div>
 						</div>
 						
 						<div class="col-md-custom col-sm-6 col-padding text-center animate-box">
-							<a href="images/66.png" data-toggle="lightbox" data-gallery="gallery">
 								<div class="work g1" style="background-image: url(images/66.png);"></div>
-							</a>
 								<div class="caption">
 								<span class="p8">Graduation<br></span>
 								</div>
 						</div>
 						
 						<div class="col-md-custom col-sm-6 col-padding text-center animate-box">
-							<a href="images/68.png" data-toggle="lightbox" data-gallery="gallery">
 								<div class="work g1" style="background-image: url(images/68.png);"></div>
-							</a>
-								<div class="caption">
-								<span class="p8">Graduation<br></span>
-								</div>
-						</div>
-						
-					</div>
-				
-				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">2024</h2>
-					<div class="row row-bottom-padded-md">
-						<div class="col-md-custom col-sm-6 col-padding text-center animate-box">
-							<a href="images/68.png" data-toggle="lightbox" data-gallery="gallery">
-								<div class="work g1" style="background-image: url(images/68.png);"></div>
-							</a>	
-								<div class="caption">
-								<span class="p8">Graduation<br></span>
-								</div>
-						</div>
-						
-						<div class="col-md-custom col-sm-6 col-padding text-center animate-box">
-							<a href="images/64.png" data-toggle="lightbox" data-gallery="gallery">
-								<div class="work g1" style="background-image: url(images/64.png);"></div>
-							</a>
-								<div class="caption">
-								<span class="p8">Graduation<br></span>
-								</div>
-						</div>
-						
-						<div class="col-md-custom col-sm-6 col-padding text-center animate-box">
-							<a href="images/112.png" data-toggle="lightbox" data-gallery="gallery">
-								<div class="work g1" style="background-image: url(images/112.png);"></div>
-							</a>
-								<div class="caption">
-								<span class="p8">New Year's dinner party<br></span>
-								</div>
-						</div>
-						
-						<div class="col-md-custom col-sm-6 col-padding text-center animate-box">
-							<a href="images/64.png" data-toggle="lightbox" data-gallery="gallery">
-								<div class="work g1" style="background-image: url(images/64.png);"></div>
-							</a>
-								<div class="caption">
-								<span class="p8">Graduation<br></span>
-								</div>
-						</div>
-						
-						<div class="col-md-custom col-sm-6 col-padding text-center animate-box">
-							<a href="images/105.png" data-toggle="lightbox" data-gallery="gallery">
-								<div class="work g1" style="background-image: url(images/105.png);"></div>
-							</a>
-								<div class="caption">
-								<span class="p8">Vinoth's birthday<br></span>
-								</div>
-						</div>
-						
-						<div class="col-md-custom col-sm-6 col-padding text-center animate-box">
-							<a href="images/66.png" data-toggle="lightbox" data-gallery="gallery">
-								<div class="work g1" style="background-image: url(images/66.png);"></div>
-							</a>
-								<div class="caption">
-								<span class="p8">Graduation<br></span>
-								</div>
-						</div>
-						
-						<div class="col-md-custom col-sm-6 col-padding text-center animate-box">
-							<a href="images/68.png" data-toggle="lightbox" data-gallery="gallery">
-								<div class="work g1" style="background-image: url(images/68.png);"></div>
-							</a>
 								<div class="caption">
 								<span class="p8">Graduation<br></span>
 								</div>
@@ -228,66 +147,104 @@
 						
 					</div>
 					
-				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">2023</h2>
+				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">2024</h2>
 					<div class="row row-bottom-padded-md">
 						<div class="col-md-custom col-sm-6 col-padding text-center animate-box">
-							<a href="images/68.png" data-toggle="lightbox" data-gallery="gallery">
 								<div class="work g1" style="background-image: url(images/68.png);"></div>
-							</a>	
 								<div class="caption">
 								<span class="p8">Graduation<br></span>
 								</div>
 						</div>
 						
 						<div class="col-md-custom col-sm-6 col-padding text-center animate-box">
-							<a href="images/64.png" data-toggle="lightbox" data-gallery="gallery">
 								<div class="work g1" style="background-image: url(images/64.png);"></div>
-							</a>
 								<div class="caption">
 								<span class="p8">Graduation<br></span>
 								</div>
 						</div>
 						
 						<div class="col-md-custom col-sm-6 col-padding text-center animate-box">
-							<a href="images/112.png" data-toggle="lightbox" data-gallery="gallery">
 								<div class="work g1" style="background-image: url(images/112.png);"></div>
-							</a>
 								<div class="caption">
 								<span class="p8">New Year's dinner party<br></span>
 								</div>
 						</div>
 						
 						<div class="col-md-custom col-sm-6 col-padding text-center animate-box">
-							<a href="images/64.png" data-toggle="lightbox" data-gallery="gallery">
 								<div class="work g1" style="background-image: url(images/64.png);"></div>
-							</a>
 								<div class="caption">
 								<span class="p8">Graduation<br></span>
 								</div>
 						</div>
 						
 						<div class="col-md-custom col-sm-6 col-padding text-center animate-box">
-							<a href="images/105.png" data-toggle="lightbox" data-gallery="gallery">
 								<div class="work g1" style="background-image: url(images/105.png);"></div>
-							</a>
 								<div class="caption">
 								<span class="p8">Vinoth's birthday<br></span>
 								</div>
 						</div>
 						
 						<div class="col-md-custom col-sm-6 col-padding text-center animate-box">
-							<a href="images/66.png" data-toggle="lightbox" data-gallery="gallery">
 								<div class="work g1" style="background-image: url(images/66.png);"></div>
-							</a>
 								<div class="caption">
 								<span class="p8">Graduation<br></span>
 								</div>
 						</div>
 						
 						<div class="col-md-custom col-sm-6 col-padding text-center animate-box">
-							<a href="images/68.png" data-toggle="lightbox" data-gallery="gallery">
 								<div class="work g1" style="background-image: url(images/68.png);"></div>
-							</a>
+								<div class="caption">
+								<span class="p8">Graduation<br></span>
+								</div>
+						</div>
+						
+					</div>
+				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">2023</h2>
+					<div class="row row-bottom-padded-md">
+						<div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+								<div class="work g1" style="background-image: url(images/68.png);"></div>
+								<div class="caption">
+								<span class="p8">Graduation<br></span>
+								</div>
+						</div>
+						
+						<div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+								<div class="work g1" style="background-image: url(images/64.png);"></div>
+								<div class="caption">
+								<span class="p8">Graduation<br></span>
+								</div>
+						</div>
+						
+						<div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+								<div class="work g1" style="background-image: url(images/112.png);"></div>
+								<div class="caption">
+								<span class="p8">New Year's dinner party<br></span>
+								</div>
+						</div>
+						
+						<div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+								<div class="work g1" style="background-image: url(images/64.png);"></div>
+								<div class="caption">
+								<span class="p8">Graduation<br></span>
+								</div>
+						</div>
+						
+						<div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+								<div class="work g1" style="background-image: url(images/105.png);"></div>
+								<div class="caption">
+								<span class="p8">Vinoth's birthday<br></span>
+								</div>
+						</div>
+						
+						<div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+								<div class="work g1" style="background-image: url(images/66.png);"></div>
+								<div class="caption">
+								<span class="p8">Graduation<br></span>
+								</div>
+						</div>
+						
+						<div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+								<div class="work g1" style="background-image: url(images/68.png);"></div>
 								<div class="caption">
 								<span class="p8">Graduation<br></span>
 								</div>
@@ -297,21 +254,11 @@
 				  
 				  
 			</div>
-		</div>
+			</div>
 		
 		<div class="fh5co-narrow-content">
 			<p class="p2"><br><br><br></p>
 			</div>
-			<!-- ekkoLightbox JS 파일을 포함 (파일 경로는 환경에 맞게 수정) -->
-			<script src="js/ekko-lightbox.min.js"></script>
-			<link rel="stylesheet" href="css/ekko-lightbox.css">
-			<script>
-			  $(document).on("click", '[data-toggle="lightbox"]', function(event) {
-				event.preventDefault();
-				$(this).ekkoLightbox();
-			  });
-			</script>
-		
 		
 		</div>
 	</div>
@@ -331,16 +278,6 @@
 
 	<!-- Magnific Popup JS (CDN) -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-	
-	<!-- ekkoLightbox JS 파일을 포함 (파일 경로는 환경에 맞게 수정) -->
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
-			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
-			<script>
-			  $(document).on("click", '[data-toggle="lightbox"]', function(event) {
-				event.preventDefault();
-				$(this).ekkoLightbox();
-			  });
-			</script>
 	
 	
 	<!-- MAIN JS -->
