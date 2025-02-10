@@ -291,12 +291,12 @@ figure figcaption {
 
 
 #fh5co-hero {
-  height: 90vh;
-  min-height: 500px;
-  background: #fff url(../images/loader.gif) no-repeat center center;
-  width: 100%;
-  float: left;
-  clear: both;
+	position: fixed;
+	min-height: 500px;
+	background: #fff url(../images/loader.gif) no-repeat center center;
+	width: 100%;
+	float: left;
+	clear: both;
 }
 #fh5co-hero .btn {
   font-size: 24px;
@@ -328,7 +328,7 @@ figure figcaption {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
-  min-height: 500px;
+  height: 400px;
   position: relative;
 }
 #fh5co-hero .flexslider .flex-control-nav {
