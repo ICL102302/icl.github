@@ -706,12 +706,13 @@ figure figcaption {
   }
   
     .p3-1.fh5co-feature {
+    display: block;
     width: 100%;
     text-align: center !important;
     margin: 0 auto;
     padding-top: 30px;
-	padding-bottom: 10px;
-	transform: translateX(-2%) !important;
+    padding-bottom: 10px;
+    transform: translateX(-2%) !important;
   }
   
   .photo-section {
