@@ -1612,6 +1612,15 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 	border-left:1px solid var(--border);
 }
 
+@media (min-width: 768px) {
+  .order-md-0 { order: 0 !important; }
+  .order-md-1 { order: 1 !important; }
+  .order-md-2 { order: 2 !important; }
+  .order-md-3 { order: 3 !important; }
+  .order-md-first { order: -1 !important; }
+  .order-md-last { order: 6 !important; }
+}
+
 @media only screen and (max-width: 767px) {
   /* 전체 검색 영역을 세로 방향(두 행)으로 구성 */
   .bbs_search.journals {
