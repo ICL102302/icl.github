@@ -1613,12 +1613,8 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 
 @media only screen and (max-width: 767px) {
-  .order-md-0 { order: 0 !important; }
-  .order-md-1 { order: 1 !important; }
-  .order-md-2 { order: 2 !important; }
-  .order-md-3 { order: 3 !important; }
-  .order-md-first { order: -1 !important; }
-  .order-md-last { order: 6 !important; }
+  .ordered1 { order: 1 !important; }
+  .ordered2 { order: 2 !important; }
 }
 
 @media only screen and (max-width: 767px) {
