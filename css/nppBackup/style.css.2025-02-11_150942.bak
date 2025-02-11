@@ -1670,7 +1670,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
     box-sizing: border-box;
     padding: 8px;
     font-size: 14px;
-    margin-right: ;
+    margin-right: 5px;
   }
   
   /* 검색어 입력창: 전체 너비의 약 50% */

@@ -334,14 +334,6 @@ $('#fh5co-hero .flexslider').flexslider({
   }
 });
 
-$(document).on('click', '.scroll-down', function(e) {
-  e.preventDefault();
-  // 스크롤할 대상 (예: #fh5co-main 영역)
-  $('html, body').animate({
-    scrollTop: $('#fh5co-main').offset().top
-  }, 1000);  // 1초 동안 부드럽게 스크롤
-});
-
 
 
 }());

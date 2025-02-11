@@ -278,10 +278,6 @@ figure figcaption {
     width: 100%;
     padding: .5em 1em;
   }
-  .contact {
-  padding: 3em 1em !important;
-  }
-  
 }
 
 @media only screen and (max-width: 767px) {
@@ -299,23 +295,17 @@ figure figcaption {
 
 
    .scroll-down {
-    bottom: -38px!important;        /* hero 영역 하단에서 10px 위 */
+    bottom: -116.5px;         /* hero 영역 하단에서 10px 위 */
  
 	
   }
-	.index1{
 
-	position: absolute;  
-	top: 50%; 
-	left: 50%; 
-	transform: translate(-50%, -50%);"
-
-	}
+  
 }
 
    .scroll-down {
   position: absolute;
-    bottom: -46.6px;         /* hero 영역 하단에서 10px 위 */
+    bottom: 0px;         /* hero 영역 하단에서 10px 위 */
     right: 0;          /* hero 영역 오른쪽에서 20px 떨어짐 */
     background: #228896;
 	width: 200px;
@@ -331,15 +321,11 @@ figure figcaption {
     background: #222;
 	color: #fff;
   }
-  
-    .contact {
-    margin-top: 20vh; /* 예: 뷰포트 높이의 20% 만큼 여백 (필요에 따라 조정) */
-	position: relative;
-  }
 
 #fh5co-hero {
   position: relative;
-  height: 50vh;
+  height: 90vh;
+  min-height: 500px;
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
@@ -375,6 +361,7 @@ figure figcaption {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
+  min-height: 500px;
   position: relative;
 }
 #fh5co-hero .flexslider .flex-control-nav {
@@ -406,21 +393,20 @@ figure figcaption {
 #fh5co-hero .flexslider .slider-text {
   display: table;
   opacity: 0;
-  min-width:400px;
-  min-height: 300px;
+  min-height: 500px;
   z-index: 9;
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner {
   display: table-cell;
   vertical-align: middle;
+  min-height: 700px;
   padding: 2em;
 }
 @media screen and (max-width: 768px) {
   #fh5co-hero .flexslider .slider-text > .slider-text-inner {
     text-align: center center;
 	vertical-align: middle;
-	height: 100%!important;
-	width: 400px!important;
+	padding-top: 5em;
   }
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h1, #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 {
@@ -488,26 +474,7 @@ figure figcaption {
   #fh5co-hero .flexslider .slider-text > .slider-text-inner .btn {
     width: 100%;
   }
-  
-#fh5co-hero .flexslider .slides .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  content: '';
-  background: rgba(0, 0, 0, 0.3);
-  height: 50vh !important;
 }
-}
-  
-  
-  
-}
-  #content-wrapper {
-    margin-top: 0; 
-  }
-
 
 .smt{
   font-size: 13pt;
@@ -556,7 +523,6 @@ figure figcaption {
 }
 
 .p5{
-  
   margin: 0 15px 0;
 }
 
@@ -570,8 +536,6 @@ figure figcaption {
 .p7{
   margin-left: 4em;
 }
-
-
 
 .p8{
   font-size: 15pt;
@@ -624,17 +588,6 @@ figure figcaption {
   background-color: #18103c;   /* 원하는 색상으로 변경 */
 }
 
-.p12::before {
-  content: "";
-  position: absolute;
-  top: -40%;                      /* span의 상단에 위치 */
-  left: 0%;                   
- transform: translateY(0%);
-  width: 60px;                 /* 선의 길이 */
-  height: 4px;                 /* 선의 두께 (필요에 따라 조정) */
-  background-color: #18103c;   /* 원하는 색상으로 변경 */
-}
-
 @media only screen and (max-width: 767px) {
   /* 1. #fh5co-main 내부의 col-md-6 요소의 좌우 패딩 조정 */
   #fh5co-main .col-md-6 {
@@ -647,8 +600,6 @@ figure figcaption {
   .p5.row.col-md-6 {
     margin-left: 0 !important;
     padding-left: 5px !important;
-	text-align: center center!important;
-	transform: translateX(-4%);
   }
   
   
@@ -712,7 +663,6 @@ figure figcaption {
     margin: 0 auto;
     padding-top: 30px;
 	padding-bottom: 10px;
-	transform: translateX(-2%) !important;
   }
   
   .photo-section {
@@ -730,7 +680,8 @@ figure figcaption {
   }
   
     .fh5co-text .p1 {
-    max-width: 95%;
+	width: 100%;
+    max-width: 100%;
     box-sizing: border-box;
 	white-space: normal !important;
 	word-break: normal !important;
@@ -1290,7 +1241,6 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 .fh5co-feature .fh5co-text {
   padding-left: 120px;
   width: 100%;
-  
 }
 .fh5co-feature .fh5co-text h2, .fh5co-feature .fh5co-text h3 {
   margin: 0;
@@ -1670,7 +1620,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
     box-sizing: border-box;
     padding: 8px;
     font-size: 14px;
-    margin-right: ;
+    margin-right: 5px;
   }
   
   /* 검색어 입력창: 전체 너비의 약 50% */
@@ -2087,8 +2037,6 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   }
 }
 
-
-
 .col-padding {
   padding: 10px !important;
 }
@@ -2146,22 +2094,6 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   margin-bottom: 10px !important;
 }
 
-@media only screen and (max-width: 768px) {
-  /* 두번째 섹션에 한해 행을 flex 컨테이너로 만듭니다 */
-  .research-2 .row {
-    display: flex;
-    flex-direction: column;
-  }
-  /* 기본 HTML 순서가 텍스트 → 이미지라면, 
-     이미지 칼럼을 order: -1 로 지정하여 위로 올립니다 */
-  .research-2 .row < .col-md-6:last-child {
-    order: 0;
-  }
-  /* (선택사항) 텍스트 칼럼의 order를 0으로 설정 */
-  .research-2 .row < .col-md-6:first-child {
-    order: -1;
-  }
-}
 
 
 /*# sourceMappingURL=style.css.map */

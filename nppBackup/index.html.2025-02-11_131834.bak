@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -7,7 +6,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>Inorganic Chemistry Lab</title>
+	<title>Inorganic Chemistry Lab</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -53,9 +52,6 @@
 	<link rel="stylesheet" href="css/flexslider.css">
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
-	<!-- Bootstrap 5 CSS (CDN) -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-..." crossorigin="anonymous">
-
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -75,7 +71,7 @@
 				<ul>
 				
 					<li><a href="Professor.html">Prof. Yoon</a></li>
-					<li class="fh5co-active"><a href="Research.html">Research</a></li>
+					<li><a href="Research.html">Research</a></li>
 					<li><a href="Members.html">Members</a></li>
 					<li><a href="Publications.html">Publications</a></li>
 					<li><a href="Gallery.html">Gallery</a></li>
@@ -84,62 +80,110 @@
 				</ul>
 			</nav>
 
-				<div class="fh5co-footer">
-					<p><small> Chung-Ang Univ. <a href="https://www.cau.ac.kr/index.do" target="_blank">cau.ac.kr</a> </span> <span> Dept of chemistry <a href="https://chem.cau.ac.kr/eng/index.html/" target="_blank">chem.cau.ac.kr</a></span></small></p>
+			<div class="fh5co-footer">
+				<p><small> Chung-Ang Univ. <a href="https://www.cau.ac.kr/index.do" target="_blank">cau.ac.kr</a> </span> <span> Dept of chemistry <a href="https://chem.cau.ac.kr/eng/index.html/" target="_blank">chem.cau.ac.kr</a></span></small></p>
 
-				</div>
+			</div>
 
 		</aside>
 
 		<div id="fh5co-main">
-			<div class="fh5co-narrow-content">
-				<div class="row row-bottom-padded-md">
-					<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-						<h2 class="fh5co-heading">Our Research-1</h2>
-						<p class="p9">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Quisque sit amet efficitur nih. Interdum et malesuada fames ac ante ipsum primis in faucibus interda et malesuada parturient.</p>
+			<aside id="fh5co-hero" class="js-fullheight">
+				<div class="flexslider js-fullheight">
+					<ul class="slides">
+				   	<li style="background-image: url(images/index_1.jpg); background-size: contain; background-position: center center;">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid ">
+				   			<div class="row">
+					   			<div class="col-md-8 col-md-offset-2 text-center js-fullheight slider-text">
+					   				<div class="slider-text-inner">
+					   					<h1>Welcome To Inorganic Chemistry Lab!</h1>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				   	<li style="background-image: url(images/index_2.png); background-size: contain; background-position: center center;">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-8 col-md-offset-2 text-center js-fullheight slider-text">
+					   				<div class="slider-text-inner">
+					   					<h1>Welcome To Inorganic Chemistry Lab!</h1>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				  	</ul>
+			  	</div>
+			</aside>
+			
+			
+
+		<div id="content-wrapper">
+			<div class="fh5co-narrow-content contact">
+				<h2 class="fh5co-heading animate-box contact-heading" data-animate-effect="fadeInLeft">CONTACT</h2>
+				<div class="row">
+					
+					<div class="col-md-6">
+						<div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
+							<div class="fh5co-icon">
+								<i class="icon-mail"></i>
+							</div>
+							<div class="fh5co-text">
+								<p class="p2">e-mail</p>
+								<p class="p1">sunghoyoon@cau.ac.kr</p>
+							</div>
+						
+						</div>
 					</div>
-					<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-						<img class="img-responsive" src="images/research/research_1.png" alt="Our Research-2">
+					
+					<div class="col-md-6">
+						<div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
+							<div class="fh5co-icon">
+								<i class="icon-location"></i>
+							</div>
+							<div class="fh5co-text">
+								<p class="p2">Adress</p>
+								<p class="p1">Chung-Ang University, 84 Heukseok-ro, Dongjak-gu, Seoul</p>
+								<p class="p1">Bldg 102, Rm 302</p>
+							</div>
+						</div>
 					</div>
+					<div class="col-md-6">
+						<div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
+							<div class="fh5co-icon">
+								<i class="icon-phone"></i>
+							</div>
+							<div class="fh5co-text">
+								<p class="p2">TEL</p>
+								<p class="p1">+82-2-820-5281</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-6">
+						<div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
+							<div class="fh5co-icon">
+								<i class="icon-paper"></i>
+							</div>
+							<div class="fh5co-text">
+								<p class="p2">Fax</p>
+								<p class="p1">02) 910-4415</p>
+							</div>
+						</div>
+					</div>
+					
 				</div>
 			</div>
-
-		
 		</div>
-		<div id="fh5co-main">
+			
 			<div class="fh5co-narrow-content">
-				<div class="row row-bottom-padded-md">
-					 <div class="col-md-6 order-2 order-md-1 animate-box" data-animate-effect="fadeInLeft">
-						<img class="img-responsive" src="images/research/research_2.png" alt="Our Research-2">
-					</div>
-					<div class="col-md-6 order-1 order-md-2 animate-box" data-animate-effect="fadeInLeft">
-						<h2 class="fh5co-heading">Our Research-2</h2>
-						<p class="p9">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Quisque sit amet efficitur nih. Interdum et malesuada fames ac ante ipsum primis in faucibus interda et malesuada parturient.</p>
-					</div>
-				</div>
 			</div>
-
-		
+			
+			
 		</div>
-		<div id="fh5co-main">
-			<div class="fh5co-narrow-content">
-				<div class="row row-bottom-padded-md">
-					<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-						<h2 class="fh5co-heading">Our Research-3</h2>
-						<p class="p9">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Quisque sit amet efficitur nih. Interdum et malesuada fames ac ante ipsum primis in faucibus interda et malesuada parturient.</p>
-					</div>
-					<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-						<img class="img-responsive" src="images/research/research_3.png" alt="Our Research-3">
-					</div>
-				</div>
-			</div>
-
-		</div>
-		<div id="fh5co-main">
-			<div class="fh5co-narrow-content">
-				<p class="p2"><br><br><br></p>
-			</div>
-		</div>	
 	</div>
 
 	<!-- jQuery -->
@@ -152,9 +196,6 @@
 	<script src="js/jquery.waypoints.min.js"></script>
 	<!-- Flexslider -->
 	<script src="js/jquery.flexslider-min.js"></script>
-	<!-- Bootstrap 5 JS (Bundle에 Popper 포함) -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-..." crossorigin="anonymous"></script>
-
 	
 	
 	<!-- MAIN JS -->
@@ -162,4 +203,3 @@
 
 	</body>
 </html>
-

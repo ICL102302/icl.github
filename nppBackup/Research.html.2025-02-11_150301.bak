@@ -135,11 +135,10 @@
 			</div>
 
 		</div>
+		
 		<div id="fh5co-main">
-			<div class="fh5co-narrow-content">
-				<p class="p2"><br><br><br></p>
-			</div>
-		</div>	
+			<div class="fh5co-narrow-content"></div>
+		</div>
 	</div>
 
 	<!-- jQuery -->

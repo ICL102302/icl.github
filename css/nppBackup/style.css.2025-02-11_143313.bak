@@ -712,7 +712,7 @@ figure figcaption {
     margin: 0 auto;
     padding-top: 30px;
 	padding-bottom: 10px;
-	transform: translateX(-2%) !important;
+	transform: translateX(-5%);
   }
   
   .photo-section {
@@ -730,7 +730,7 @@ figure figcaption {
   }
   
     .fh5co-text .p1 {
-    max-width: 95%;
+    max-width: 90%;
     box-sizing: border-box;
 	white-space: normal !important;
 	word-break: normal !important;
@@ -1670,7 +1670,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
     box-sizing: border-box;
     padding: 8px;
     font-size: 14px;
-    margin-right: ;
+    margin-right: 5px;
   }
   
   /* 검색어 입력창: 전체 너비의 약 50% */
@@ -2146,22 +2146,6 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   margin-bottom: 10px !important;
 }
 
-@media only screen and (max-width: 768px) {
-  /* 두번째 섹션에 한해 행을 flex 컨테이너로 만듭니다 */
-  .research-2 .row {
-    display: flex;
-    flex-direction: column;
-  }
-  /* 기본 HTML 순서가 텍스트 → 이미지라면, 
-     이미지 칼럼을 order: -1 로 지정하여 위로 올립니다 */
-  .research-2 .row < .col-md-6:last-child {
-    order: 0;
-  }
-  /* (선택사항) 텍스트 칼럼의 order를 0으로 설정 */
-  .research-2 .row < .col-md-6:first-child {
-    order: -1;
-  }
-}
 
 
 /*# sourceMappingURL=style.css.map */
