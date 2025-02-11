@@ -1612,7 +1612,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 	border-left:1px solid var(--border);
 }
 
-@media (min-width: 768px) {
+@media (max-width: 767px) {
   .order-md-0 { order: 0 !important; }
   .order-md-1 { order: 1 !important; }
   .order-md-2 { order: 2 !important; }
