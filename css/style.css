@@ -712,7 +712,7 @@ figure figcaption {
     margin: 0 auto;
     padding-top: 30px;
     padding-bottom: 10px;
-    transform: translateX(-2%) !important;
+    padding-right: 10px;
   }
   
   .photo-section {
