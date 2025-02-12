@@ -94,7 +94,7 @@
 					<div class="row row-bottom-padded-md">
 						
 						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
-								<div class="work g2 member-img" id="member-Cho_Jaeeock" data-base-name="Cho_Jaeeock" style="background-image: url(images/members/Cho_Jaeeock.png);"></div>
+								<div class="work g2 member-img" id="member-Cho_Jaeeock" data-base-name="Cho Jaeeock" style="background-image: url(images/members/Cho_Jaeeock.jpg);"></div>
 									<div class="caption">
 										<h3>Cho Jaeeock</h3>
 										<span class="p4"> jaeeock@naver.com <br> </span>
@@ -128,9 +128,9 @@
 							<div class="work g2 member-img" id="member-Vinothkumar_Ganesan" data-base-name="Vinothkumar_Ganesan" style="background-image: url(images/members/Vinothkumar_Ganesan.png);"></div>
 							<div class="caption">
 								<h3>Vinothkumar Ganesan</h3>
-								<span class="p4">vinothcau@cau.ac.kr<br></span>
+								<span class="p4">Vinoth@cau.ac.kr<br></span>
 								<span class="p6">2015–present<br><br></span>
-								<span class="p11"> Ph.D Kookmin University, 2019 <br></span>
+								<span class="p11"> Ph.D. Seoul National University, 1994 <br></span>
 							</div>
 						</div>
 						
@@ -243,10 +243,10 @@
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
-							<div class="work g2 member-img" id="member-Kim_Jeonghoon" data-base-name="Kim_Jeonghoon" style="background-image: url(images/members/Kim_Jeonghoon.png);"></div>
+							<div class="work g2 member-img" id="member-Kim_Jeonghun" data-base-name="Kim_Jeonghun" style="background-image: url(images/members/Kim_Jeonghun.png);"></div>
 							<div class="caption">
-								<h3>Kim Jeonghoon</h3>
-								<span class="p4">eddiekim99@cau.ac.kr<br></span>
+								<h3>Kim Jeonghun</h3>
+								<span class="p4">ptjeonghun@cau.ac.kr<br></span>
 								<span class="p6">2025–present<br><br></span>
 								<span class="p11"> B.S. Chung-Ang University, 2025 <br></span>
 							</div>
@@ -269,11 +269,7 @@
 		
 					
 	</div>
-		<div id="fh5co-main">
-			<div class="fh5co-narrow-content">
-				<p class="p2"><br><br><br></p>
 			</div>
-		</div>	
 		</div>
 	</div>
 

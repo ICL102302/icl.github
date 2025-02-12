@@ -1,0 +1,253 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Inorganic Chemistry Lab</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FreeHTML5.co" />
+
+  	<!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FreeHTML5.co
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	-->
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Material Icons 불러오기 -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+
+
+
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body class="patent-page">
+	<div id="fh5co-page">
+		<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
+
+			<h1 id="fh5co-logo"><a href="index.html">Inorganic Chemistry Lab</a></h1>
+			<nav id="fh5co-main-menu" role="navigation">
+				<ul>
+				
+					<li><a href="Professor.html">Prof. Yoon</a></li>
+					<li><a href="Research.html">Research</a></li>
+					<li><a href="Members.html">Members</a></li>
+					<li class="fh5co-active"><a href="Publications.html">Publications</a></li>
+					<li><a href="Gallery.html">Gallery</a></li>
+					<li><a href="Alumni.html">Alumni</a></li>
+			
+				</ul>
+			</nav>
+
+				<div class="fh5co-footer">
+					<p><small> Chung-Ang Univ. <a href="https://www.cau.ac.kr/index.do" target="_blank">cau.ac.kr</a> </span> <span> Dept of chemistry <a href="https://chem.cau.ac.kr/eng/index.html/" target="_blank">chem.cau.ac.kr</a></span></small></p>
+
+				</div>
+
+		</aside>
+
+		<div id="fh5co-main">
+		
+				<div class="fh5co-narrow-content">
+				</div>
+				<div class="animate-box" data-animate-effect="fadeInLeft">
+					<div class="bbs_search journals" style="display: flex; align-items: center; justify-content: space-between;">
+					
+					<!-- 왼쪽 버튼 영역 -->
+					<div class="bbs_left_buttons">
+						<!-- Publication 버튼 -->
+						<a href="Publications.html" class="left-btn publication-btn">Journal</a>
+						<!-- Patent 버튼 -->
+						<a href="Patent.html" class="left-btn patent-btn">Patent</a>
+					</div>
+					
+						  <form id="searchForm">
+							<dl>
+							  <dt>
+								<select id="yearSelect">
+								   <option value="">All</option>
+												  <option value="2021">2021</option>
+												  <option value="2020">2020</option>
+								</select>
+							  </dt>
+								<dd>
+								<input id="searchInput" name="searchkey" type="text" class="search_input" placeholder="검색어 입력" size="20">
+								<button type="submit" class="bbs_s_b">
+									<span class="material-symbols-outlined">search</span>
+								</button>
+							  </dd>
+							</dl>
+						  </form>
+
+					</div>  
+				</div>
+				<!-- 검색 끝 -->
+				<!-- 카테고리 끝-->
+				
+			<div class="thumb_list">
+				<div id="papers-container">
+
+<div class="journal-item" data-year="2021">
+	
+	<div class="animate-box" data-animate-effect="fadeInLeft">연구교수
+        <div class="journals_box">
+            <div class="tbox">
+                <h4>
+                    친수성 유기기를 가지는 PDMS 화합물 및 그 제조방법 (PDMS COMPOUND HAVING A HYDROPHILIC ORGANIC GROUP AND A METHOD FOR PREPARING THE SAME) <i>출원 10-2022-0023905</i>, <b>2022</b>
+                </h4>
+                <div class="smt">윤성호, 양난희, 문석영</div>
+            </div>
+        </div>
+    </div>
+	
+    <div class="animate-box" data-animate-effect="fadeInLeft">
+        <div class="journals_box">
+            <div class="pic">
+                <img src="images/publications/pub-1.png" alt="백운석으로부터 포름산 칼슘의 제조 및 마그네슘 화합물의 분해 방법 및 장치 (Preparation of calcium formate from the white meteorite, and the decomposition method and device of magnesium compounds) ">
+            </div>
+            <div class="tbox">
+                <h4>
+                   백운석으로부터 포름산 칼슘의 제조 및 마그네슘 화합물의 분해 방법 및 장치 (Preparation of calcium formate from the white meteorite, and the decomposition method and device of magnesium compounds) <i>출원 10-2021-0016509</i>, <b>2021.02.01</b>
+                </h4>
+                <div class="smt">윤성호</div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<div class="journal-item" data-year="2020">
+
+    <div class="animate-box" data-animate-effect="fadeInLeft">
+        <div class="journals_box">
+            <div class="pic">
+                <img src="images/publications/pub-1.png"  alt="포름산 칼슘의 제조 방법 및 제조 장치 (Method and apparatus for preparing calcium formate)">
+            </div>
+            <div class="tbox">
+                <h4>
+                    <a href="https://patents.google.com/patent/KR20220071558A/" target="_blank" class="title-link">포름산 칼슘의 제조 방법 및 제조 장치 (Method and apparatus for preparing calcium formate), <i>해외특허등록</i>, <b>2020.10.07</b>
+                </h4>
+                <div class="smt">정해원, 김철현, 최현, 진정현, 윤성호, 윤하영</div>
+            </div>
+        </div>
+    </div>
+   
+    <div class="animate-box" data-animate-effect="fadeInLeft">
+        <div class="journals_box">
+            <div class="pic">
+                <img src="images/publications/pub-1.png"  alt="공유결합 트리아진 구조체를 이용한 알코올 투과증발용 복합 분리막 (Pervaporation composite membranes using covalent triazine framework for alcohol recovery)">
+            </div>
+            <div class="tbox">
+                <h4>
+                     <a href="https://patents.google.com/patent/KR102433139B1/" target="_blank" class="title-link">공유결합 트리아진 구조체를 이용한 알코올 투과증발용 복합 분리막 (Pervaporation composite membranes using covalent triazine framework for alcohol recovery), <i>한국특허등록(Korea) </i>, <b>2020.09.29</b>
+                </h4>
+                <div class="smt">윤성호, 이정현, 이주연, 박홍진</div>
+            </div>
+        </div>
+    </div>
+	
+	<div class="animate-box" data-animate-effect="fadeInLeft">
+        <div class="journals_box">
+            <div class="pic">
+                <img src="images/publications/pub-1.png"  alt="바이페닐 기반의 공유결합 트리아진 구조체를 이용한 부탄올 투과증발용 폴리디메틸실옥산 복합분리막 (Polydimethylsiloxane pervaporation composite membranes using biphenyl-based covalent triazine framework for n-butanol recovery) ">
+            </div>
+            <div class="tbox">
+                <h4>
+                    <a href="https://patents.google.com/patent/KR102433139B1/" target="_blank" class="title-link">바이페닐 기반의 공유결합 트리아진 구조체를 이용한 부탄올 투과증발용 폴리디메틸실옥산 복합분리막 (Polydimethylsiloxane pervaporation composite membranes using biphenyl-based covalent triazine framework for n-butanol recovery) <i>한국특허등록(Korea) </i>, <b>2020.02.04</b>
+                </h4>
+                <div class="smt">윤성호, 이정현, 이주연, 박홍진</div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+				</div>	
+			</div>	
+
+
+		<div id="pagination-controls">
+				<button id="first-page">&lt;&lt;</button>
+				<button id="prev-page">&lt;</button>
+				<div id="page-numbers"></div>
+				<button id="next-page">&gt;</button>
+				<button id="last-page">&gt;&gt;</button>
+		</div>
+		<div class="fh5co-narrow-content">
+			</div>
+		<div class="fh5co-narrow-content">
+			</div>
+	</div>
+	</div>
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+
+	
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
+
+
+	</body>
+</html>
+

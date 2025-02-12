@@ -89,12 +89,12 @@
 		</aside>
 
 		<div id="fh5co-main">
-			<div class="fh5co-narrow-content" id="position-research professor">
+			<div class="fh5co-narrow-content">
 				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Faculty</h2>
 					<div class="row row-bottom-padded-md">
 						
 						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
-								<div class="work g2 member-img" id="member-Cho_Jaeeock" data-base-name="Cho_Jaeeock" style="background-image: url(images/members/Cho_Jaeeock.png);"></div>
+								<div class="work g2" style="background-image: url(images/members/Cho_Jaeeock.jpg);"></div>
 									<div class="caption">
 										<h3>Cho Jaeeock</h3>
 										<span class="p4"> jaeeock@naver.com <br> </span>
@@ -105,7 +105,7 @@
 						</div>
 						
 						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
-							<div class="work g2 member-img" id="member-Senkuttuvan_Rajendiran" data-base-name="Senkuttuvan_Rajendiran" style="background-image: url(images/members/Senkuttuvan_Rajendiran.png);"></div>
+							<div class="work g2" style="background-image: url(images/members/Senku.png);"></div>
 							<div class="caption">
 								<h3>Senkuttuvan Rajendiran</h3>
 								<span class="p4">senku@cau.ac.kr<br></span>
@@ -115,7 +115,7 @@
 						</div>
 						
 						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
-							<div class="work g2 member-img" id="member-Jiang_Jianwei" data-base-name="Jiang_Jianwei" style="background-image: url(images/members/Jiang_Jianwei.png);"></div>
+							<div class="work g2" style="background-image: url(images/members/Jiang.png);"></div>
 							<div class="caption">
 								<h3>Jiang Jianwei</h3>
 								<span class="p4"> fldf1357@cau.ac.kr <br> </span>
@@ -125,12 +125,12 @@
 						</div>
 
 						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
-							<div class="work g2 member-img" id="member-Vinothkumar_Ganesan" data-base-name="Vinothkumar_Ganesan" style="background-image: url(images/members/Vinothkumar_Ganesan.png);"></div>
+							<div class="work g2" style="background-image: url(images/members/Vinoth.png);"></div>
 							<div class="caption">
 								<h3>Vinothkumar Ganesan</h3>
-								<span class="p4">vinothcau@cau.ac.kr<br></span>
+								<span class="p4">Vinoth@cau.ac.kr<br></span>
 								<span class="p6">2015–present<br><br></span>
-								<span class="p11"> Ph.D Kookmin University, 2019 <br></span>
+								<span class="p11"> Ph.D. Seoul National University, 1994 <br></span>
 							</div>
 						</div>
 						
@@ -138,11 +138,11 @@
 			</div>
 	
 			
-			<div class="fh5co-narrow-content" id="position-Ph.D program">
+			<div class="fh5co-narrow-content">
 				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Ph.D Program</h2>
 				<div class="row row-bottom-padded-md">
 						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
-							<div class="work g2 member-img" id="member-Park_Hongjin" data-base-name="Park_Hongjin" style="background-image: url(images/members/Park_Hongjin.png);"></div>
+							<div class="work g2" style="background-image: url(images/members/Park_Hongjin.png);"></div>
 							<div class="caption">
 								<h3>Park Hongjin</h3>
 								<span class="p4">hongjin@cau.ac.kr<br></span>
@@ -153,7 +153,7 @@
 						</div>
 						
 						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
-							<div class="work g2 member-img" id="member-Yoon_Hayoung" data-base-name="Yoon_Hayoung" style="background-image: url(images/members/Yoon_Hayoung.png);"></div>
+							<div class="work g2" style="background-image: url(images/members/Yoon_Hayoung.png);"></div>
 							<div class="caption">
 								<h3>Yoon Hayoung</h3>
 								<span class="p4">dbsgkdud9296@cau.ac.kr<br></span>
@@ -163,7 +163,7 @@
 						</div>
 						
 						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
-							<div class="work g2 member-img" id="member-Ali_Hasnain" data-base-name="Ali_Hasnain" style="background-image: url(images/members/Ali_Hasnain.png);"></div>
+							<div class="work g2" style="background-image: url(images/members/Ali.png);"></div>
 							<div class="caption">
 								<h3>Ali Hasnain</h3>
 								<span class="p4">ali@cau.ac.kr<br></span>
@@ -172,7 +172,7 @@
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
-							<div class="work g2 member-img" id="member-Choi_Inrack" data-base-name="Choi_Inrack" style="background-image: url(images/members/Choi_Inrack.png);"></div>
+							<div class="work g2" style="background-image: url(images/members/Choi_Inrack.png);"></div>
 							<div class="caption">
 								<h3>Choi Inrack</h3>
 								<span class="p4">fkr9733@cau.ac.kr<br></span>
@@ -181,7 +181,7 @@
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
-							<div class="work g2 member-img" id="member-Muhammad_Hadi" data-base-name="Muhammad_Hadi" style="background-image: url(images/members/Muhammad_Hadi.png);"></div>
+							<div class="work g2" style="background-image: url(images/members/Hadi.png);"></div>
 							<div class="caption">
 								<h3>Muhammad Hadi</h3>
 								<span class="p4">hadi@cau.ac.kr<br></span>
@@ -193,12 +193,12 @@
 			</div>
 		
 		
-		<div class="fh5co-narrow-content" id="position-M.S. program">
+		<div class="fh5co-narrow-content">
 				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">M.S Program</h2>
 				<div class="row row-bottom-padded-md">
 					
 						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
-							<div class="work g2 member-img" id="member-Lee_Jihyeon" data-base-name="Lee_Jihyeon" style="background-image: url(images/members/Lee_Jihyeon.png);"></div>
+							<div class="work g2" style="background-image: url(images/members/Lee_Jihyeon.png);"></div>
 							<div class="caption">
 								<h3>Lee Jihyeon</h3>
 								<span class="p4">Jihyeon@cau.ac.kr<br></span>
@@ -207,7 +207,7 @@
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
-							<div class="work g2 member-img" id="member-Ko_Minkyoung" data-base-name="Ko_Minkyoung" style="background-image: url(images/members/Ko_Minkyoung.png);"></div>
+							<div class="work g2" style="background-image: url(images/members/Ko_Minkyoung.png);"></div>
 							<div class="caption">
 								<h3>Ko Minkyoung</h3>
 								<span class="p4">minkyoung@cau.ac.kr<br></span>
@@ -216,7 +216,7 @@
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
-							<div class="work g2 member-img" id="member-Jeon_Hyunjin" data-base-name="Jeon_Hyunjin" style="background-image: url(images/members/Jeon_Hyunjin.png);"></div>
+							<div class="work g2" style="background-image: url(images/members/Jeon_Hyunjin.png);"></div>
 							<div class="caption">
 								<h3>Jeon Hyeonjin</h3>
 								<span class="p4">hyunjin@cau.ac.kr<br></span>
@@ -225,34 +225,34 @@
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
-							<div class="work g2 member-img" id="member-Baek_Jiseong" data-base-name="Baek_Jiseong" style="background-image: url(images/members/Baek_Jiseong.png);"></div>
+							<div class="work g2" style="background-image: url(images/members/Baek_Jiseong.png);"></div>
 							<div class="caption">
 								<h3>Baek Jiseong</h3>
-								<span class="p4">baekjs1114@cau.ac.kr<br></span>
+								<span class="p4">jiseong@cau.ac.kr<br></span>
 								<span class="p6">2025–present<br><br></span>
 								<span class="p11"> B.S. Chung-Ang University, 2025 <br></span>
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
-							<div class="work g2 member-img" id="member-Kang_Minji" data-base-name="Kang_Minji" style="background-image: url(images/members/Kang_Minji.png);"></div>
+							<div class="work g2" style="background-image: url(images/members/Kang_Minji.png);"></div>
 							<div class="caption">
 								<h3>Kang Minji</h3>
-								<span class="p4">annekmj@cau.ac.kr<br></span>
+								<span class="p4">minji@cau.ac.kr<br></span>
 								<span class="p6">2025–present<br><br></span>
 								<span class="p11"> B.S. Chung-Ang University, 2025 <br></span>
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
-							<div class="work g2 member-img" id="member-Kim_Jeonghoon" data-base-name="Kim_Jeonghoon" style="background-image: url(images/members/Kim_Jeonghoon.png);"></div>
+							<div class="work g2" style="background-image: url(images/members/Kim_Jeonghun.png);"></div>
 							<div class="caption">
-								<h3>Kim Jeonghoon</h3>
-								<span class="p4">eddiekim99@cau.ac.kr<br></span>
+								<h3>Kim Jeonghun</h3>
+								<span class="p4">ptjeonghun@cau.ac.kr<br></span>
 								<span class="p6">2025–present<br><br></span>
 								<span class="p11"> B.S. Chung-Ang University, 2025 <br></span>
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
-							<div class="work g2 member-img" id="member-Byun_Sanghun" data-base-name="Byun_Sanghun" style="background-image: url(images/members/Byun_Sanghun.png);"></div>
+							<div class="work g2" style="background-image: url(images/members/Byun_Sanghun.png);"></div>
 							<div class="caption">
 								<h3>Byun Sanghun</h3>
 								<span class="p4">andy0163@cau.ac.kr<br></span>
@@ -265,15 +265,23 @@
 				</div>
 			</div>
 		
+		<div class="fh5co-narrow-content">
+				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Staff</h2>
+				<div class="row row-bottom-padded-md">
+					<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
+							<div class="work g2" style="background-image: url(images/members/Kim_Eunyoung.png);"></div>
+							<div class="caption">
+								<h3>Kim Eunyoung</h3>
+								<span class="p6">2015–present<br></span>
+							</div>
+						</div>
+				</div>
+			</div>
 		
 		
 					
 	</div>
-		<div id="fh5co-main">
-			<div class="fh5co-narrow-content">
-				<p class="p2"><br><br><br></p>
 			</div>
-		</div>	
 		</div>
 	</div>
 

@@ -1305,12 +1305,6 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   letter-spacing: .2em;
   text-transform: uppercase;
 }
-
-.tbox h3 {
-  text-align: left;      /* 왼쪽 정렬 */
-  font-size: 15pt;       /* 글자 크기 (원하는 크기로 수정) */
-}
-
 .fh5co-feature.fh5co-feature-sm .fh5co-text {
   margin-top: 30px;
 }
