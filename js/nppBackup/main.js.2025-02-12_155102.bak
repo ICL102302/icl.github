@@ -342,46 +342,94 @@ $(document).on('click', '.scroll-down', function(e) {
   }, 1000);  // 1초 동안 부드럽게 스크롤
 });
 
-function loadImage(basePath, baseName, extensions, elementSelector) {
-  let idx = 0;
-  
-  function tryNext() {
-    if (idx >= extensions.length) {
-      console.error("No valid image found for " + baseName);
-      return;
+async function checkImageExists(url) {
+  try {
+    const response = await fetch(url, { method: 'HEAD' });
+    // Content-Type 헤더를 확인해서 이미지 MIME 타입인지 판단
+    const contentType = response.headers.get("Content-Type");
+    // 이미지 MIME 타입이면 response.ok도 true일 것이지만,
+    // 404 페이지는 text/html인 경우가 많습니다.
+    if (response.ok && contentType && contentType.startsWith("image/")) {
+      return true;
+    } else {
+      return false;
     }
-    
-    const ext = extensions[idx++];
-    const testImg = new Image();
-    
-    testImg.onload = function() {
-      // 이미지 로드 성공 시, 해당 요소의 background-image를 설정합니다.
-      const element = document.querySelector(elementSelector);
-      if (element) {
-        element.style.backgroundImage = "url(" + basePath + baseName + "." + ext + ")";
-        console.log("Image loaded successfully: " + basePath + baseName + "." + ext);
-      }
-    };
-    
-    testImg.onerror = function() {
-      // 이미지 로드 실패 시, 다음 확장자를 시도합니다.
-      console.log("Failed to load: " + basePath + baseName + "." + ext);
-      tryNext();
-    };
-    
-    // 이미지 src를 설정 (이때 onload/onerror 이벤트가 트리거됩니다)
-    testImg.src = basePath + baseName + "." + ext;
+  } catch (error) {
+    return false;
   }
-  
-  tryNext();
 }
 
-// 문서가 준비된 후 모든 .member-img 요소에 대해 loadImage()를 실행합니다.
+async function loadImage(basePath, baseName, extensions, elementSelector) {
+  for (let ext of extensions) {
+    const url = basePath + baseName + "." + ext;
+    const exists = await checkImageExists(url);
+    if (exists) {
+      document.querySelector(elementSelector).style.backgroundImage = "url(" + url + ")";
+      console.log("Found and set image: " + url);
+      return;
+    } else {
+      console.log("Image not found or invalid: " + url);
+    }
+  }
+  console.error("No valid image found for " + baseName);
+}
+
+
+// 이미지 존재 여부를 확인하는 함수 (GET 요청 사용, 캐시 무효화를 위해 쿼리 스트링 추가)
+async function checkImageExists(url) {
+  try {
+    console.log(`DEBUG: Checking URL: ${url}`);
+    const response = await fetch(url, { method: 'GET', cache: 'no-cache' });
+    console.log(`DEBUG: Received response for ${url}`);
+    console.log(`DEBUG: Response status: ${response.status}`);
+    
+    const contentType = response.headers.get("Content-Type");
+    console.log(`DEBUG: Content-Type for ${url}: ${contentType}`);
+    
+    // 정상적인 이미지 응답이라면 response.ok가 true이고 Content-Type이 image/로 시작해야 함
+    if (response.ok && contentType && contentType.startsWith("image/")) {
+      console.log(`DEBUG: URL ${url} exists and is an image.`);
+      return true;
+    } else {
+      console.log(`DEBUG: URL ${url} is not a valid image (response.ok: ${response.ok}).`);
+      return false;
+    }
+  } catch (error) {
+    console.error(`DEBUG: Error fetching ${url}:`, error);
+    return false;
+  }
+}
+
+// 지정한 확장자들을 순차적으로 시도하여 올바른 이미지 URL을 찾아 요소의 background-image를 설정하는 함수
+async function loadImage(basePath, baseName, extensions, elementSelector) {
+  for (let ext of extensions) {
+    // 캐시를 피하기 위해 URL에 cacheBuster 쿼리 스트링을 추가합니다.
+    const url = `${basePath}${baseName}.${ext}?cacheBuster=${Date.now()}`;
+    console.log(`DEBUG: Attempting URL: ${url}`);
+    
+    const exists = await checkImageExists(url);
+    if (exists) {
+      const element = document.querySelector(elementSelector);
+      if (element) {
+        element.style.backgroundImage = `url(${url})`;
+        console.log(`DEBUG: Found and set image for ${elementSelector}: ${url}`);
+      } else {
+        console.error(`DEBUG: Element not found for selector: ${elementSelector}`);
+      }
+      return; // 이미지 설정에 성공하면 함수 종료
+    } else {
+      console.log(`DEBUG: Image not found or invalid for URL: ${url}`);
+    }
+  }
+  console.error(`DEBUG: No valid image found for ${baseName}`);
+}
+
+// 문서가 준비된 후, 모든 .member-img 요소에 대해 loadImage() 실행
 document.addEventListener("DOMContentLoaded", function() {
   const basePath = "images/members/";
   const extensions = ["png", "jpg", "jpeg", "gif"];
   
-  // HTML에서 공통 클래스 "member-img"가 있는 모든 요소 선택
+  // 모든 멤버 이미지 요소 선택 (HTML에서 추가한 공통 클래스 member-img)
   const memberElements = document.querySelectorAll(".member-img");
   
   memberElements.forEach(function(element) {
@@ -389,7 +437,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const baseName = element.getAttribute("data-base-name");
     // 각 요소는 고유 id가 있으므로 id를 이용해 선택자 생성 (예: "#member-Lee_Jihyeon")
     const elementSelector = "#" + element.id;
-    // loadImage 호출하여 이미지 존재 여부에 따라 배경 이미지를 설정합니다.
+    // loadImage 호출
     loadImage(basePath, baseName, extensions, elementSelector);
   });
 });

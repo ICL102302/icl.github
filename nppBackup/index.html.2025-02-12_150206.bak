@@ -163,6 +163,17 @@
 						</div>
 					</div>
 					
+					<div class="col-md-6">
+						<div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
+							<div class="fh5co-icon">
+								<i class="icon-paper"></i>
+							</div>
+							<div class="fh5co-text">
+								<p class="p2">Fax</p>
+								<p class="p1">02) 910-4415</p>
+							</div>
+						</div>
+					</div>
 					
 				</div>
 			</div>
