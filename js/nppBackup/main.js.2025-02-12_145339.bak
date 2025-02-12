@@ -342,38 +342,49 @@ $(document).on('click', '.scroll-down', function(e) {
   }, 1000);  // 1초 동안 부드럽게 스크롤
 });
 
-async function checkImageExists(url) {
-  try {
-    const response = await fetch(url, { method: 'HEAD' });
-    // Content-Type 헤더를 확인해서 이미지 MIME 타입인지 판단
-    const contentType = response.headers.get("Content-Type");
-    // 이미지 MIME 타입이면 response.ok도 true일 것이지만,
-    // 404 페이지는 text/html인 경우가 많습니다.
-    if (response.ok && contentType && contentType.startsWith("image/")) {
-      return true;
-    } else {
-      return false;
-    }
-  } catch (error) {
-    return false;
-  }
-}
-
-async function loadImage(basePath, baseName, extensions, elementSelector) {
-  for (let ext of extensions) {
-    const url = basePath + baseName + "." + ext;
-    const exists = await checkImageExists(url);
-    if (exists) {
-      document.querySelector(elementSelector).style.backgroundImage = "url(" + url + ")";
-      console.log("Found and set image: " + url);
+// loadImage 함수는 기존에 정의한 이미지 로드 함수입니다.
+function loadImage(basePath, baseName, extensions, elementSelector) {
+  let idx = 0;
+  const tryNext = () => {
+    if (idx >= extensions.length) {
+      console.error("No valid image found for " + baseName);
       return;
-    } else {
-      console.log("Image not found or invalid: " + url);
     }
-  }
-  console.error("No valid image found for " + baseName);
+    const ext = extensions[idx++];
+    const testImg = new Image();
+    testImg.onload = function() {
+      // 로드에 성공하면 해당 요소의 background-image를 설정
+      const element = document.querySelector(elementSelector);
+      if(element) {
+        element.style.backgroundImage = "url(" + basePath + baseName + "." + ext + ")";
+      }
+    };
+    testImg.onerror = function() {
+      // 실패하면 다음 확장자를 시도
+      tryNext();
+    };
+    testImg.src = basePath + baseName + "." + ext;
+  };
+  tryNext();
 }
 
+// 문서가 준비된 후에 모든 .member-img 요소에 대해 loadImage() 실행
+document.addEventListener("DOMContentLoaded", function() {
+  const basePath = "images/members/";
+  const extensions = ["png", "jpg", "jpeg", "gif"];
+  
+  // 모든 멤버 이미지 요소 선택 (HTML에서 추가한 공통 클래스 member-img)
+  const memberElements = document.querySelectorAll(".member-img");
+  
+  memberElements.forEach(function(element) {
+    // 각 요소의 data-base-name 속성 값 읽기
+    const baseName = element.getAttribute("data-base-name");
+    // 각 요소는 고유 id가 있으므로 id를 이용해 선택자 생성
+    const elementSelector = "#" + element.id;
+    // loadImage 호출
+    loadImage(basePath, baseName, extensions, elementSelector);
+  });
+});
 
 
 
