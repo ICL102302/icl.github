@@ -1420,16 +1420,17 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
     overflow: hidden;
     margin: 0 auto 10px; /* 컨테이너 자체를 중앙 정렬 */
     text-align: center;
+	object-fit: cover;
   }
   
   .journals_box .pic img {
     display: inline-block;
     margin: 0 auto;
     width: 100%;
-    height: auto;
+    height: 100%;
     /* 이미지 확대: 150% */
+    transform: scale(1.7);
     transform-origin: center center;
-	object-fit: cover;
   }
   
   .journals_box {

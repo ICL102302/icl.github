@@ -1428,6 +1428,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
     width: 100%;
     height: auto;
     /* 이미지 확대: 150% */
+    transform: scale(1.7);
     transform-origin: center center;
 	object-fit: cover;
   }
