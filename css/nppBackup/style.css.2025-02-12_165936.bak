@@ -1355,7 +1355,6 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
     border: 1px solid #ddd;
     box-sizing: border-box;
     padding: 30px;
-	padding-left: 40px;
 	gap: 15px;  
 	 width: 80%;    
     max-width: 1000px;
@@ -2184,7 +2183,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   position: absolute;
   top: 10px;   /* 원하는 위치 (상단 10px, 필요에 따라 조정) */
   left: 10px;  /* 원하는 위치 (좌측 10px, 필요에 따라 조정) */
-  background-color: #f5f5f5; /* 예: 노란색 배경 */
+  background-color: #ff0; /* 예: 노란색 배경 */
   color: #000;            /* 검정색 글자 */
   padding: 5px 8px;
   font-size: 12px;

@@ -1,0 +1,85 @@
+import os
+import re
+
+# 설정: 이미지 파일들이 들어있는 폴더와 출력 HTML 파일 이름
+folder = "images/gallery"  # 이미지가 들어있는 폴더 (경로 필요에 따라 수정)
+output_file = "gallery_html.html"
+
+# 허용할 확장자 목록 (소문자로 비교)
+allowed_exts = {".png", ".jpg", ".jpeg", ".gif"}
+
+# 파일명 패턴: 두 자리 연도, 언더스코어, 문자 'g', 숫자, 확장자 (예: 25_g68.png)
+pattern = re.compile(r'^(\d{2})_g(\d+)(\.(png|jpg|jpeg|gif))$', re.IGNORECASE)
+
+# 그룹화 딕셔너리: key는 전체 연도 (예: "2025"), value는 (XX번호, filename) 튜플 리스트
+groups = {}
+
+# 폴더 내 모든 파일 읽기
+for file in os.listdir(folder):
+    file_path = os.path.join(folder, file)
+    if not os.path.isfile(file_path):
+        continue  # 폴더이면 무시
+    _, ext = os.path.splitext(file)
+    if ext.lower() not in allowed_exts:
+        continue  # 허용되지 않은 확장자면 건너뜀
+    m = pattern.match(file)
+    if m:
+        year_prefix = m.group(1)  # 예: "25"
+        num_part = int(m.group(2))  # 예: 68
+        full_year = "20" + year_prefix  # 예: "2025"
+        groups.setdefault(full_year, []).append((num_part, file))
+
+# 각 그룹 내에서 번호(XX) 내림차순 정렬
+for year in groups:
+    groups[year].sort(key=lambda x: x[0], reverse=True)
+
+# 연도 그룹 전체를 내림차순(최신 연도 우선)으로 정렬
+sorted_years = sorted(groups.keys(), key=lambda y: int(y), reverse=True)
+
+# HTML 생성 시작
+html_lines = []
+html_lines.append("<!DOCTYPE html>")
+html_lines.append("<html lang='en'>")
+html_lines.append("<head>")
+html_lines.append("  <meta charset='UTF-8'>")
+html_lines.append("  <title>Gallery</title>")
+# 필요에 따라 CSS 파일 링크 추가 가능
+html_lines.append("</head>")
+html_lines.append("<body>")
+html_lines.append("<div id='fh5co-main'>")
+html_lines.append("  <div class='fh5co-narrow-content'>")
+
+# 각 연도 그룹별 HTML 생성
+for year in sorted_years:
+    html_lines.append(f"    <h2 class='fh5co-heading animate-box' data-animate-effect='fadeInLeft'>{year}</h2>")
+    html_lines.append("    <div class='row row-bottom-padded-md'>")
+    
+    # 그룹 내 각 이미지 항목 처리
+    for (num, filename) in groups[year]:
+        # 파일명에서 base_name = 예: "25_g68"
+        base_name = os.path.splitext(filename)[0]
+        # 캡션 텍스트: 여기서는 고정 텍스트 "Graduation" (필요시 수정 가능)
+        caption_text = "Graduation"
+        # HTML 구성
+        block = f"""
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="{folder}/{filename}" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-{base_name}" data-base-name="{base_name}" style="background-image: url({folder}/{filename});"></div>
+            </a>
+            <div class="caption">
+                <span class="p8">{caption_text}<br></span>
+            </div>
+        </div>
+        """
+        html_lines.append(block)
+    html_lines.append("    </div>")  # row 닫기
+html_lines.append("  </div>")      # fh5co-narrow-content 닫기
+html_lines.append("</div>")         # fh5co-main 닫기
+html_lines.append("</body>")
+html_lines.append("</html>")
+
+# 결과 HTML 파일로 저장
+with open(output_file, "w", encoding="utf-8") as f:
+    f.write("\n".join(html_lines))
+
+print(f"Gallery HTML generated and saved to {output_file}")

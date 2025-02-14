@@ -1355,7 +1355,6 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
     border: 1px solid #ddd;
     box-sizing: border-box;
     padding: 30px;
-	padding-left: 40px;
 	gap: 15px;  
 	 width: 80%;    
     max-width: 1000px;
