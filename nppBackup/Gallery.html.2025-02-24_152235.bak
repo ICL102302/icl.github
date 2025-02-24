@@ -1,0 +1,987 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Inorganic Chemistry Lab</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FreeHTML5.co" />
+
+  	<!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FreeHTML5.co
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	-->
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+	
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+	<div id="fh5co-page">
+		<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
+
+			<h1 id="fh5co-logo"><a href="index.html">Inorganic Chemistry Lab</a></h1>
+			<nav id="fh5co-main-menu" role="navigation">
+				<ul>
+				
+					<li><a href="Professor.html">Prof. Yoon</a></li>
+					<li><a href="Research.html">Research</a></li>
+					<li><a href="Members.html">Members</a></li>
+					<li><a href="Publications.html">Publications</a></li>
+					<li class="fh5co-active"><a href="Gallery.html">Gallery</a></li>
+					<li><a href="Alumni.html">Alumni</a></li>
+					
+			
+			
+				</ul>
+			</nav>
+
+				<div class="fh5co-footer">
+					<p><small> Chung-Ang Univ. <a href="https://www.cau.ac.kr/index.do" target="_blank">cau.ac.kr</a> </span> <span> Dept of chemistry <a href="https://chem.cau.ac.kr/eng/index.html/" target="_blank">chem.cau.ac.kr</a></span></small></p>
+
+				</div>
+
+
+		</aside>
+
+		
+
+<div id='fh5co-main'>
+  <div class='fh5co-narrow-content'>
+    <h2 class='fh5co-heading animate-box' data-animate-effect='fadeInLeft'>2025</h2>
+    <div class='row row-bottom-padded-md'>
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/25_g84.jpg" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-25_g84" data-base-name="25_g84" style="background-image: url(images/gallery/25_g84.jpg);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/25_g83.jpg" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-25_g83" data-base-name="25_g83" style="background-image: url(images/gallery/25_g83.jpg);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/25_g82.jpg" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-25_g82" data-base-name="25_g82" style="background-image: url(images/gallery/25_g82.jpg);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/25_g81.jpg" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-25_g81" data-base-name="25_g81" style="background-image: url(images/gallery/25_g81.jpg);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/25_g80.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-25_g80" data-base-name="25_g80" style="background-image: url(images/gallery/25_g80.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/25_g79.jpg" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-25_g79" data-base-name="25_g79" style="background-image: url(images/gallery/25_g79.jpg);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/25_g78.jpg" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-25_g78" data-base-name="25_g78" style="background-image: url(images/gallery/25_g78.jpg);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/25_g77.jpg" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-25_g77" data-base-name="25_g77" style="background-image: url(images/gallery/25_g77.jpg);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/25_g76.jpg" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-25_g76" data-base-name="25_g76" style="background-image: url(images/gallery/25_g76.jpg);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/25_g75.jpg" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-25_g75" data-base-name="25_g75" style="background-image: url(images/gallery/25_g75.jpg);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+    </div>
+    <h2 class='fh5co-heading animate-box' data-animate-effect='fadeInLeft'>2024</h2>
+    <div class='row row-bottom-padded-md'>
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/24_g72.jpg" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-24_g72" data-base-name="24_g72" style="background-image: url(images/gallery/24_g72.jpg);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/24_g71.jpg" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-24_g71" data-base-name="24_g71" style="background-image: url(images/gallery/24_g71.jpg);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/24_g70.jpg" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-24_g70" data-base-name="24_g70" style="background-image: url(images/gallery/24_g70.jpg);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/24_g69.jpg" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-24_g69" data-base-name="24_g69" style="background-image: url(images/gallery/24_g69.jpg);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/24_g68.jpg" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-24_g68" data-base-name="24_g68" style="background-image: url(images/gallery/24_g68.jpg);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/24_g67.jpg" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-24_g67" data-base-name="24_g67" style="background-image: url(images/gallery/24_g67.jpg);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/24_g66.jpg" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-24_g66" data-base-name="24_g66" style="background-image: url(images/gallery/24_g66.jpg);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/24_g65.jpg" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-24_g65" data-base-name="24_g65" style="background-image: url(images/gallery/24_g65.jpg);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/24_g64.jpg" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-24_g64" data-base-name="24_g64" style="background-image: url(images/gallery/24_g64.jpg);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+    </div>
+    <h2 class='fh5co-heading animate-box' data-animate-effect='fadeInLeft'>2023</h2>
+    <div class='row row-bottom-padded-md'>
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/23_g63.jpg" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-23_g63" data-base-name="23_g63" style="background-image: url(images/gallery/23_g63.jpg);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/23_g62.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-23_g62" data-base-name="23_g62" style="background-image: url(images/gallery/23_g62.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/23_g61.jpg" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-23_g61" data-base-name="23_g61" style="background-image: url(images/gallery/23_g61.jpg);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/23_g60.JPG" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-23_g60" data-base-name="23_g60" style="background-image: url(images/gallery/23_g60.JPG);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/23_g59.jpg" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-23_g59" data-base-name="23_g59" style="background-image: url(images/gallery/23_g59.jpg);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/23_g58.jpeg" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-23_g58" data-base-name="23_g58" style="background-image: url(images/gallery/23_g58.jpeg);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/23_g57.jpg" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-23_g57" data-base-name="23_g57" style="background-image: url(images/gallery/23_g57.jpg);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+    </div>
+    <h2 class='fh5co-heading animate-box' data-animate-effect='fadeInLeft'>2020</h2>
+    <div class='row row-bottom-padded-md'>
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/20_g56.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-20_g56" data-base-name="20_g56" style="background-image: url(images/gallery/20_g56.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/20_g55.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-20_g55" data-base-name="20_g55" style="background-image: url(images/gallery/20_g55.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/20_g54.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-20_g54" data-base-name="20_g54" style="background-image: url(images/gallery/20_g54.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/20_g53.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-20_g53" data-base-name="20_g53" style="background-image: url(images/gallery/20_g53.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/20_g52.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-20_g52" data-base-name="20_g52" style="background-image: url(images/gallery/20_g52.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/20_g51.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-20_g51" data-base-name="20_g51" style="background-image: url(images/gallery/20_g51.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/20_g50.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-20_g50" data-base-name="20_g50" style="background-image: url(images/gallery/20_g50.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/20_g49.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-20_g49" data-base-name="20_g49" style="background-image: url(images/gallery/20_g49.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/20_g48.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-20_g48" data-base-name="20_g48" style="background-image: url(images/gallery/20_g48.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/20_g47.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-20_g47" data-base-name="20_g47" style="background-image: url(images/gallery/20_g47.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/20_g46.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-20_g46" data-base-name="20_g46" style="background-image: url(images/gallery/20_g46.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+    </div>
+    <h2 class='fh5co-heading animate-box' data-animate-effect='fadeInLeft'>2019</h2>
+    <div class='row row-bottom-padded-md'>
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/19_g45.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-19_g45" data-base-name="19_g45" style="background-image: url(images/gallery/19_g45.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/19_g44.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-19_g44" data-base-name="19_g44" style="background-image: url(images/gallery/19_g44.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/19_g43.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-19_g43" data-base-name="19_g43" style="background-image: url(images/gallery/19_g43.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/19_g42.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-19_g42" data-base-name="19_g42" style="background-image: url(images/gallery/19_g42.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+    </div>
+    <h2 class='fh5co-heading animate-box' data-animate-effect='fadeInLeft'>2018</h2>
+    <div class='row row-bottom-padded-md'>
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/18_g41.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-18_g41" data-base-name="18_g41" style="background-image: url(images/gallery/18_g41.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/18_g40.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-18_g40" data-base-name="18_g40" style="background-image: url(images/gallery/18_g40.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/18_g39.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-18_g39" data-base-name="18_g39" style="background-image: url(images/gallery/18_g39.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/18_g38.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-18_g38" data-base-name="18_g38" style="background-image: url(images/gallery/18_g38.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/18_g37.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-18_g37" data-base-name="18_g37" style="background-image: url(images/gallery/18_g37.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/18_g36.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-18_g36" data-base-name="18_g36" style="background-image: url(images/gallery/18_g36.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/18_g35.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-18_g35" data-base-name="18_g35" style="background-image: url(images/gallery/18_g35.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/18_g34.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-18_g34" data-base-name="18_g34" style="background-image: url(images/gallery/18_g34.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/18_g33.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-18_g33" data-base-name="18_g33" style="background-image: url(images/gallery/18_g33.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/18_g32.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-18_g32" data-base-name="18_g32" style="background-image: url(images/gallery/18_g32.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+    </div>
+    <h2 class='fh5co-heading animate-box' data-animate-effect='fadeInLeft'>2017</h2>
+    <div class='row row-bottom-padded-md'>
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/17_g31.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-17_g31" data-base-name="17_g31" style="background-image: url(images/gallery/17_g31.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/17_g30.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-17_g30" data-base-name="17_g30" style="background-image: url(images/gallery/17_g30.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/17_g29.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-17_g29" data-base-name="17_g29" style="background-image: url(images/gallery/17_g29.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/17_g28.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-17_g28" data-base-name="17_g28" style="background-image: url(images/gallery/17_g28.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/17_g27.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-17_g27" data-base-name="17_g27" style="background-image: url(images/gallery/17_g27.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/17_g26.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-17_g26" data-base-name="17_g26" style="background-image: url(images/gallery/17_g26.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/17_g25.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-17_g25" data-base-name="17_g25" style="background-image: url(images/gallery/17_g25.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/17_g24.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-17_g24" data-base-name="17_g24" style="background-image: url(images/gallery/17_g24.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/17_g23.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-17_g23" data-base-name="17_g23" style="background-image: url(images/gallery/17_g23.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/17_g22.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-17_g22" data-base-name="17_g22" style="background-image: url(images/gallery/17_g22.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+    </div>
+    <h2 class='fh5co-heading animate-box' data-animate-effect='fadeInLeft'>2016</h2>
+    <div class='row row-bottom-padded-md'>
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/16_g21.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-16_g21" data-base-name="16_g21" style="background-image: url(images/gallery/16_g21.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+    </div>
+    <h2 class='fh5co-heading animate-box' data-animate-effect='fadeInLeft'>2014</h2>
+    <div class='row row-bottom-padded-md'>
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/14_g20.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-14_g20" data-base-name="14_g20" style="background-image: url(images/gallery/14_g20.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+    </div>
+    <h2 class='fh5co-heading animate-box' data-animate-effect='fadeInLeft'>2013</h2>
+    <div class='row row-bottom-padded-md'>
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/13_g19.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-13_g19" data-base-name="13_g19" style="background-image: url(images/gallery/13_g19.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/13_g18.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-13_g18" data-base-name="13_g18" style="background-image: url(images/gallery/13_g18.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/13_g17.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-13_g17" data-base-name="13_g17" style="background-image: url(images/gallery/13_g17.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/13_g16.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-13_g16" data-base-name="13_g16" style="background-image: url(images/gallery/13_g16.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/13_g15.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-13_g15" data-base-name="13_g15" style="background-image: url(images/gallery/13_g15.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+    </div>
+    <h2 class='fh5co-heading animate-box' data-animate-effect='fadeInLeft'>2012</h2>
+    <div class='row row-bottom-padded-md'>
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/12_g14.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-12_g14" data-base-name="12_g14" style="background-image: url(images/gallery/12_g14.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/12_g13.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-12_g13" data-base-name="12_g13" style="background-image: url(images/gallery/12_g13.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/12_g11.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-12_g11" data-base-name="12_g11" style="background-image: url(images/gallery/12_g11.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/12_g10.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-12_g10" data-base-name="12_g10" style="background-image: url(images/gallery/12_g10.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+    </div>
+    <h2 class='fh5co-heading animate-box' data-animate-effect='fadeInLeft'>2011</h2>
+    <div class='row row-bottom-padded-md'>
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/11_g9.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-11_g9" data-base-name="11_g9" style="background-image: url(images/gallery/11_g9.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/11_g8.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-11_g8" data-base-name="11_g8" style="background-image: url(images/gallery/11_g8.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/11_g7.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-11_g7" data-base-name="11_g7" style="background-image: url(images/gallery/11_g7.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/11_g6.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-11_g6" data-base-name="11_g6" style="background-image: url(images/gallery/11_g6.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+    </div>
+    <h2 class='fh5co-heading animate-box' data-animate-effect='fadeInLeft'>2010</h2>
+    <div class='row row-bottom-padded-md'>
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/10_g5.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-10_g5" data-base-name="10_g5" style="background-image: url(images/gallery/10_g5.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/10_g4.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-10_g4" data-base-name="10_g4" style="background-image: url(images/gallery/10_g4.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/10_g3.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-10_g3" data-base-name="10_g3" style="background-image: url(images/gallery/10_g3.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+    </div>
+    <h2 class='fh5co-heading animate-box' data-animate-effect='fadeInLeft'>2009</h2>
+    <div class='row row-bottom-padded-md'>
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/09_g2.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-09_g2" data-base-name="09_g2" style="background-image: url(images/gallery/09_g2.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+
+        <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
+            <a href="images/gallery/09_g1.png" data-toggle="lightbox" data-gallery="gallery">
+                <div class="work g1" id="Journal-09_g1" data-base-name="09_g1" style="background-image: url(images/gallery/09_g1.png);"></div>
+            </a>
+            <div class="caption">
+                <span class="p8"> <br></span>
+            </div>
+        </div>
+        
+    </div>
+  </div>
+</div>
+
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- Magnific Popup  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+
+	<!-- Magnific Popup JS (CDN) -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+	
+	<!-- ekkoLightbox JS 파일을 포함 (파일 경로는 환경에 맞게 수정) -->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+			<script>
+			  $(document).on("click", '[data-toggle="lightbox"]', function(event) {
+				event.preventDefault();
+				$(this).ekkoLightbox();
+			  });
+			</script>
+	
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+

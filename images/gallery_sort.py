@@ -61,7 +61,7 @@ for year in sorted_years:
         # 파일명에서 base_name = 예: "25_g68" (확장자 제외)
         base_name = os.path.splitext(filename)[0]
         # 캡션: 예시로 파일명 그대로 또는 원하는 텍스트 (여기서는 파일명을 사용)
-        caption = base_name  
+        caption =' '
         
         block = f"""
         <div class="col-md-custom col-sm-6 col-padding text-center animate-box">
