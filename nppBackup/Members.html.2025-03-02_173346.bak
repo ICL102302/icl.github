@@ -97,7 +97,7 @@
 								<div class="work g2 member-img" id="member-Cho_Jaeeock" data-base-name="Cho_Jaeeock" style="background-image: url(images/members/Cho_Jaeeock.png);"></div>
 									<div class="caption">
 										<h3>Cho Jaeeock</h3>
-										<span class="p4"> jaeeock@cau.ac.kr <br> </span>
+										<span class="p4"> jaeeock@naver.com <br> </span>
 										<span class="p6">2024–present<br><br></span>
 										<span class="p11"> Ph.D. Seoul National University, 1994 <br></span>
 										
@@ -152,6 +152,15 @@
 							</div>
 						</div>
 						
+						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
+							<div class="work g2 member-img" id="member-Yoon_Hayoung" data-base-name="Yoon_Hayoung" style="background-image: url(images/members/Yoon_Hayoung.png);"></div>
+							<div class="caption">
+								<h3>Yoon Hayoung</h3>
+								<span class="p4">dbsgkdud9296@cau.ac.kr<br></span>
+								<span class="p6">2020–present<br><br></span>
+								<span class="p11"> B.S. Kyonggi University, 2020 <br></span>
+							</div>
+						</div>
 						
 						<div class="col-md-3 col-sm-6 col-padding text-center animate-box p10">
 							<div class="work g2 member-img" id="member-Ali_Hasnain" data-base-name="Ali_Hasnain" style="background-image: url(images/members/Ali_Hasnain.png);"></div>
