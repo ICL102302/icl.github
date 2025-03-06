@@ -622,7 +622,7 @@ figure figcaption {
 
 .member-img {
   width: 100%;            /* 부모 너비에 맞춤 */
-  height: 200px;          /* 원하는 높이 지정 */
+  height: 150px;          /* 원하는 높이 지정 */
   background-size: cover;
   background-position: center;
 }
@@ -984,7 +984,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  height: 200px;
+  height: 270px;
   width: 100%;
   display: table;
   overflow: hidden;
@@ -2124,11 +2124,6 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   opacity: 0;
   position: relative !important;
 
-}
-
-.js.animate-box.fade-in {
-  opacity: 1;
-  transform: translateY(0);
 }
 
 /* 페이지네이션 전체 영역 중앙 정렬 */

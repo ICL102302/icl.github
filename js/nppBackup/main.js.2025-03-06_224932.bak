@@ -443,29 +443,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-
-
-document.addEventListener('DOMContentLoaded', function() {
-  var faders = document.querySelectorAll('.animate-box');
-  var options = {
-    root: null,
-    threshold: 0.1
-  };
-
-  var fadeInOnScroll = new IntersectionObserver(function(entries, observer) {
-    entries.forEach(function(entry) {
-      if (entry.isIntersecting && !entry.target.classList.contains('fade-in')) {
-        entry.target.classList.add('fade-in');
-        observer.unobserve(entry.target);
-      }
-    });
-  }, options);
-
-  faders.forEach(function(fader) {
-    fadeInOnScroll.observe(fader);
-  });
-});
-
+ 
 
 
 

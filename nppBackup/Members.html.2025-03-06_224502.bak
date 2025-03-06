@@ -237,10 +237,10 @@
                 </div>
             </div>
             <div class="col-md-2 col-sm-5 col-padding text-center animate-box p10 member-container">
-                <div class="work g2 member-img" id="member-Jeon_Hyeonjin" data-base-name="Jeon_Hyunjin" style="background-image: url(images/members/Jeon_Hyunjin.png);"></div>
+                <div class="work g2 member-img" id="member-Jeon_Hyeonjin" data-base-name="Jeon_Hyeonjin" style="background-image: url(images/members/Jeon_Hyeonjin.png);"></div>
                 <div class="caption">
                     <div class="caption-top">
-                        <h3>Jeon Hyunjin</h3>
+                        <h3>Jeon Hyeonjin</h3>
                         <span class="p4"> zoo3032@cau.ac.kr <br> </span>
                         <span class="p6">2009–present<br><br></span>
                     </div>

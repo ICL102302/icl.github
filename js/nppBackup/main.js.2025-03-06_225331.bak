@@ -443,29 +443,32 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-
-
 document.addEventListener('DOMContentLoaded', function() {
+  // 모든 animate-box 요소 선택
   var faders = document.querySelectorAll('.animate-box');
+
+  // Intersection Observer 옵션 설정 (옵션은 필요에 따라 조정)
   var options = {
-    root: null,
-    threshold: 0.1
+    root: null,         // 브라우저 뷰포트를 기준으로 함
+    threshold: 0.1      // 요소의 10%만 보여도 애니메이션 트리거
   };
 
+  // 콜백 함수: 요소가 뷰포트에 들어오면 fade-in 클래스를 추가
   var fadeInOnScroll = new IntersectionObserver(function(entries, observer) {
     entries.forEach(function(entry) {
-      if (entry.isIntersecting && !entry.target.classList.contains('fade-in')) {
+      if (entry.isIntersecting) {
         entry.target.classList.add('fade-in');
+        // 한 번 애니메이션이 적용되면 더 이상 관찰하지 않음
         observer.unobserve(entry.target);
       }
     });
   }, options);
 
+  // 각 요소에 대해 관찰 시작
   faders.forEach(function(fader) {
     fadeInOnScroll.observe(fader);
   });
 });
-
 
 
 

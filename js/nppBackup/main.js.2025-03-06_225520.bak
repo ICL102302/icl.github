@@ -443,8 +443,6 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-
-
 document.addEventListener('DOMContentLoaded', function() {
   var faders = document.querySelectorAll('.animate-box');
   var options = {

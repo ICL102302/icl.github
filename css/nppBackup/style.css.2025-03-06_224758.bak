@@ -2126,11 +2126,6 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 
 }
 
-.js.animate-box.fade-in {
-  opacity: 1;
-  transform: translateY(0);
-}
-
 /* 페이지네이션 전체 영역 중앙 정렬 */
 #pagination-controls {
   display: flex;

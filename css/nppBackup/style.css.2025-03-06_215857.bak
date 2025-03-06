@@ -599,7 +599,7 @@ figure figcaption {
 
 .p10{
     border: 1px solid #bbb;
-	margin: 0 15px 15px;
+	margin: 0 20px 15px;
 	border-radius: 3px;
 }
 
@@ -613,29 +613,15 @@ figure figcaption {
   display: inline-block;       /* block이나 inline-block으로 변경 */
 }
 
-.member-container {
-  display: flex;
-  flex-direction: column; /* 세로로 배열 */
-  align-items: center;    /* 가로 중앙 정렬 (필요시) */
-  width: 20%;
-}
-
-.member-img {
-  width: 100%;            /* 부모 너비에 맞춤 */
-  height: 200px;          /* 원하는 높이 지정 */
-  background-size: cover;
-  background-position: center;
-}
-
-.caption {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* 상단과 하단 요소를 분리 */
-	flex-grow: 1;
-}
-
-.caption-bottom {
-    margin-top: auto; /* "Current"를 아래쪽으로 밀어냄 */
+.p11::before {
+  content: "";
+  position: absolute;
+  top: -30%;                      /* span의 상단에 위치 */
+  left: 50%;                   
+  transform: translateX(-50%);
+  width: 40px;                 /* 선의 길이 */
+  height: 2px;                 /* 선의 두께 (필요에 따라 조정) */
+  background-color: #18103c;   /* 원하는 색상으로 변경 */
 }
 
 .p12::before {
@@ -806,9 +792,9 @@ figure figcaption {
   /* 갤러리 페이지의 행 내의 각 열을 100% 너비로 강제 */
   .row.row-bottom-padded-md > .col-md-custom,
   .row.row-bottom-padded-md > .col-sm-6 {
-    width: 90% !important;
+    width: 100% !important;
     flex: 0 0 100% !important;
-    max-width: 80% !important;
+    max-width: 100% !important;
   }
     .work.g1 {
     width: 100%!important;          /* 기존보다 작게 조절 (필요에 따라 값 조정) */
@@ -984,7 +970,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  height: 200px;
+  height: 270px;
   width: 100%;
   display: table;
   overflow: hidden;
@@ -2101,7 +2087,6 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 @media screen and (max-width: 768px) {
   .row-bottom-padded-md {
     padding-bottom: 1em;
-	justify-content: center; /* 내부 요소를 가운데 정렬 */
   }
 }
 
@@ -2124,11 +2109,6 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   opacity: 0;
   position: relative !important;
 
-}
-
-.js.animate-box.fade-in {
-  opacity: 1;
-  transform: translateY(0);
 }
 
 /* 페이지네이션 전체 영역 중앙 정렬 */

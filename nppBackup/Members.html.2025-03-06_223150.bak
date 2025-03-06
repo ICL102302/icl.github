@@ -93,6 +93,7 @@
 			
 
 
+
     <div class="fh5co-narrow-content" id="position-faculty">
         <h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Faculty</h2>
         <div class="row row-bottom-padded-md">
@@ -154,15 +155,15 @@
         <h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Ph.D program</h2>
         <div class="row row-bottom-padded-md">
             <div class="col-md-2 col-sm-5 col-padding text-center animate-box p10 member-container">
-                <div class="work g2 member-img" id="member-Park_Hongjin" data-base-name="Park_Hongjin" style="background-image: url(images/members/Park_Hongjin.png);"></div>
+                <div class="work g2 member-img" id="member-Muhammad_Hadi" data-base-name="Muhammad_Hadi" style="background-image: url(images/members/Muhammad_Hadi.png);"></div>
                 <div class="caption">
                     <div class="caption-top">
-                        <h3>Park Hongjin</h3>
-                        <span class="p4"> phj1553@cau.ac.kr <br> </span>
-                        <span class="p6">2008–present<br><br></span>
+                        <h3>Muhammad Hadi</h3>
+                        <span class="p4"> mhadi512@cau.ac.kr <br> </span>
+                        <span class="p6">2010–present<br><br></span>
                     </div>
                     <div class="caption-bottom">
-                        <span class="p11">M.S. Chung-Ang University, 2021 <br></span>
+                        <span class="p11">B.E. NED University of Engineering & Technology, Karachi, Pakistan, 2021 <br></span>
                     </div>
                 </div>
             </div>
@@ -193,15 +194,15 @@
                 </div>
             </div>
             <div class="col-md-2 col-sm-5 col-padding text-center animate-box p10 member-container">
-                <div class="work g2 member-img" id="member-Muhammad_Hadi" data-base-name="Muhammad_Hadi" style="background-image: url(images/members/Muhammad_Hadi.png);"></div>
+                <div class="work g2 member-img" id="member-Park_Hongjin" data-base-name="Park_Hongjin" style="background-image: url(images/members/Park_Hongjin.png);"></div>
                 <div class="caption">
                     <div class="caption-top">
-                        <h3>Muhammad Hadi</h3>
-                        <span class="p4"> mhadi512@cau.ac.kr <br> </span>
-                        <span class="p6">2010–present<br><br></span>
+                        <h3>Park Hongjin</h3>
+                        <span class="p4"> phj1553@cau.ac.kr <br> </span>
+                        <span class="p6">2008–present<br><br></span>
                     </div>
                     <div class="caption-bottom">
-                        <span class="p11">B.E. NED University of Engineering & Technology, Karachi, Pakistan, 2021 <br></span>
+                        <span class="p11">M.S. Chung-Ang University, 2021 <br></span>
                     </div>
                 </div>
             </div>
@@ -211,64 +212,12 @@
         <h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Master Program</h2>
         <div class="row row-bottom-padded-md">
             <div class="col-md-2 col-sm-5 col-padding text-center animate-box p10 member-container">
-                <div class="work g2 member-img" id="member-Lee_Jihyeon" data-base-name="Lee_Jihyeon" style="background-image: url(images/members/Lee_Jihyeon.png);"></div>
+                <div class="work g2 member-img" id="member-Byun_Sanghun" data-base-name="Byun_Sanghun" style="background-image: url(images/members/Byun_Sanghun.png);"></div>
                 <div class="caption">
                     <div class="caption-top">
-                        <h3>Lee Jihyeon</h3>
-                        <span class="p4"> twoseven33@cau.ac.kr <br> </span>
-                        <span class="p6">2008–present<br><br></span>
-                    </div>
-                    <div class="caption-bottom">
-                        <span class="p11">B.S. University of Seoul, 2023 <br></span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-2 col-sm-5 col-padding text-center animate-box p10 member-container">
-                <div class="work g2 member-img" id="member-Ko_Minkyoung" data-base-name="Ko_Minkyoung" style="background-image: url(images/members/Ko_Minkyoung.png);"></div>
-                <div class="caption">
-                    <div class="caption-top">
-                        <h3>Ko Minkyoung</h3>
-                        <span class="p4"> gomk1126@cau.ac.kr <br> </span>
-                        <span class="p6">2009–present<br><br></span>
-                    </div>
-                    <div class="caption-bottom">
-                        <span class="p11">B.S. Chung-Ang University, 2024 <br></span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-2 col-sm-5 col-padding text-center animate-box p10 member-container">
-                <div class="work g2 member-img" id="member-Jeon_Hyeonjin" data-base-name="Jeon_Hyunjin" style="background-image: url(images/members/Jeon_Hyunjin.png);"></div>
-                <div class="caption">
-                    <div class="caption-top">
-                        <h3>Jeon Hyunjin</h3>
-                        <span class="p4"> zoo3032@cau.ac.kr <br> </span>
-                        <span class="p6">2009–present<br><br></span>
-                    </div>
-                    <div class="caption-bottom">
-                        <span class="p11">B.S. Chung-Ang University, 2024 <br></span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-2 col-sm-5 col-padding text-center animate-box p10 member-container">
-                <div class="work g2 member-img" id="member-Baek_Jiseong" data-base-name="Baek_Jiseong" style="background-image: url(images/members/Baek_Jiseong.png);"></div>
-                <div class="caption">
-                    <div class="caption-top">
-                        <h3>Baek Jiseong</h3>
-                        <span class="p4"> baekjs1114@cau.ac.kr <br> </span>
-                        <span class="p6">2010–present<br><br></span>
-                    </div>
-                    <div class="caption-bottom">
-                        <span class="p11">B.S. Chung-Ang University, 2025 <br></span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-2 col-sm-5 col-padding text-center animate-box p10 member-container">
-                <div class="work g2 member-img" id="member-Kang_Minji" data-base-name="Kang_Minji" style="background-image: url(images/members/Kang_Minji.png);"></div>
-                <div class="caption">
-                    <div class="caption-top">
-                        <h3>Kang Minji</h3>
-                        <span class="p4"> annekmj@cau.ac.kr <br> </span>
-                        <span class="p6">2010–present<br><br></span>
+                        <h3>Byun Sanghun</h3>
+                        <span class="p4"> andy0163@cau.ac.kr <br> </span>
+                        <span class="p6">2012–present<br><br></span>
                     </div>
                     <div class="caption-bottom">
                         <span class="p11">B.S. Chung-Ang University, 2025 <br></span>
@@ -289,15 +238,67 @@
                 </div>
             </div>
             <div class="col-md-2 col-sm-5 col-padding text-center animate-box p10 member-container">
-                <div class="work g2 member-img" id="member-Byun_Sanghun" data-base-name="Byun_Sanghun" style="background-image: url(images/members/Byun_Sanghun.png);"></div>
+                <div class="work g2 member-img" id="member-Kang_Minji" data-base-name="Kang_Minji" style="background-image: url(images/members/Kang_Minji.png);"></div>
                 <div class="caption">
                     <div class="caption-top">
-                        <h3>Byun Sanghun</h3>
-                        <span class="p4"> andy0163@cau.ac.kr <br> </span>
-                        <span class="p6">2012–present<br><br></span>
+                        <h3>Kang Minji</h3>
+                        <span class="p4"> annekmj@cau.ac.kr <br> </span>
+                        <span class="p6">2010–present<br><br></span>
                     </div>
                     <div class="caption-bottom">
                         <span class="p11">B.S. Chung-Ang University, 2025 <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-5 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Baek_Jiseong" data-base-name="Baek_Jiseong" style="background-image: url(images/members/Baek_Jiseong.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Baek Jiseong</h3>
+                        <span class="p4"> baekjs1114@cau.ac.kr <br> </span>
+                        <span class="p6">2010–present<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11">B.S. Chung-Ang University, 2025 <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-5 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Ko_Minkyoung" data-base-name="Ko_Minkyoung" style="background-image: url(images/members/Ko_Minkyoung.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Ko Minkyoung</h3>
+                        <span class="p4"> gomk1126@cau.ac.kr <br> </span>
+                        <span class="p6">2009–present<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11">B.S. Chung-Ang University, 2024 <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-5 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Jeon_Hyeonjin" data-base-name="Jeon_Hyeonjin" style="background-image: url(images/members/Jeon_Hyeonjin.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Jeon Hyeonjin</h3>
+                        <span class="p4"> zoo3032@cau.ac.kr <br> </span>
+                        <span class="p6">2009–present<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11">B.S. Chung-Ang University, 2024 <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-5 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Lee_Jihyeon" data-base-name="Lee_Jihyeon" style="background-image: url(images/members/Lee_Jihyeon.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Lee Jihyeon</h3>
+                        <span class="p4"> twoseven33@cau.ac.kr <br> </span>
+                        <span class="p6">2008–present<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11">B.S. University of Seoul, 2023 <br></span>
                     </div>
                 </div>
             </div>
