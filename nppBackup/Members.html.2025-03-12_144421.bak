@@ -94,11 +94,10 @@
 
 
 
- 
     <div class="fh5co-narrow-content" id="position-faculty">
         <h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Faculty</h2>
         <div class="row row-bottom-padded-md">
-            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+            <div class="col-md-2 col-sm-5 col-padding text-center animate-box p10 member-container">
                 <div class="work g2 member-img" id="member-Cho_Jaeeock" data-base-name="Cho_Jaeeock" style="background-image: url(images/members/Cho_Jaeeock.png);"></div>
                 <div class="caption">
                     <div class="caption-top">
@@ -111,7 +110,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+            <div class="col-md-2 col-sm-5 col-padding text-center animate-box p10 member-container">
                 <div class="work g2 member-img" id="member-Senkuttuvan_Rajendiran" data-base-name="Senkuttuvan_Rajendiran" style="background-image: url(images/members/Senkuttuvan_Rajendiran.png);"></div>
                 <div class="caption">
                     <div class="caption-top">
@@ -124,7 +123,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+            <div class="col-md-2 col-sm-5 col-padding text-center animate-box p10 member-container">
                 <div class="work g2 member-img" id="member-Jiang_Jianwei" data-base-name="Jiang_Jianwei" style="background-image: url(images/members/Jiang_Jianwei.png);"></div>
                 <div class="caption">
                     <div class="caption-top">
@@ -137,7 +136,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+            <div class="col-md-2 col-sm-5 col-padding text-center animate-box p10 member-container">
                 <div class="work g2 member-img" id="member-Vinothkumar_Ganesan" data-base-name="Vinothkumar_Ganesan" style="background-image: url(images/members/Vinothkumar_Ganesan.png);"></div>
                 <div class="caption">
                     <div class="caption-top">
@@ -155,7 +154,7 @@
     <div class="fh5co-narrow-content" id="position-ph.d-program">
         <h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Ph.D program</h2>
         <div class="row row-bottom-padded-md">
-            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+            <div class="col-md-2 col-sm-5 col-padding text-center animate-box p10 member-container">
                 <div class="work g2 member-img" id="member-Park_Hongjin" data-base-name="Park_Hongjin" style="background-image: url(images/members/Park_Hongjin.png);"></div>
                 <div class="caption">
                     <div class="caption-top">
@@ -168,7 +167,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+            <div class="col-md-2 col-sm-5 col-padding text-center animate-box p10 member-container">
                 <div class="work g2 member-img" id="member-Ali_Hasnain" data-base-name="Ali_Hasnain" style="background-image: url(images/members/Ali_Hasnain.png);"></div>
                 <div class="caption">
                     <div class="caption-top">
@@ -181,7 +180,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+            <div class="col-md-2 col-sm-5 col-padding text-center animate-box p10 member-container">
                 <div class="work g2 member-img" id="member-Choi_Inrack" data-base-name="Choi_Inrack" style="background-image: url(images/members/Choi_Inrack.png);"></div>
                 <div class="caption">
                     <div class="caption-top">
@@ -194,7 +193,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+            <div class="col-md-2 col-sm-5 col-padding text-center animate-box p10 member-container">
                 <div class="work g2 member-img" id="member-Muhammad_Hadi" data-base-name="Muhammad_Hadi" style="background-image: url(images/members/Muhammad_Hadi.png);"></div>
                 <div class="caption">
                     <div class="caption-top">
@@ -212,7 +211,7 @@
     <div class="fh5co-narrow-content" id="position-master-program">
         <h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Master Program</h2>
         <div class="row row-bottom-padded-md">
-            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+            <div class="col-md-2 col-sm-5 col-padding text-center animate-box p10 member-container">
                 <div class="work g2 member-img" id="member-Lee_Jihyeon" data-base-name="Lee_Jihyeon" style="background-image: url(images/members/Lee_Jihyeon.png);"></div>
                 <div class="caption">
                     <div class="caption-top">
@@ -225,7 +224,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+            <div class="col-md-2 col-sm-5 col-padding text-center animate-box p10 member-container">
                 <div class="work g2 member-img" id="member-Ko_Minkyoung" data-base-name="Ko_Minkyoung" style="background-image: url(images/members/Ko_Minkyoung.png);"></div>
                 <div class="caption">
                     <div class="caption-top">
@@ -238,7 +237,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+            <div class="col-md-2 col-sm-5 col-padding text-center animate-box p10 member-container">
                 <div class="work g2 member-img" id="member-Jeon_Hyunjin" data-base-name="Jeon_Hyunjin" style="background-image: url(images/members/Jeon_Hyunjin.png);"></div>
                 <div class="caption">
                     <div class="caption-top">
@@ -251,7 +250,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+            <div class="col-md-2 col-sm-5 col-padding text-center animate-box p10 member-container">
                 <div class="work g2 member-img" id="member-Baek_Jiseong" data-base-name="Baek_Jiseong" style="background-image: url(images/members/Baek_Jiseong.png);"></div>
                 <div class="caption">
                     <div class="caption-top">
@@ -264,7 +263,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+            <div class="col-md-2 col-sm-5 col-padding text-center animate-box p10 member-container">
                 <div class="work g2 member-img" id="member-Kang_Minji" data-base-name="Kang_Minji" style="background-image: url(images/members/Kang_Minji.png);"></div>
                 <div class="caption">
                     <div class="caption-top">
@@ -277,7 +276,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+            <div class="col-md-2 col-sm-5 col-padding text-center animate-box p10 member-container">
                 <div class="work g2 member-img" id="member-Kim_Jeonghoon" data-base-name="Kim_Jeonghoon" style="background-image: url(images/members/Kim_Jeonghoon.png);"></div>
                 <div class="caption">
                     <div class="caption-top">
@@ -290,7 +289,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+            <div class="col-md-2 col-sm-5 col-padding text-center animate-box p10 member-container">
                 <div class="work g2 member-img" id="member-Byun_Sanghun" data-base-name="Byun_Sanghun" style="background-image: url(images/members/Byun_Sanghun.png);"></div>
                 <div class="caption">
                     <div class="caption-top">
