@@ -1,0 +1,624 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Inorganic Chemistry Lab</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FreeHTML5.co" />
+
+  	<!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FreeHTML5.co
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	-->
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+	<div id="fh5co-page">
+		<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
+
+			<h1 id="fh5co-logo"><a href="index.html">Inorganic Chemistry Lab</a></h1>
+			<nav id="fh5co-main-menu" role="navigation">
+				<ul>
+					
+					<li><a href="Professor.html">Prof. Yoon</a></li>
+					<li><a href="Research.html">Research</a></li>
+					<li><a href="Members.html">Members</a></li>
+					<li><a href="Publications.html">Publications</a></li>
+					<li><a href="Gallery.html">Gallery</a></li>
+					<li class="fh5co-active"><a href="Alumni.html">Alumni</a></li>
+			
+				</ul>
+			</nav>
+
+				<div class="fh5co-footer">
+					<p><small> Chung-Ang Univ. <a href="https://www.cau.ac.kr/index.do" target="_blank">cau.ac.kr</a> </span> <span> Dept of chemistry <a href="https://chem.cau.ac.kr/eng/index.html/" target="_blank">chem.cau.ac.kr</a></span></small></p>
+
+				</div>
+
+		</aside>
+
+		<div id="fh5co-main">
+
+
+
+
+
+    <div class="fh5co-narrow-content" id="position-faculty">
+        <h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Faculty</h2>
+        <div class="row row-bottom-padded-md">
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Sivasakthikumaran_Ramakrishnan" data-base-name="Sivasakthikumaran_Ramakrishnan" style="background-image: url(images/Alumni/Sivasakthikumaran_Ramakrishnan.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Sivasakthikumaran Ramakrishnan</h3>
+                        <span class="p4"> r.sivasakthikumaran@klu.ac.in <br> </span>
+                        <span class="p6">2021–2023<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - Asst.Prof. of Chemistry, Kalasalingam University, Tamilnadu, India. <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Longhai_Piao" data-base-name="Longhai_Piao" style="background-image: url(images/Alumni/Longhai_Piao.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Longhai Piao</h3>
+                        <span class="p4"> piaolh@kongju.ac.kr <br> </span>
+                        <span class="p6">2007–2009<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - Prof. of Chemistry, Kongju National University, Korea. <br></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fh5co-narrow-content" id="position-postdoctoral-researcher">
+        <h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Postdoctoral Researcher</h2>
+        <div class="row row-bottom-padded-md">
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Syed_Kamran_Haider" data-base-name="Syed_Kamran_Haider" style="background-image: url(images/Alumni/Syed_Kamran_Haider.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Syed Kamran Haider</h3>
+                        <span class="p4"> haederseoul@gmail.com <br> </span>
+                        <span class="p6">2022–2024<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - Post Doc. University of Ulsan <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Shanmugam_Mahalingam" data-base-name="Shanmugam_Mahalingam" style="background-image: url(images/Alumni/Shanmugam_Mahalingam.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Shanmugam Mahalingam</h3>
+                        <span class="p4"> shanmugam.mr3@gmail.com <br> </span>
+                        <span class="p6">2021–2022<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - Research Professor, Dept of Materials System Engineering, Pukyong National University, Busan. <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Yang_Lanhee" data-base-name="Yang_Lanhee" style="background-image: url(images/Alumni/Yang_Lanhee.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Yang Lanhee</h3>
+                        <span class="p4"> yangd5d5@yuhs.ac <br> </span>
+                        <span class="p6">2020–2024<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - Research Assistant Professor, YUHS-KRIBB, Medical Convergence Research Institute, <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Gunasekar_Gunniya_Hariyanandam" data-base-name="Gunasekar_Gunniya_Hariyanandam" style="background-image: url(images/Alumni/Gunasekar_Gunniya_Hariyanandam.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Gunasekar Gunniya Hariyanandam</h3>
+                        <span class="p4"> gunasekargh@iict.res.in <br> </span>
+                        <span class="p6">2020–2022<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - Scientist, Indian Institute of Chemical Technology, Hyderabad, India <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Sudakar_Padmanaban" data-base-name="Sudakar_Padmanaban" style="background-image: url(images/Alumni/Sudakar_Padmanaban.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Sudakar Padmanaban</h3>
+                        <span class="p4"> sudakar@snu.ac.kr <br> </span>
+                        <span class="p6">2018–2020<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - Research Professor, Seoul National University, Seoul <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Sethuraman_Kannan" data-base-name="Sethuraman_Kannan" style="background-image: url(images/Alumni/Sethuraman_Kannan.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Sethuraman Kannan</h3>
+                        <span class="p4"> Kannan_bdu@yahoo.co.in <br> </span>
+                        <span class="p6">2009–2010<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - Research Officer Indian Oil Corporation LTd, Research & Development Centre (India) <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Venkatachalam_Galmari" data-base-name="Venkatachalam_Galmari" style="background-image: url(images/Alumni/Venkatachalam_Galmari.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Venkatachalam Galmari</h3>
+                        <span class="p4"> gvchem@gmail.com <br> </span>
+                        <span class="p6">2008–2009<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - Asst.Prof. of Chemistry Govt. Arts College, Dharmapuri, Tamilnadu, India. <br></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fh5co-narrow-content" id="position-ph.d-program">
+        <h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Ph.D program</h2>
+        <div class="row row-bottom-padded-md">
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Yoon_Hayoung" data-base-name="Yoon_Hayoung" style="background-image: url(images/Alumni/Yoon_Hayoung.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Yoon Hayoung</h3>
+                        <span class="p4"> dbsgkdud9296@cau.ac.kr <br> </span>
+                        <span class="p6">2020–2025<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - Post Doc. at Korea Institute of Science and Technology, Seoul <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Park_Kwangho" data-base-name="Park_Kwangho" style="background-image: url(images/Alumni/Park_Kwangho.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Park Kwangho</h3>
+                        <span class="p4"> torahoya28@naver.com <br> </span>
+                        <span class="p6">2014–2020<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - HYUNDAI ENGINEERING & CONSTRUCTION CO., LTD. <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Prakash_Natarajan" data-base-name="Prakash_Natarajan" style="background-image: url(images/Alumni/Prakash_Natarajan.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Prakash Natarajan</h3>
+                        <span class="p4"> nprakash8188@gmail.com <br> </span>
+                        <span class="p6">2014–2019<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - Entrepreneur, Tamil Nadu, India <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Gunasekar_Gunniya_Hariyanandam" data-base-name="Gunasekar_Gunniya_Hariyanandam" style="background-image: url(images/Alumni/Gunasekar_Gunniya_Hariyanandam.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Gunasekar Gunniya Hariyanandam</h3>
+                        <span class="p4"> gunasekargh@iict.res.in <br> </span>
+                        <span class="p6">2013–2018<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - Scientist, Indian Institute of Chemical Technology, Hyderabad, India <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Sudakar_Padmanaban" data-base-name="Sudakar_Padmanaban" style="background-image: url(images/Alumni/Sudakar_Padmanaban.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Sudakar Padmanaban</h3>
+                        <span class="p4"> sudakar@snu.ac.kr <br> </span>
+                        <span class="p6">2013–2018<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - Research Professor, Seoul National University, Seoul <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Vinothkumar_Ganesan" data-base-name="Vinothkumar_Ganesan" style="background-image: url(images/Alumni/Vinothkumar_Ganesan.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Vinothkumar Ganesan</h3>
+                        <span class="p4"> vinothcau@cau.ac.kr <br> </span>
+                        <span class="p6">2013–2019<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - Research Professor, Chung-Ang University, Seoul <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Senkuttuvan_Rajendiran" data-base-name="Senkuttuvan_Rajendiran" style="background-image: url(images/Alumni/Senkuttuvan_Rajendiran.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Senkuttuvan Rajendiran</h3>
+                        <span class="p4"> senku@cau.ac.kr <br> </span>
+                        <span class="p6">2011–2016<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - Research Professor, Chung-Ang University, Seoul <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Park_Dongkook" data-base-name="Park_Dongkook" style="background-image: url(images/Alumni/Park_Dongkook.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Park Dongkook</h3>
+                        <span class="p4"> podoyo@naver.com <br> </span>
+                        <span class="p6">2010–2015<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - Korea Radioactive Waste Agency (KORAD), Ulsan <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Sivanesan_Dharmalingam" data-base-name="Sivanesan_Dharmalingam" style="background-image: url(images/Alumni/Sivanesan_Dharmalingam.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Sivanesan Dharmalingam</h3>
+                        <span class="p4"> sivachem83@gmail.com <br> </span>
+                        <span class="p6">2009–2014<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - Senior Research Staff, Wi-FineTech, Daejeon <br></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fh5co-narrow-content" id="position-master-program">
+        <h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Master Program</h2>
+        <div class="row row-bottom-padded-md">
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Moon_Seokyeong" data-base-name="Moon_Seokyeong" style="background-image: url(images/Alumni/Moon_Seokyeong.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Moon Seokyeong</h3>
+                        <span class="p4"> mmm570932@gmail.com <br> </span>
+                        <span class="p6">2021–2024<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - NOROO Holdings <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Choi_Jihyun" data-base-name="Choi_Jihyun" style="background-image: url(images/Alumni/Choi_Jihyun.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Choi Jihyun</h3>
+                        <span class="p4"> imcjh27@naver.com <br> </span>
+                        <span class="p6">2020–2022<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - Samsung Electronics <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Choi_Sohee" data-base-name="Choi_Sohee" style="background-image: url(images/Alumni/Choi_Sohee.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Choi Sohee</h3>
+                        <span class="p4"> qmfforthals@naver.com <br> </span>
+                        <span class="p6">2019–2021<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - Samsung Electronics <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Park_Kyeongeun" data-base-name="Park_Kyeongeun" style="background-image: url(images/Alumni/Park_Kyeongeun.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Park Kyeongeun</h3>
+                        <span class="p4"> ke_park@kumhotire.com <br> </span>
+                        <span class="p6">2018–2020<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - Kumho Tires <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Lim_Sangyeob" data-base-name="Lim_Sangyeob" style="background-image: url(images/Alumni/Lim_Sangyeob.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Lim Sangyeob</h3>
+                        <span class="p4"> limsy0723@naver.com <br> </span>
+                        <span class="p6">2017–2019<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - Unknown <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Lee_Kwangyeol" data-base-name="Lee_Kwangyeol" style="background-image: url(images/Alumni/Lee_Kwangyeol.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Lee Kwangyeol</h3>
+                        <span class="p4"> herkia@kookmin.ac.kr <br> </span>
+                        <span class="p6">2017–2019<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - Unknown <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Jeong_Hyeonseok" data-base-name="Jeong_Hyeonseok" style="background-image: url(images/Alumni/Jeong_Hyeonseok.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Jeong Hyeonseok</h3>
+                        <span class="p4"> whij2@naver.com <br> </span>
+                        <span class="p6">2017–2019<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - Kwangdong Pharmaceutical <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Aizat_Shaimerdenova" data-base-name="Aizat_Shaimerdenova" style="background-image: url(images/Alumni/Aizat_Shaimerdenova.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Aizat Shaimerdenova</h3>
+                        <span class="p4"> leiko_94@mail.ru <br> </span>
+                        <span class="p6">2016–2018<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - Unknown <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Kim_Minog" data-base-name="Kim_Minog" style="background-image: url(images/Alumni/Kim_Minog.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Kim Minog</h3>
+                        <span class="p4"> minogkim.mk@gmail.com <br> </span>
+                        <span class="p6">2014–2016<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - Intel Corporation <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Yoon_Yeahsel" data-base-name="Yoon_Yeahsel" style="background-image: url(images/Alumni/Yoon_Yeahsel.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Yoon Yeahsel</h3>
+                        <span class="p4"> yeahsel.yoon@samsung.com <br> </span>
+                        <span class="p6">2014–2016<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - Samsung Electronics <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Lee_Yeji" data-base-name="Lee_Yeji" style="background-image: url(images/Alumni/Lee_Yeji.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Lee Yeji</h3>
+                        <span class="p4"> lovemilk5@naver.com <br> </span>
+                        <span class="p6">2013–2015<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - Quality Control HanWha Parma Co. Ltd <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Hyun_Daehee" data-base-name="Hyun_Daehee" style="background-image: url(images/Alumni/Hyun_Daehee.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Hyun Daehee</h3>
+                        <span class="p4"> gusxhrl@naver.com <br> </span>
+                        <span class="p6">2013–2015<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - Research Engineer, Daelim Petrochemical Division <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Kim_Namseok" data-base-name="Kim_Namseok" style="background-image: url(images/Alumni/Kim_Namseok.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Kim Namseok</h3>
+                        <span class="p4"> lunatic620@naver.com <br> </span>
+                        <span class="p6">2012–2014<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - DONGJIN SEMICHEM <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Jeon_Yeojin" data-base-name="Jeon_Yeojin" style="background-image: url(images/Alumni/Jeon_Yeojin.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Jeon Yeojin</h3>
+                        <span class="p4"> yjjeon@thewaveip.com <br> </span>
+                        <span class="p6">2011–2013<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - THEWAVE IP Law Firm <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Joo_Bonsik" data-base-name="Joo_Bonsik" style="background-image: url(images/Alumni/Joo_Bonsik.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Joo Bonsik</h3>
+                        <span class="p4"> youngg86@hanmail.net <br> </span>
+                        <span class="p6">2010–2012<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - Research Engineer LG Chem <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Kim_Jiyeon" data-base-name="Kim_Jiyeon" style="background-image: url(images/Alumni/Kim_Jiyeon.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Kim Jiyeon</h3>
+                        <span class="p4"> jiyeonchem@gmail.com <br> </span>
+                        <span class="p6">2010–2012<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - Doctor Course  Dept. of Chemistry, Bochum Univ.(Germany) <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Lee_Kyunghoon" data-base-name="Lee_Kyunghoon" style="background-image: url(images/Alumni/Lee_Kyunghoon.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Lee Kyunghoon</h3>
+                        <span class="p4"> khlee@unid.co.kr <br> </span>
+                        <span class="p6">2009–2011<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - Research Engineer R&D Center, R&D Team, UNID Ltd.  <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Song_Hyesun" data-base-name="Song_Hyesun" style="background-image: url(images/Alumni/Song_Hyesun.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Song Hyesun</h3>
+                        <span class="p4"> hotlove-282@hanmail.net <br> </span>
+                        <span class="p6">2009–2011<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current -  LG Display Ltd.  <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Kim_Kiyeok" data-base-name="Kim_Kiyeok" style="background-image: url(images/Alumni/Kim_Kiyeok.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Kim Kiyeok</h3>
+                        <span class="p4"> kyeoksky@hyundaibio.com <br> </span>
+                        <span class="p6">2008–2010<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - HYUNDAI BIOSCIENCE <br></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+		</div>
+		
+		
+	</div>
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+
