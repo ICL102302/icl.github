@@ -9,18 +9,14 @@ Add-Content -Path $logFile -Value "$(Get-Date) - Git Push Detected, Starting Bac
 # Git 저장소로 이동
 Set-Location -Path $repoPath
 
-# 로그 파일 경로 설정
-$logFile = "G:\icl.github\backup_log.txt"
-Add-Content -Path $logFile -Value "$(Get-Date) - Git push started."
-
+# git push 실행 (사용자가 수동으로 실행하는 것과 동일)
+$ErrorActionPreference = 'SilentlyContinue'
 try {
-    # git push 실행 – 표준 출력과 오류를 모두 캡처해 로그에 기록하고, 화면에도 출력됨
-    & git push origin main 2>&1 | Tee-Object -FilePath $logFile -Append
+    git push origin main 2>&1 | Tee-Object -FilePath $logFile -Append
 } catch {
-    # 오류를 잡아서 아무 작업도 하지 않음
+    # 오류 무시: 로그를 통해 실제 푸시 결과를 확인
 }
-
-Add-Content -Path $logFile -Value "$(Get-Date) - Git push finished."
+$ErrorActionPreference = 'Continue'
 
 # 백업 실행 (ROBOCOPY 사용)
 Robocopy $repoPath $backupPath /MIR /XD .git > $logFile 2>&1
