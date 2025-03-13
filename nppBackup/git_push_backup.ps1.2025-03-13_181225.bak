@@ -10,13 +10,7 @@ Add-Content -Path $logFile -Value "$(Get-Date) - Git Push Detected, Starting Bac
 Set-Location -Path $repoPath
 
 # git push 실행 (사용자가 수동으로 실행하는 것과 동일)
-$ErrorActionPreference = 'SilentlyContinue'
-try {
-    git push origin main 2>&1 | Tee-Object -FilePath $logFile -Append
-} catch {
-    # 오류 무시: 로그를 통해 실제 푸시 결과를 확인
-}
-$ErrorActionPreference = 'Continue'
+git push origin main 2>&1 | Tee-Object -FilePath $logFile -Append
 
 # 백업 실행 (ROBOCOPY 사용)
 Robocopy $repoPath $backupPath /MIR /XD .git > $logFile 2>&1
