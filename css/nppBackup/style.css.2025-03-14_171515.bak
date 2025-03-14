@@ -17,7 +17,7 @@ body {
   font-size: 14px;
   line-height: 1.6;
   color: rgba(0, 0, 0, 0.5);
-  background: #fcfcfc;
+  background: whitesmoke;
 }
 @media screen and (max-width: 992px) {
   body {
@@ -649,7 +649,9 @@ figure figcaption {
   background-color: #000;   /* 원하는 색상으로 변경 */
 }
 
-
+.p12 {
+  color: #01194c;   /* 원하는 색상으로 변경 */
+}
 
 
 
@@ -1274,7 +1276,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   height: 80px;
   display: table;
   text-align: center;
-  background: #dfe2f0;
+  background: #bdc2d9;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1572,7 +1574,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 	font-size: 10pt; 
 	color: #222; 
 	border: 1px solid #bbb; 
-	background-color: white;
+	background-color: #F5F5F5;
 	padding:0 15px; 
 	font-family:inherit; 
 	height:40px; 
@@ -2209,7 +2211,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   position: absolute;
   top: 10px;   /* 원하는 위치 (상단 10px, 필요에 따라 조정) */
   left: 10px;  /* 원하는 위치 (좌측 10px, 필요에 따라 조정) */
-  background-color: white; /* 예: 노란색 배경 */
+  background-color: #f5f5f5; /* 예: 노란색 배경 */
   color: #000;            /* 검정색 글자 */
   padding: 5px 8px;
   font-size: 12px;

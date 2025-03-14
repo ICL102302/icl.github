@@ -42,9 +42,6 @@
 	<link rel="shortcut icon" href="favicon.ico">
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
-
-
-	
 	
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
@@ -56,7 +53,6 @@
 	<link rel="stylesheet" href="css/flexslider.css">
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
-	
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -66,7 +62,7 @@
 	<![endif]-->
 
 	</head>
-	<body>
+	<body class="Professor-page">
 	<div id="fh5co-page">
 		<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
 		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
@@ -79,8 +75,8 @@
 			<nav id="fh5co-main-menu" role="navigation">
 				<ul>
 				
-					<li><a href="Professor.html">Prof. Yoon</a></li>
-					<li class="fh5co-active"><a href="Research.html">Research</a></li>
+					<li class="fh5co-active"><a href="Professor.html">Prof. Yoon</a></li>
+					<li><a href="Research.html">Research</a></li>
 					<li><a href="Members.html">Members</a></li>
 					<li><a href="Publications.html">Publications</a></li>
 					<li><a href="Gallery.html">Gallery</a></li>
@@ -97,53 +93,82 @@
 		</aside>
 
 		<div id="fh5co-main">
-			<div class="fh5co-narrow-content">
-				<div class="row row-bottom-padded-md">
-					<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-						<h2 class="fh5co-heading">Our Research 1</h2>
-						<p class="p9">To be updated</p>
-					</div>
-					<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-						<img class="img-responsive" src="images/research/research_1.png" alt="Research_1">
+		<div class="fh5co-narrow-content">
+				<p class="p3 fh5co-feature animate-box p13" data-animate-effect="fadeInLeft">Principal Investigator</p>
+			</div>
+			<div class="p7">
+				<div class="fh5co-narrow-content">
+					<div class="row row-bottom-padded-sm">
+						<div class="col-md-3 animate-box photo-section" data-animate-effect="fadeInLeft">
+							<img class="img-responsive" src="images/Professor.png">
+						</div>
+						<div class="col-md-6">
+							<p class="p3-1 fh5co-feature animate-box" data-animate-effect="fadeInLeft">Prof. Yoon Sungho</p>
+						</div>
+						<div class="p5 row col-md-6">
+								<div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
+									<div class="fh5co-icon">
+										<i class="icon-mail"></i>
+									</div>
+									<div class="fh5co-text">
+										<p class="p2">e-mail</p>
+										<p class="p1">sunghoyoon@cau.ac.kr</p>
+									</div>
+								
+								</div>
+								<div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
+									<div class="fh5co-icon">
+										<i class="icon-location"></i>
+									</div>
+									<div class="fh5co-text">
+										<p class="p2">Office</p>
+										<p class="p1">Chung-Ang University, 84 Heukseok-ro, Dongjak-gu, Seoul</p>
+										<p class="p1">Bldg 102, Rm 304</p>
+									</div>
+								
+								</div>
+						</div>
+						
 					</div>
 				</div>
-			</div>
 
-		
-		</div>
-		<div id="fh5co-main">
-			<div class="fh5co-narrow-content">
-				<div class="row row-bottom-padded-md" style="display: flex; flex-wrap: wrap;">
-					 <div class="col-md-6 ordered2 animate-box" data-animate-effect="fadeInLeft">
-						<img class="img-responsive" src="images/research/research_2.png" alt="Research_2">
-					</div>
-					<div class="col-md-6 ordered1 animate-box" data-animate-effect="fadeInLeft">
-						<h2 class="fh5co-heading">Our Research 2</h2>
-						<p class="p9">To be updated</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<div id="fh5co-main">
-			<div class="fh5co-narrow-content">
-				<div class="row row-bottom-padded-md">
-					<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-						<h2 class="fh5co-heading">Our Research 3</h2>
-						<p class="p9">To be updated</p>
-					</div>
-					<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-						<img class="img-responsive" src="images/research/research_3.png" alt="Research_3">
+				<div class="fh5co-narrow-content p7">
+					<div class="row row-bottom-padded-sm">
+						<h2 class="fh5co-heading animate-box p13">Education</h2>
+						<div class="fh5co-text">
+							<ul class="education-list animate-box">
+								<li><span class="position">Ph. D. in Inorganic Chemistry, M.I.T., U.S.A (Supervisor: Prof. Stephen J. Lippard)</span><span class="year">2000–2004</span></li>
+								<li><span class="position">M. S. in Inorganic Chemistry, Korea University, Korea</span><span class="year">1994–1998</span></li>
+								<li><span class="position">B. S. in Chemistry, Korea University, Korea</span><span class="year">1990–1994</span></li>
+			
+							</ul>
+						</div>
 					</div>
 				</div>
-			</div>
-
-		</div>
-		<div id="fh5co-main">
-			<div class="fh5co-narrow-content">
+				
+				<div class="fh5co-narrow-content">
+					<div class="row row-bottom-padded-sm">
+						<h2 class="fh5co-heading animate-box p13">Professional Experiences</h2>
+						<div class="fh5co-text">
+							<ul class="education-list animate-box">
+								<li><span class="position">Professor, Department of Chemistry, Chung-Ang University</span><span class="year">2019–present</span></li>
+								<li><span class="position">Professor, Department of Nano & Bio Chemistry, Kookmin University</span><span class="year">2007–2019</span></li>
+								<li><span class="position">Senior Researcher, Nano Center, LG Chem. Research Park</span><span class="year">2005–2007</span></li>
+								<li><span class="position">Postdoc Fellow, Department of Chemistry, UC. Berkeley</span><span class="year">2004–2005</span></li>
+							</ul>
+						</div>
+					</div>
+				</div>	
+			 
+				<div class="fh5co-narrow-content">
 				<p class="p2"><br><br><br></p>
+				</div>
+
 			</div>
-		</div>	
+			
+		</div>
+
+
 	</div>
 
 	<!-- jQuery -->
@@ -156,7 +181,6 @@
 	<script src="js/jquery.waypoints.min.js"></script>
 	<!-- Flexslider -->
 	<script src="js/jquery.flexslider-min.js"></script>
-
 	
 	
 	<!-- MAIN JS -->

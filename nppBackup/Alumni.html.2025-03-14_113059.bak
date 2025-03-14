@@ -67,11 +67,7 @@
 		<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
 		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
 
-			<h1 id="fh5co-logo">
-			  <a href="index.html">
-				<img src="images/logo.png" alt="Inorganic Chemistry Lab" style="max-width: 270px; height: auto;">
-			  </a>
-			</h1>
+			<h1 id="fh5co-logo"><a href="index.html">Inorganic Chemistry Lab</a></h1>
 			<nav id="fh5co-main-menu" role="navigation">
 				<ul>
 					
@@ -98,10 +94,22 @@
 
 
 
- 
     <div class="fh5co-narrow-content" id="position-faculty">
         <h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Faculty</h2>
         <div class="row row-bottom-padded-md">
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Sivasakthikumaran_Ramakrishnan" data-base-name="Sivasakthikumaran_Ramakrishnan" style="background-image: url(images/Alumni/Sivasakthikumaran_Ramakrishnan.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Sivasakthikumaran Ramakrishnan</h3>
+                        <span class="p4"> r.sivasakthikumaran@klu.ac.in <br> </span>
+                        <span class="p6">2021–2023<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - Asst.Prof. of Chemistry, Kalasalingam University, Tamilnadu, India. <br></span>
+                    </div>
+                </div>
+            </div>
             <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
                 <div class="work g2 member-img" id="member-Longhai_Piao" data-base-name="Longhai_Piao" style="background-image: url(images/Alumni/Longhai_Piao.png);"></div>
                 <div class="caption">
@@ -134,6 +142,19 @@
                 </div>
             </div>
             <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Shanmugam_Mahalingam" data-base-name="Shanmugam_Mahalingam" style="background-image: url(images/Alumni/Shanmugam_Mahalingam.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Shanmugam Mahalingam</h3>
+                        <span class="p4"> shanmugam.mr3@gmail.com <br> </span>
+                        <span class="p6">2021–2022<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current - Research Professor, Dept of Materials System Engineering, Pukyong National University, Busan. <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
                 <div class="work g2 member-img" id="member-Yang_Lanhee" data-base-name="Yang_Lanhee" style="background-image: url(images/Alumni/Yang_Lanhee.png);"></div>
                 <div class="caption">
                     <div class="caption-top">
@@ -147,19 +168,6 @@
                 </div>
             </div>
             <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
-                <div class="work g2 member-img" id="member-Sivasakthikumaran_Ramakrishnan" data-base-name="Sivasakthikumaran_Ramakrishnan" style="background-image: url(images/Alumni/Sivasakthikumaran_Ramakrishnan.png);"></div>
-                <div class="caption">
-                    <div class="caption-top">
-                        <h3>Sivasakthikumaran Ramakrishnan</h3>
-                        <span class="p4"> r.sivasakthikumaran@klu.ac.in <br> </span>
-                        <span class="p6">2021–2023<br><br></span>
-                    </div>
-                    <div class="caption-bottom">
-                        <span class="p11"> Current - Asst.Prof. of Chemistry, Kalasalingam University, Tamilnadu, India. <br></span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
                 <div class="work g2 member-img" id="member-Gunasekar_Gunniya_Hariyanandam" data-base-name="Gunasekar_Gunniya_Hariyanandam" style="background-image: url(images/Alumni/Gunasekar_Gunniya_Hariyanandam.png);"></div>
                 <div class="caption">
                     <div class="caption-top">
@@ -169,19 +177,6 @@
                     </div>
                     <div class="caption-bottom">
                         <span class="p11"> Current - Scientist, Indian Institute of Chemical Technology, Hyderabad, India <br></span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
-                <div class="work g2 member-img" id="member-Shanmugam_Mahalingam" data-base-name="Shanmugam_Mahalingam" style="background-image: url(images/Alumni/Shanmugam_Mahalingam.png);"></div>
-                <div class="caption">
-                    <div class="caption-top">
-                        <h3>Shanmugam Mahalingam</h3>
-                        <span class="p4"> shanmugam.mr3@gmail.com <br> </span>
-                        <span class="p6">2021–2022<br><br></span>
-                    </div>
-                    <div class="caption-bottom">
-                        <span class="p11"> Current - Research Professor, Dept of Materials System Engineering, Pukyong National University, Busan. <br></span>
                     </div>
                 </div>
             </div>
@@ -251,7 +246,7 @@
                         <span class="p6">2014–2020<br><br></span>
                     </div>
                     <div class="caption-bottom">
-                        <span class="p11"> Current - Hyundai Engineering & Construction Co., LTD. <br></span>
+                        <span class="p11"> Current - HYUNDAI ENGINEERING & CONSTRUCTION CO., LTD. <br></span>
                     </div>
                 </div>
             </div>
@@ -269,15 +264,15 @@
                 </div>
             </div>
             <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
-                <div class="work g2 member-img" id="member-Vinothkumar_Ganesan" data-base-name="Vinothkumar_Ganesan" style="background-image: url(images/Alumni/Vinothkumar_Ganesan.png);"></div>
+                <div class="work g2 member-img" id="member-Gunasekar_Gunniya_Hariyanandam" data-base-name="Gunasekar_Gunniya_Hariyanandam" style="background-image: url(images/Alumni/Gunasekar_Gunniya_Hariyanandam.png);"></div>
                 <div class="caption">
                     <div class="caption-top">
-                        <h3>Vinothkumar Ganesan</h3>
-                        <span class="p4"> vinothcau@cau.ac.kr <br> </span>
-                        <span class="p6">2013–2019<br><br></span>
+                        <h3>Gunasekar Gunniya Hariyanandam</h3>
+                        <span class="p4"> gunasekargh@iict.res.in <br> </span>
+                        <span class="p6">2013–2018<br><br></span>
                     </div>
                     <div class="caption-bottom">
-                        <span class="p11"> Current - Research Professor, Chung-Ang University, Seoul <br></span>
+                        <span class="p11"> Current - Scientist, Indian Institute of Chemical Technology, Hyderabad, India <br></span>
                     </div>
                 </div>
             </div>
@@ -295,15 +290,15 @@
                 </div>
             </div>
             <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
-                <div class="work g2 member-img" id="member-Gunasekar_Gunniya_Hariyanandam" data-base-name="Gunasekar_Gunniya_Hariyanandam" style="background-image: url(images/Alumni/Gunasekar_Gunniya_Hariyanandam.png);"></div>
+                <div class="work g2 member-img" id="member-Vinothkumar_Ganesan" data-base-name="Vinothkumar_Ganesan" style="background-image: url(images/Alumni/Vinothkumar_Ganesan.png);"></div>
                 <div class="caption">
                     <div class="caption-top">
-                        <h3>Gunasekar Gunniya Hariyanandam</h3>
-                        <span class="p4"> gunasekargh@iict.res.in <br> </span>
-                        <span class="p6">2013–2018<br><br></span>
+                        <h3>Vinothkumar Ganesan</h3>
+                        <span class="p4"> vinothcau@cau.ac.kr <br> </span>
+                        <span class="p6">2013–2019<br><br></span>
                     </div>
                     <div class="caption-bottom">
-                        <span class="p11"> Current - Scientist, Indian Institute of Chemical Technology, Hyderabad, India <br></span>
+                        <span class="p11"> Current - Research Professor, Chung-Ang University, Seoul <br></span>
                     </div>
                 </div>
             </div>
@@ -560,19 +555,6 @@
                 </div>
             </div>
             <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
-                <div class="work g2 member-img" id="member-Song_Hyesun" data-base-name="Song_Hyesun" style="background-image: url(images/Alumni/Song_Hyesun.png);"></div>
-                <div class="caption">
-                    <div class="caption-top">
-                        <h3>Song Hyesun</h3>
-                        <span class="p4"> hotlove-282@hanmail.net <br> </span>
-                        <span class="p6">2009–2011<br><br></span>
-                    </div>
-                    <div class="caption-bottom">
-                        <span class="p11"> Current -  LG Display Ltd.  <br></span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
                 <div class="work g2 member-img" id="member-Lee_Kyunghoon" data-base-name="Lee_Kyunghoon" style="background-image: url(images/Alumni/Lee_Kyunghoon.png);"></div>
                 <div class="caption">
                     <div class="caption-top">
@@ -582,6 +564,19 @@
                     </div>
                     <div class="caption-bottom">
                         <span class="p11"> Current - Research Engineer R&D Center, R&D Team, UNID Ltd.  <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Song_Hyesun" data-base-name="Song_Hyesun" style="background-image: url(images/Alumni/Song_Hyesun.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Song Hyesun</h3>
+                        <span class="p4"> hotlove-282@hanmail.net <br> </span>
+                        <span class="p6">2009–2011<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11"> Current -  LG Display Ltd.  <br></span>
                     </div>
                 </div>
             </div>
@@ -600,7 +595,6 @@
             </div>
         </div>
     </div>
-
 
 
 

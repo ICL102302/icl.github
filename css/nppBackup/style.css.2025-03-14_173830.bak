@@ -1572,7 +1572,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 	font-size: 10pt; 
 	color: #222; 
 	border: 1px solid #bbb; 
-	background-color: white;
+	background-color: #F5F5F5;
 	padding:0 15px; 
 	font-family:inherit; 
 	height:40px; 

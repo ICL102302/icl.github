@@ -17,7 +17,7 @@ body {
   font-size: 14px;
   line-height: 1.6;
   color: rgba(0, 0, 0, 0.5);
-  background: #fcfcfc;
+  background: whitesmoke;
 }
 @media screen and (max-width: 992px) {
   body {
@@ -26,13 +26,13 @@ body {
 }
 
 a {
-  color: #3c68d6;
+  color: #0a2df5;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #3c68d6;
+  color: #0a2df5;
   outline: none;
   text-decoration: none !important;
 }
@@ -69,17 +69,17 @@ figure figcaption {
 
 ::-webkit-selection {
   color: #fff;
-  background: #3c68d6;
+  background: #0a2df5;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #3c68d6;
+  background: #0a2df5;
 }
 
 ::selection {
   color: #fff;
-  background: #3c68d6;
+  background: #0a2df5;
 }
 
 #fh5co-page {
@@ -173,7 +173,7 @@ figure figcaption {
   bottom: 7px;
   left: 10px;
   right: 10px;
-  background-color: #3c68d6;
+  background-color: #0a2df5;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
@@ -246,7 +246,7 @@ figure figcaption {
 #fh5co-aside .fh5co-footer ul li a:hover, #fh5co-aside .fh5co-footer ul li a:active, #fh5co-aside .fh5co-footer ul li a:focus {
   text-decoration: none;
   outline: none;
-  color: #3c68d6;
+  color: #0a2df5;
 }
 
 #fh5co-main {
@@ -317,7 +317,7 @@ figure figcaption {
   position: absolute;
     bottom: -46.6px;         /* hero 영역 하단에서 10px 위 */
     right: 0;          /* hero 영역 오른쪽에서 20px 떨어짐 */
-    background: #3c68d6;
+    background: #0a2df5;
 	width: 200px;
     color: #fff;
     padding: 12px 15px;
@@ -398,7 +398,7 @@ figure figcaption {
 #fh5co-hero .flexslider .flex-control-nav li a.flex-active {
   cursor: pointer;
   background: transparent;
-  border: 2px solid #3c68d6;
+  border: 2px solid #0a2df5;
 }
 #fh5co-hero .flexslider .flex-direction-nav {
   display: none;
@@ -550,7 +550,7 @@ figure figcaption {
 
 .p4{
   font-size: 12pt;
-  color:#3c68d6;
+  color:#0a2df5;
   font-weight: 500;
   margin: 0 10px 0;
 }
@@ -646,13 +646,8 @@ figure figcaption {
  transform: translateY(0%);
   width: 60px;                 /* 선의 길이 */
   height: 4px;                 /* 선의 두께 (필요에 따라 조정) */
-  background-color: #000;   /* 원하는 색상으로 변경 */
+  background-color: #18103c;   /* 원하는 색상으로 변경 */
 }
-
-
-
-
-
 
 @media only screen and (max-width: 767px) {
   /* 1. #fh5co-main 내부의 col-md-6 요소의 좌우 패딩 조정 */
@@ -1100,7 +1095,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 
 .fh5co-heading-colored {
-  color: #3c68d6;
+  color: #0a2df5;
   font-size: 30px;
 }
 
@@ -1166,7 +1161,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 
 .fh5co-counter .fh5co-number {
   font-size: 100px;
-  color: #3c68d6;
+  color: #0a2df5;
   font-weight: 400;
   margin: 0;
   padding: 0;
@@ -1236,12 +1231,12 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   }
 }
 .fh5co-social li a:hover {
-  color: #3c68d6;
+  color: #0a2df5;
 }
 .fh5co-social li a:hover, .fh5co-social li a:active, .fh5co-social li a:focus {
   outline: none;
   text-decoration: none;
-  color: #3c68d6;
+  color: #0a2df5;
 }
 
 #map {
@@ -1274,7 +1269,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   height: 80px;
   display: table;
   text-align: center;
-  background: #dfe2f0;
+  background: rgba(0, 0, 0, 0.05);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1284,7 +1279,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 .fh5co-feature .fh5co-icon i {
   display: table-cell;
   vertical-align: middle;
-  color: #3c68d6;
+  color: #0a2df5;
   font-size: 40px;
   height: 80px;
 }
@@ -1334,7 +1329,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   margin-top: 30px;
 }
 .fh5co-feature.fh5co-feature-sm .fh5co-icon i {
-  color: #3c68d6;
+  color: #0a2df5;
   font-size: 40px;
 }
 @media screen and (max-width: 1200px) {
@@ -1507,7 +1502,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 
 .publication-page .publication-btn {
-  background: #3c68d6; /* 파란색 */
+  background: #0a2df5; /* 파란색 */
   color: #ffffff;
 }
 .publication-page .patent-btn {
@@ -1526,7 +1521,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   color: #000000;
 }
 .patent-page .patent-btn {
-  background: #3c68d6; /* 파란색 */
+  background: #0a2df5; /* 파란색 */
   color: #ffffff;
 }
 
@@ -1572,7 +1567,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 	font-size: 10pt; 
 	color: #222; 
 	border: 1px solid #bbb; 
-	background-color: white;
+	background-color: #F5F5F5;
 	padding:0 15px; 
 	font-family:inherit; 
 	height:40px; 
@@ -1592,7 +1587,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 .bbs_search dd .bbs_s_b{
 	padding:0; 
 	border:0; 
-	background:#3c68d6; 
+	background:#0a2df5; 
 	outline:none; 
 	cursor:pointer; 
 	width:40px; 
@@ -1733,7 +1728,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 
 .title-link:hover {
-    color: #3c68d6; /* 마우스를 올렸을 때의 색상 (파란색) */
+    color: #0a2df5; /* 마우스를 올렸을 때의 색상 (파란색) */
 }
 
 
@@ -1839,9 +1834,9 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 
 .btn-primary {
-  background: #3c68d6;
+  background: #0a2df5;
   color: #fff;
-  border: 2px solid #3c68d6;
+  border: 2px solid #0a2df5;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #279bab !important;
@@ -1849,11 +1844,11 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #3c68d6;
-  border: 2px solid #3c68d6;
+  color: #0a2df5;
+  border: 2px solid #0a2df5;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #3c68d6;
+  background: #0a2df5;
   color: #fff;
 }
 
@@ -1963,7 +1958,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #3c68d6;
+  border-color: #0a2df5;
 }
 
 #message {
@@ -2165,7 +2160,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 /* 현재 선택된 페이지 번호에 스타일 적용 */
 #page-numbers button.active {
   background: transparent;
-  color: #3c68d6;
+  color: #0a2df5;
   font-weight: bold;
 }
 
@@ -2209,7 +2204,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   position: absolute;
   top: 10px;   /* 원하는 위치 (상단 10px, 필요에 따라 조정) */
   left: 10px;  /* 원하는 위치 (좌측 10px, 필요에 따라 조정) */
-  background-color: white; /* 예: 노란색 배경 */
+  background-color: #f5f5f5; /* 예: 노란색 배경 */
   color: #000;            /* 검정색 글자 */
   padding: 5px 8px;
   font-size: 12px;
