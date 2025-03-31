@@ -1392,7 +1392,6 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 	overflow: hidden; 
 	aspect-ratio: 3;
 	display: flex;
-	justify-content: center;
 	}
 
 

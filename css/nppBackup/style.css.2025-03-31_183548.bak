@@ -1392,7 +1392,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 	overflow: hidden; 
 	aspect-ratio: 3;
 	display: flex;
-	justify-content: center;
+	align-items: center;
 	}
 
 
@@ -1402,6 +1402,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
     height: 100%;
     object-fit: contain;
     transition: all .3s linear;
+		align-items: center;
 	
 }
 
