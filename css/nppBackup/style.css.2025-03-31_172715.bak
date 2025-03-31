@@ -1373,22 +1373,21 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
     margin-bottom: 20px;
     border: 1px solid #ddd;
     box-sizing: border-box;
-    padding: 40px;
-	padding-bottom: 10px;
-	padding-top: 10px;
-	gap: 5px;  
+    padding: 30px;
+	padding-left: 40px;
+	gap: 15px;  
 	 width: 80%;    
     max-width: 1000px;
     margin-left: auto; 
     margin-right: auto;
-	flex-direction: column; /* 자식 요소들을 세로로 쌓음 */
+	
 }
 
 
 .thumb_list .journals_box .pic{
-	position:relative;
-	width: 800px; 
-	height: 300px;
+	position:absolute;
+	width: 500px; 
+	height: 250px;
 	overflow: hidden; 
 	aspect-ratio: 3;
 	display: flex;
@@ -1401,7 +1400,6 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
     height: 100%;
     object-fit: contain;
     transition: all .3s linear;
-	
 }
 
 .thumb_list .journals_box .tbox h4 {
@@ -1417,6 +1415,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 	width: calc(170% - 700px);
      min-width: 250px;
 	position: relative;
+    padding-right: 20px;
 
 }
 
@@ -2207,7 +2206,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 
 .number-box {
   position: absolute;
-  top: 25px;   /* 원하는 위치 (상단 10px, 필요에 따라 조정) */
+  top: 10px;   /* 원하는 위치 (상단 10px, 필요에 따라 조정) */
   left: 10px;  /* 원하는 위치 (좌측 10px, 필요에 따라 조정) */
   background-color: white; /* 예: 노란색 배경 */
   color: #000;            /* 검정색 글자 */

@@ -99,7 +99,63 @@
 
 
  
-
+    <div class="fh5co-narrow-content" id="position-faculty">
+        <h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Faculty</h2>
+        <div class="row row-bottom-padded-md">
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Cho_Jaeeock" data-base-name="Cho_Jaeeock" style="background-image: url(images/members/Cho_Jaeeock.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Cho Jaeeock</h3>
+                        <span class="p4"> jaeeock@cau.ac.kr  <br> </span>
+                        <span class="p6">2024–present<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11">Ph.D. Seoul National University, 1994 <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Senkuttuvan_Rajendiran" data-base-name="Senkuttuvan_Rajendiran" style="background-image: url(images/members/Senkuttuvan_Rajendiran.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Senkuttuvan Rajendiran</h3>
+                        <span class="p4"> sengutrjj@cau.ac.kr <br> </span>
+                        <span class="p6">2024–present<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11">Ph.D Kookmin University, 2016 <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Jiang_Jianwei" data-base-name="Jiang_Jianwei" style="background-image: url(images/members/Jiang_Jianwei.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Jiang Jianwei</h3>
+                        <span class="p4"> fldf1357@cau.ac.kr <br> </span>
+                        <span class="p6">2015–present<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11">Ph.D Kongju National University, 2015 <br></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
+                <div class="work g2 member-img" id="member-Vinothkumar_Ganesan" data-base-name="Vinothkumar_Ganesan" style="background-image: url(images/members/Vinothkumar_Ganesan.png);"></div>
+                <div class="caption">
+                    <div class="caption-top">
+                        <h3>Vinothkumar Ganesan</h3>
+                        <span class="p4"> vinothcau@cau.ac.kr <br> </span>
+                        <span class="p6">2015–present<br><br></span>
+                    </div>
+                    <div class="caption-bottom">
+                        <span class="p11">Ph.D Kookmin University, 2019 <br></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="fh5co-narrow-content" id="position-ph.d-program">
         <h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Ph.D program</h2>
         <div class="row row-bottom-padded-md">
@@ -161,10 +217,10 @@
         <h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Master Program</h2>
         <div class="row row-bottom-padded-md">
             <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
-                <div class="work g2 member-img" id="member-Go_Minkyoung" data-base-name="Go_Minkyoung" style="background-image: url(images/members/Go_Minkyoung.png);"></div>
+                <div class="work g2 member-img" id="member-Ko_Minkyoung" data-base-name="Ko_Minkyoung" style="background-image: url(images/members/Ko_Minkyoung.png);"></div>
                 <div class="caption">
                     <div class="caption-top">
-                        <h3>Go Minkyoung</h3>
+                        <h3>Ko Minkyoung</h3>
                         <span class="p4"> gomk1126@cau.ac.kr <br> </span>
                         <span class="p6">2024–present<br><br></span>
                     </div>
@@ -241,63 +297,6 @@
         </div>
     </div>
 
-    <div class="fh5co-narrow-content" id="position-faculty">
-        <h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Faculty</h2>
-        <div class="row row-bottom-padded-md">
-            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
-                <div class="work g2 member-img" id="member-Cho_Jaeeock" data-base-name="Cho_Jaeeock" style="background-image: url(images/members/Cho_Jaeeock.png);"></div>
-                <div class="caption">
-                    <div class="caption-top">
-                        <h3>Cho Jaeeock</h3>
-                        <span class="p4"> jaeeock@cau.ac.kr  <br> </span>
-                        <span class="p6">2024–present<br><br></span>
-                    </div>
-                    <div class="caption-bottom">
-                        <span class="p11">Ph.D. Seoul National University, 1994 <br></span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
-                <div class="work g2 member-img" id="member-Senkuttuvan_Rajendiran" data-base-name="Senkuttuvan_Rajendiran" style="background-image: url(images/members/Senkuttuvan_Rajendiran.png);"></div>
-                <div class="caption">
-                    <div class="caption-top">
-                        <h3>Senkuttuvan Rajendiran</h3>
-                        <span class="p4"> sengutrjj@cau.ac.kr <br> </span>
-                        <span class="p6">2024–present<br><br></span>
-                    </div>
-                    <div class="caption-bottom">
-                        <span class="p11">Ph.D Kookmin University, 2016 <br></span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
-                <div class="work g2 member-img" id="member-Jiang_Jianwei" data-base-name="Jiang_Jianwei" style="background-image: url(images/members/Jiang_Jianwei.png);"></div>
-                <div class="caption">
-                    <div class="caption-top">
-                        <h3>Jiang Jianwei</h3>
-                        <span class="p4"> fldf1357@cau.ac.kr <br> </span>
-                        <span class="p6">2015–present<br><br></span>
-                    </div>
-                    <div class="caption-bottom">
-                        <span class="p11">Ph.D Kongju National University, 2015 <br></span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
-                <div class="work g2 member-img" id="member-Vinothkumar_Ganesan" data-base-name="Vinothkumar_Ganesan" style="background-image: url(images/members/Vinothkumar_Ganesan.png);"></div>
-                <div class="caption">
-                    <div class="caption-top">
-                        <h3>Vinothkumar Ganesan</h3>
-                        <span class="p4"> vinothcau@cau.ac.kr <br> </span>
-                        <span class="p6">2015–present<br><br></span>
-                    </div>
-                    <div class="caption-bottom">
-                        <span class="p11">Ph.D Kookmin University, 2019 <br></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
 					
 	</div>
