@@ -154,22 +154,6 @@
 			<div class="thumb_list">
 				<div id="papers-container">
 <div class="journal-item" data-year="2025">
-	 <div class="animate-box" data-animate-effect="fadeInLeft">
-        <div class="journals_box">
-            <div class="tbox">
-                <h4>
-                    <a href="https://doi.org/10.1021/acsenergylett.5c01278" target="_blank" class="title-link">Electrocatalytic Reactive Capture of NO from O2-Containing Simulated Flue Gas Using Highly O2-Resistant Fe2+-(salen-SO3) for NH3 Synthesis, <i>ACS Energy Letters</i>, <b>2025</b>, 2880–2888</a>
-                </h4>
-                <div class="smt">Eum H.; Cheong S.-H.; Kim J.; Han S.-J.; Kang M.; Yoon S.; Lee H.-S.; Cheong M.; Lee H.; Lee D.K.</div>
-            </div>
-            <div class="number-box">135</div>
-            <div class="pic">
-                <a href="https://doi.org/10.1021/acsenergylett.5c01278" target="_blank" class="title-link">
-                    <img id="Journal-25_135" data-base-name="25_135" src="images/publications/25_135.png" alt="Electrocatalytic Reactive Capture of NO from O2-Containing Simulated Flue Gas Using Highly O2-Resistant Fe2+-(salen-SO3) for NH3 Synthesis, <i>ACS Energy Letters</i>, <b>2025</b>, 2880–2888">
-                </a>
-            </div>
-        </div>
-    </div>
     <div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="tbox">
