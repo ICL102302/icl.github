@@ -95,7 +95,7 @@
 			<aside id="fh5co-hero" class="js-fullheight">
 				<div class="flexslider js-fullheight">
 					<ul class="slides">
-				   	<li style="background-image: url(images/main_1.jpg); background-size: contain; background-position: center center;">
+				   	<li style="background-image: url(images/main_1.png); background-size: contain; background-position: center center;">
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid index1">
 				   			<div class="row" >
