@@ -154,22 +154,6 @@
 			<div class="thumb_list">
 				<div id="papers-container">
 <div class="journal-item" data-year="2025">
-	 <div class="animate-box" data-animate-effect="fadeInLeft">
-        <div class="journals_box">
-            <div class="tbox">
-                <h4>
-                    <a href="https://doi.org/10.1039/d5dt01972a" target="_blank" class="title-link">CO-free selective hydrogenation of CO2 to value-added formate under low-temperature aqueous conditions using a heterogenized Ru-PNP catalyst, <i>Dalton transactions (Cambridge, England : 2003)</i>, <b>2025</b>, <i>54</i>, 45, 16781–16791</a>
-                </h4>
-                <div class="smt">Park H.; Go M.; Yoon S.</div>
-            </div>
-            <div class="number-box">138</div>
-            <div class="pic">
-                <a href="https://doi.org/10.1039/d5dt01972a" target="_blank" class="title-link">
-                    <img id="Journal-25_138" data-base-name="25_138" src="images/publications/25_138.png" alt="CO-free selective hydrogenation of CO2 to value-added formate under low-temperature aqueous conditions using a heterogenized Ru-PNP catalyst, <i>Dalton transactions (Cambridge, England : 2003)</i>, <b>2025</b>, <i>54</i>, 45, 16781–16791">
-                </a>
-            </div>
-        </div>
-    </div>
 	<div class="animate-box" data-animate-effect="fadeInLeft">
         <div class="journals_box">
             <div class="tbox">
