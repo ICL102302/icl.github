@@ -98,19 +98,21 @@
     <div class="fh5co-narrow-content" id="position-ph.d-program">
         <h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Ph.D program</h2>
         <div class="row row-bottom-padded-md">
+			<div class="row row-bottom-padded-md">
             <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
-                <div class="work g2 member-img" id="member-Park_Hongjin" data-base-name="Park_Hongjin" style="background-image: url(images/Alumni/Park_Hongjin.png);"></div>
+                <div class="work g2 member-img" id="member-Park_Hongjin" data-base-name="Park_Hongjin" style="background-image: url(images/members/Park_Hongjin.png);"></div>
                 <div class="caption">
                     <div class="caption-top">
                         <h3>Park Hongjin</h3>
                         <span class="p4"> phj1552@cau.ac.kr <br> </span>
-                        <span class="p6">2019–2025<br><br></span>
+                        <span class="p6">2019–present<br><br></span>
                     </div>
                     <div class="caption-bottom">
-                        <span class="p11">Current - Post Doc. at Chung-Ang University, Seoul <br></span>
+                        <span class="p11">M.S. Chung-Ang University, 2021 <br></span>
                     </div>
                 </div>
             </div>
+        </div>
             <div class="col-sm-6 col-padding text-center animate-box p10 member-container">
                 <div class="work g2 member-img" id="member-Yoon_Hayoung" data-base-name="Yoon_Hayoung" style="background-image: url(images/Alumni/Yoon_Hayoung.png);"></div>
                 <div class="caption">
