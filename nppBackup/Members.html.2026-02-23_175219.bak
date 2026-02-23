@@ -273,10 +273,10 @@
         <h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Undergarduate Student</h2>
         <div class="row row-bottom-padded-md">
             <div class="col-md-2 col-sm-5 col-padding text-center animate-box p10 member-container">
-                <div class="work g2 member-img" id="member-Jurng_Hyerim" data-base-name="Jurng_Hyerim" style="background-image: url(images/members/Jurng_Hyerim.png);"></div>
+                <div class="work g2 member-img" id="member-Jeong_Hyerim" data-base-name="Jeong_Hyerim" style="background-image: url(images/members/Jeong_Hyerim.png);"></div>
                 <div class="caption">
                     <div class="caption-top">
-                        <h3>Jurng Hyerim</h3>
+                        <h3>Jeong Hyerim</h3>
                         <span class="p4"> <br> </span>
                         <span class="p6">2025–present<br><br></span>
                     </div>
