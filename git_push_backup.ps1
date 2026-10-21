@@ -24,6 +24,12 @@ git push origin main 2>&1 | ForEach-Object { Log "$_" }
 
 # 3. 백업 (ROBOCOPY, 결과는 로그에 덧붙임)
 Robocopy $repoPath $backupPath /MIR /XD .git /NP /NFL /NDL "/LOG+:$logFile" | Out-Null
+if ($LASTEXITCODE -lt 8) {
+    # 자동 백업(auto_backup.ps1)이 같은 내용을 다시 백업하지 않도록 기록
+    Set-Content -Path "$repoPath\.git\icl_last_backup" -Value ("$(git rev-parse HEAD)".Trim())
+} else {
+    Write-Host "E: 백업에 실패했습니다. E: 드라이브를 확인하세요." -ForegroundColor Yellow
+}
 
 # 로그 기록 완료
 Log "$(Get-Date) - Backup Completed"

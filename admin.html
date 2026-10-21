@@ -427,7 +427,7 @@ async function save() {
     S.dirty.clear(); S.log = []; S.uploads.clear(); S.deletes.clear(); S.copies.clear();
     $('commitMsg').value = '';
     renderTabs(); renderMain(); renderTray();
-    toast(h('span', {}, '저장했습니다. 1~2분 뒤 홈페이지에 반영됩니다. ',
+    toast(h('span', {}, '저장했습니다. 1~2분 뒤 홈페이지에 반영됩니다. E:\\icl.website 백업은 연구실 PC에서 매일 한 번 자동으로 되고, 바로 하려면 PC에서 git pushbackup을 실행하세요. ',
       h('a', { href: `https://github.com/${CFG.owner}/${CFG.repo}/actions`, target: '_blank', rel: 'noopener' }, '반영 상태 보기')), 'ok', 12000);
   } catch (e) {
     toast(explain(e), 'err', 15000);
@@ -1051,6 +1051,7 @@ function viewHelp(m) {
       <li>이 관리 페이지에서 고친 내용은 바로 올라가지 않고, 화면 아래 노란 줄에 "저장 안 된 변경"으로 모입니다.</li>
       <li><b>GitHub에 저장</b>을 누르면 모든 변경이 한 번에 저장되고, 1~2분 뒤 <a href="${SITE_URL}" target="_blank" rel="noopener">${SITE_URL}</a>에 반영됩니다.</li>
       <li>잘못 저장해도 GitHub에 모든 기록이 남아 있어 되돌릴 수 있습니다.</li>
+      <li><b>백업</b>: 연구실 PC가 하루에 한 번(매일 12:00, 그때 꺼져 있었으면 켜진 뒤) GitHub를 확인해서, 관리자 페이지에서 저장한 내용을 G:\\icl.github로 받아오고 E:\\icl.website에 백업합니다(G:, E:가 연결되어 있을 때). 기록은 <code>backup_log.txt</code>에 남습니다. 바로 백업하려면 PC에서 <code>git pushbackup</code>을 실행하세요.</li>
     </ul>
     <h3>자주 하는 일</h3>
     <ul>
@@ -1064,7 +1065,7 @@ function viewHelp(m) {
     <h3>주의</h3>
     <ul>
       <li>HTML 파일에서 <code>&lt;!-- ADMIN:… --&gt;</code> 표시 사이는 직접 고치지 마세요. 관리 페이지에서 저장하면 덮어써집니다. 교수님 소개, 연구 소개, 메인 화면처럼 표시가 없는 부분은 예전처럼 HTML을 직접 고치면 됩니다.</li>
-      <li>연구실 PC(G:\\icl.github)에서 HTML을 직접 고칠 때는 먼저 <code>git_push_backup.bat</code>를 한 번 실행해서 최신 내용을 받아온 뒤 고치세요.</li>
+      <li>연구실 PC(G:\\icl.github)에서 HTML을 직접 고칠 때는 먼저 <code>git pushbackup</code>(또는 <code>git_push_backup.bat</code>)을 한 번 실행해서 최신 내용을 받아온 뒤 고치세요. 고치는 중에는 자동 백업이 GitHub 내용을 받아오지 않고 기다립니다.</li>
       <li>두 사람이 동시에 같은 탭을 고치면 나중에 저장하는 사람에게 안내가 나옵니다. 새로고침 후 다시 입력하면 됩니다.</li>
     </ul>
     <h3>토큰 만들기 / 바꾸기</h3>`;
