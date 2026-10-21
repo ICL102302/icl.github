@@ -1,0 +1,117 @@
+[
+ {
+  "title": "Ph.D program",
+  "people": [
+   {
+    "name": "Ali Hasnain",
+    "from": "2022",
+    "degree": "M.S. Yuan Ze University, 2021",
+    "email": "hasnain110@cau.ac.kr",
+    "photo": "Ali_Hasnain.jpg"
+   },
+   {
+    "name": "Choi Inrack",
+    "from": "2022",
+    "degree": "B.S. Chung-Ang University, 2022",
+    "email": "fkr9733@cau.ac.kr",
+    "photo": "Choi_Inrack.png"
+   }
+  ]
+ },
+ {
+  "title": "Master Program",
+  "people": [
+   {
+    "name": "Baek Jiseong",
+    "from": "2025",
+    "degree": "B.S. Chung-Ang University, 2025",
+    "email": "baekjs1114@cau.ac.kr",
+    "photo": "Baek_Jiseong.jpg"
+   },
+   {
+    "name": "Kang Minji",
+    "from": "2025",
+    "degree": "B.S. Chung-Ang University, 2025",
+    "email": "annekmj@cau.ac.kr",
+    "photo": "Kang_Minji.jpeg"
+   },
+   {
+    "name": "Kim Jeonghoon",
+    "from": "2025",
+    "degree": "B.S. Chung-Ang University, 2025",
+    "email": "eddiekim99@cau.ac.kr",
+    "photo": "Kim_Jeonghoon.jpg"
+   },
+   {
+    "name": "Byun Sanghun",
+    "from": "2025",
+    "degree": "B.S. Chung-Ang University, 2025",
+    "email": "andy0163@cau.ac.kr",
+    "photo": "Byun_Sanghun.jpg"
+   }
+  ]
+ },
+ {
+  "title": "Faculty",
+  "people": [
+   {
+    "name": "Cho Jaeeock",
+    "from": "2024",
+    "degree": "Ph.D. Seoul National University, 1994",
+    "email": "jaeeock@cau.ac.kr",
+    "photo": "Cho_Jaeeock.png"
+   },
+   {
+    "name": "Senkuttuvan Rajendiran",
+    "from": "2024",
+    "degree": "Ph.D Kookmin University, 2016",
+    "email": "sengutrjj@cau.ac.kr",
+    "photo": "Senkuttuvan_Rajendiran.png"
+   },
+   {
+    "name": "Jiang Jianwei",
+    "from": "2015",
+    "degree": "Ph.D Kongju National University, 2015",
+    "email": "fldf1357@cau.ac.kr",
+    "photo": "Jiang_Jianwei.png"
+   },
+   {
+    "name": "Vinothkumar Ganesan",
+    "from": "2015",
+    "degree": "Ph.D Kookmin University, 2019",
+    "email": "vinothcau@cau.ac.kr",
+    "photo": "Vinothkumar_Ganesan.jpg"
+   }
+  ]
+ },
+ {
+  "title": "Postdoctoral Researcher",
+  "people": []
+ },
+ {
+  "title": "Undergraduate Student",
+  "people": [
+   {
+    "name": "Jurng Hyerim",
+    "from": "2025",
+    "degree": "",
+    "email": "",
+    "photo": "Jurng_Hyerim.png"
+   },
+   {
+    "name": "Eun Chaewon",
+    "from": "2026",
+    "degree": "",
+    "email": "",
+    "photo": "Eun_Chaewon.png"
+   },
+   {
+    "name": "Park Seoyoung",
+    "from": "2026",
+    "degree": "",
+    "email": "",
+    "photo": "Park_Seoyoung.png"
+   }
+  ]
+ }
+]

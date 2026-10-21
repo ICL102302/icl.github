@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>ICL 홈페이지 관리</title>
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<style>
+:root{
+  --bg:#F3F5F8; --panel:#FFFFFF; --ink:#1C2333; --ink-2:#4A5468; --ink-3:#7A8496;
+  --line:#DCE1E9; --line-2:#EBEEF3; --blue:#1F4E9E; --blue-2:#E7EEF9; --amber:#9A6200; --amber-bg:#FFF5E0;
+  --red:#B42318; --red-bg:#FDECEA; --green:#18794E; --green-bg:#E6F4EC;
+  --r:6px; --font:"Pretendard",-apple-system,"Malgun Gothic","Apple SD Gothic Neo",sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 var(--font)}
+button,input,select,textarea{font:inherit;color:inherit}
+a{color:var(--blue)}
+:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+[hidden]{display:none!important}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:#fff;border-radius:var(--r);
+  padding:7px 14px;cursor:pointer;white-space:nowrap}
+.btn:hover{border-color:#B9C2D0}
+.btn.primary{background:var(--blue);border-color:var(--blue);color:#fff}
+.btn.primary:hover{background:#183F82}
+.btn.danger{color:var(--red)}
+.btn.small{padding:3px 9px;font-size:13px}
+.btn.icon{padding:3px 8px;font-size:13px;min-width:30px;justify-content:center}
+.btn:disabled{opacity:.45;cursor:default}
+
+input[type=text],input[type=number],input[type=password],input[type=email],select,textarea{
+  width:100%;border:1px solid var(--line);border-radius:var(--r);padding:7px 10px;background:#fff}
+textarea{resize:vertical;min-height:64px}
+label.field{display:block;margin-bottom:12px}
+label.field>span{display:block;font-size:13px;color:var(--ink-2);margin-bottom:4px}
+label.field small{display:block;color:var(--ink-3);font-size:12px;margin-top:3px}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:0 12px}
+.row3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:0 12px}
+
+/* login */
+#login{min-height:100vh;display:grid;place-items:center;padding:24px 16px}
+.login-card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:32px;width:100%;max-width:440px}
+.login-card img{max-width:220px;display:block;margin-bottom:20px}
+.login-card h1{font-size:20px;margin:0 0 6px}
+.login-card p{color:var(--ink-2);margin:0 0 20px;font-size:14px}
+.check{display:flex;gap:8px;align-items:center;font-size:14px;color:var(--ink-2);margin:4px 0 18px}
+.msg{padding:10px 12px;border-radius:var(--r);font-size:14px;margin-top:14px}
+.msg.err{background:var(--red-bg);color:var(--red)}
+.msg.ok{background:var(--green-bg);color:var(--green)}
+
+/* app layout */
+#app{display:grid;grid-template-columns:200px 1fr;min-height:100vh}
+#rail{background:var(--panel);border-right:1px solid var(--line);padding:20px 12px;position:sticky;top:0;height:100vh;display:flex;flex-direction:column}
+#rail img{max-width:150px;margin:0 8px 22px}
+#rail nav button{display:flex;justify-content:space-between;align-items:center;width:100%;text-align:left;border:0;background:none;padding:9px 12px;border-radius:var(--r);cursor:pointer;color:var(--ink-2)}
+#rail nav button:hover{background:var(--line-2)}
+#rail nav button[aria-selected=true]{background:var(--blue-2);color:var(--blue);font-weight:600}
+#rail nav .dot{width:7px;height:7px;border-radius:50%;background:var(--amber)}
+#rail .who{margin-top:auto;font-size:12px;color:var(--ink-3);padding:0 8px;word-break:break-all}
+#rail .who button{margin-top:8px}
+main{padding:28px 32px 230px;max-width:1100px;width:100%}
+main h2{font-size:22px;margin:0 0 4px}
+.lead{color:var(--ink-2);margin:0 0 20px;font-size:14px}
+.toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:16px}
+.toolbar .grow{flex:1;min-width:180px}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:8px}
+.doi-box{padding:14px 16px;margin-bottom:16px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.doi-box label{font-weight:600;font-size:14px}
+.doi-box input{flex:1;min-width:220px}
+
+/* lists */
+.list{list-style:none;margin:0;padding:0}
+.list li{display:grid;grid-template-columns:48px 1fr auto;gap:14px;align-items:center;padding:10px 14px;border-top:1px solid var(--line-2)}
+.list li:first-child{border-top:0}
+.list .no{font-variant-numeric:tabular-nums;color:var(--ink-3);font-size:14px;text-align:right}
+.list .t{font-weight:500}
+.list .m{color:var(--ink-3);font-size:13px}
+.list .acts{display:flex;gap:4px}
+.list li.new{background:#FBFCFF}
+.list .thumb{width:64px;height:44px;object-fit:cover;border-radius:4px;border:1px solid var(--line-2);background:var(--line-2)}
+.pubrow{grid-template-columns:48px 64px 1fr auto!important}
+.yearhead{padding:8px 14px;background:var(--line-2);font-weight:600;font-size:13px;color:var(--ink-2)}
+
+/* people */
+.section{margin-bottom:22px}
+.section-head{display:flex;align-items:center;gap:8px;padding:10px 14px;border-bottom:1px solid var(--line-2)}
+.section-head h3{margin:0;font-size:16px;flex:1}
+.people{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:1px;background:var(--line-2)}
+.person{background:#fff;padding:12px;display:grid;grid-template-columns:56px 1fr;gap:10px;align-items:start}
+.person .ph{width:56px;height:56px;border-radius:50%;object-fit:cover;background:var(--line-2)}
+.person .t{font-weight:600}
+.person .m{font-size:12px;color:var(--ink-3);line-height:1.4}
+.person .acts{grid-column:1/-1;display:flex;gap:4px;flex-wrap:wrap}
+.empty{padding:18px 14px;color:var(--ink-3);font-size:14px}
+
+/* gallery */
+.upload{padding:14px 16px;margin-bottom:18px}
+.upload .row3{align-items:end}
+.ggrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;padding:12px}
+.tile{position:relative;border-radius:6px;overflow:hidden;border:1px solid var(--line)}
+.tile img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:var(--line-2)}
+.tile .bar{display:flex;gap:3px;padding:5px;background:#fff;align-items:center}
+.tile .cap{flex:1;font-size:12px;color:var(--ink-3);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tile .badge{position:absolute;top:6px;left:6px;background:var(--amber-bg);color:var(--amber);font-size:11px;padding:1px 6px;border-radius:4px}
+
+/* pending tray */
+#tray{position:fixed;left:200px;right:0;bottom:0;background:#fff;border-top:2px solid var(--amber);box-shadow:0 -6px 20px rgba(28,35,51,.08);padding:14px 32px;z-index:20}
+#tray .top{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+#tray .count{font-weight:600;color:var(--amber)}
+#tray ul{margin:6px 0 10px;padding-left:18px;font-size:13px;color:var(--ink-2);max-height:72px;overflow:auto}
+#tray .msgrow{display:flex;gap:8px;flex-wrap:wrap}
+#tray .msgrow input{flex:1;min-width:200px}
+#progress{font-size:13px;color:var(--ink-2)}
+
+/* dialog */
+dialog{border:0;border-radius:10px;padding:0;width:min(640px,calc(100vw - 32px));max-height:calc(100vh - 40px)}
+dialog::backdrop{background:rgba(28,35,51,.45)}
+dialog form{display:flex;flex-direction:column;max-height:calc(100vh - 40px)}
+dialog header{padding:18px 22px 6px;font-size:18px;font-weight:600}
+dialog .body{padding:10px 22px;overflow:auto}
+dialog footer{display:flex;gap:8px;justify-content:flex-end;padding:14px 22px;border-top:1px solid var(--line-2)}
+dialog footer .left{margin-right:auto}
+.preview{background:var(--line-2);border-radius:var(--r);padding:10px 12px;font-size:14px;margin:4px 0 14px}
+.preview b,.preview i{font-weight:inherit}
+.preview .lbl{display:block;font-size:12px;color:var(--ink-3);margin-bottom:2px}
+.imgfield{display:flex;gap:12px;align-items:center}
+.imgfield img{width:96px;height:72px;object-fit:cover;border-radius:4px;border:1px solid var(--line);background:var(--line-2)}
+.imgfield .info{font-size:12px;color:var(--ink-3)}
+
+#toast{position:fixed;top:18px;left:50%;transform:translateX(-50%);z-index:50;max-width:min(560px,calc(100vw - 32px))}
+
+/* help */
+.help{padding:20px 24px;max-width:760px}
+.help h3{margin:22px 0 8px;font-size:17px}
+.help h3:first-child{margin-top:0}
+.help ol,.help ul{padding-left:20px}
+.help li{margin-bottom:6px}
+.help code{background:var(--line-2);padding:1px 5px;border-radius:4px;font-size:13px}
+.help .note{background:var(--amber-bg);color:#6B4500;padding:10px 12px;border-radius:var(--r);font-size:14px}
+
+main{min-width:0}
+@media (max-width:760px){
+  #app{grid-template-columns:minmax(0,1fr)}
+  .doi-box input{min-width:0;flex-basis:100%}
+  .upload .btn{width:100%;justify-content:center}
+  #rail{position:static;height:auto;border-right:0;border-bottom:1px solid var(--line);padding:12px}
+  #rail img{display:none}
+  #rail nav{display:flex;overflow-x:auto;gap:4px}
+  #rail nav button{width:auto;white-space:nowrap}
+  #rail .who{display:none}
+  main{padding:18px 16px 180px}
+  #tray{left:0;padding:12px 16px}
+  .row2,.row3{grid-template-columns:1fr}
+  .pubrow{grid-template-columns:40px 1fr auto!important}
+  .pubrow .thumb{display:none}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+
+<!-- ============ 로그인 ============ -->
+<section id="login">
+  <div class="login-card">
+    <img src="images/logo.png" alt="Inorganic Chemistry Lab">
+    <h1>홈페이지 관리</h1>
+    <p>GitHub 토큰으로 접속합니다. 토큰이 없으면 아래 안내에 따라 만드세요.</p>
+    <form id="loginForm">
+      <label class="field"><span>GitHub 토큰</span>
+        <input type="password" id="tokenInput" autocomplete="off" placeholder="github_pat_로 시작하는 문자열" required>
+      </label>
+      <label class="check"><input type="checkbox" id="remember"> 이 컴퓨터에서 토큰 기억하기 (공용 PC에서는 체크하지 마세요)</label>
+      <button class="btn primary" type="submit" id="loginBtn">접속</button>
+      <div id="loginMsg"></div>
+    </form>
+    <details style="margin-top:22px;font-size:14px">
+      <summary style="cursor:pointer;color:var(--blue)">토큰 만드는 방법</summary>
+      <div id="tokenHelpSlot"></div>
+    </details>
+  </div>
+</section>
+
+<!-- ============ 관리 화면 ============ -->
+<div id="app" hidden>
+  <aside id="rail">
+    <img src="images/logo.png" alt="Inorganic Chemistry Lab">
+    <nav role="tablist" id="tabs"></nav>
+    <div class="who"><span id="whoText"></span><br>
+      <button class="btn small" id="logoutBtn" type="button">로그아웃</button>
+    </div>
+  </aside>
+  <main id="main"></main>
+</div>
+
+<div id="tray" hidden>
+  <div class="top"><span class="count" id="trayCount"></span><span id="progress"></span></div>
+  <ul id="trayList"></ul>
+  <div class="msgrow">
+    <input type="text" id="commitMsg" aria-label="저장 메모">
+    <button class="btn" type="button" id="previewBtn">사이트 미리보기</button>
+    <button class="btn danger" type="button" id="discardBtn">변경 취소</button>
+    <button class="btn primary" type="button" id="saveBtn">GitHub에 저장</button>
+  </div>
+</div>
+
+<dialog id="dlg"><form method="dialog" id="dlgForm">
+  <header id="dlgTitle"></header>
+  <div class="body" id="dlgBody"></div>
+  <footer id="dlgFoot"></footer>
+</form></dialog>
+
+<div id="toast"></div>
+
+<template id="tokenHelp">
+  <ol>
+    <li>연구실 GitHub 계정(<b>ICL102302</b>)으로 <a href="https://github.com/login" target="_blank" rel="noopener">github.com</a>에 로그인합니다.</li>
+    <li><a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">새 토큰 만들기 페이지</a>를 엽니다.
+      (메뉴: 오른쪽 위 프로필 → Settings → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token)</li>
+    <li><b>Token name</b>: 예) <code>homepage-admin-2026</code>, <b>Expiration</b>: 원하는 기간(최대 1년)</li>
+    <li><b>Repository access</b>: <i>Only select repositories</i> → <code>icl.github</code> 선택</li>
+    <li><b>Permissions → Repository permissions → Contents</b>: <i>Read and write</i> 로 변경</li>
+    <li>맨 아래 <b>Generate token</b>을 누르고, 나온 문자열(github_pat_…)을 복사해 위 칸에 붙여넣습니다.</li>
+  </ol>
+  <p class="note">토큰은 비밀번호와 같습니다. 카톡·메일로 공유하지 말고, 인수인계 문서에만 적어 두세요. 만료되면 같은 방법으로 새로 만들면 됩니다.</p>
+</template>
+
+<script src="js/icl-render.js"></script>
+<script>
+'use strict';
+/* =====================================================================
+   설정
+   ===================================================================== */
+const DEFAULT_CFG = { owner: 'ICL102302', repo: 'icl.github', branch: 'main', api: 'https://api.github.com' };
+const CFG = Object.assign({}, DEFAULT_CFG, readJSON(localStorage, 'icl_cfg') || {});
+const SITE_URL = 'https://icl.cau.ac.kr/';
+
+const KINDS = {
+  publications: { label: '논문' },
+  patents: { label: '특허' },
+  members: { label: '멤버' },
+  alumni: { label: '졸업생' },
+  gallery: { label: '갤러리' }
+};
+const IMG = {   // 사진 압축 기준
+  gallery:  { maxSide: 1920, quality: 0.82 },
+  person:   { maxSide: 800,  quality: 0.85 },
+  pub:      { maxSide: 1200, quality: 0.90, keepPngUnder: 400 * 1024 }
+};
+const R = window.ICLRender;
+
+/* =====================================================================
+   상태
+   ===================================================================== */
+const S = {
+  token: '', user: '', head: '', shas: {},
+  data: {}, dirty: new Set(), log: [],
+  uploads: new Map(),   // 저장소 경로 → { b64, url, size }
+  deletes: new Set(),   // 지울 저장소 경로
+  copies: new Map(),    // 새 경로 → 기존 경로 (사진 옮기기)
+  tab: 'publications', pubQuery: ''
+};
+
+/* =====================================================================
+   도우미
+   ===================================================================== */
+function readJSON(store, key) { try { return JSON.parse(store.getItem(key)); } catch (e) { return null; } }
+function store(kind, key, val) { try { val == null ? kind.removeItem(key) : kind.setItem(key, val); } catch (e) {} }
+function h(tag, props, ...kids) {
+  const el = document.createElement(tag);
+  for (const [k, v] of Object.entries(props || {})) {
+    if (v == null || v === false) continue;
+    if (k === 'class') el.className = v;
+    else if (k === 'html') el.innerHTML = v;
+    else if (k.startsWith('on')) el.addEventListener(k.slice(2), v);
+    else if (k === 'value') el.value = v;
+    else el.setAttribute(k, v === true ? '' : v);
+  }
+  for (const c of kids.flat()) if (c != null && c !== false) el.append(c instanceof Node ? c : String(c));
+  return el;
+}
+const $ = (id) => document.getElementById(id);
+const thisYear = () => new Date().getFullYear();
+function kb(n) { return n > 1048576 ? (n / 1048576).toFixed(1) + 'MB' : Math.round(n / 1024) + 'KB'; }
+function toast(text, type = 'ok', ms = 5000) {
+  const t = $('toast'); t.innerHTML = '';
+  t.append(h('div', { class: 'msg ' + type, role: 'status' }, text));
+  clearTimeout(toast.t); toast.t = setTimeout(() => (t.innerHTML = ''), ms);
+}
+function imgUrl(path) { const u = S.uploads.get(path); return u ? u.url : path; }
+function yymmdd(d = new Date()) { return String(d.getFullYear()).slice(2) + String(d.getMonth() + 1).padStart(2, '0') + String(d.getDate()).padStart(2, '0'); }
+function safeName(s) { return String(s).trim().replace(/\s+/g, '_').replace(/[^\w\-]/g, ''); }
+function b64utf8(str) { const bytes = new TextEncoder().encode(str); let s = ''; for (let i = 0; i < bytes.length; i += 0x8000) s += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000)); return btoa(s); }
+
+/* =====================================================================
+   GitHub API
+   ===================================================================== */
+class GhError extends Error { constructor(status, body) { super(body); this.status = status; } }
+async function gh(method, path, body, raw) {
+  let r;
+  try {
+    r = await fetch(CFG.api + path, {
+      method, cache: 'no-store',
+      headers: Object.assign({ Authorization: 'Bearer ' + S.token, Accept: raw ? 'application/vnd.github.raw+json' : 'application/vnd.github+json' },
+        body ? { 'Content-Type': 'application/json' } : {}),
+      body: body ? JSON.stringify(body) : undefined
+    });
+  } catch (e) { throw new GhError(0, '인터넷 연결을 확인하세요. GitHub에 접속할 수 없습니다.'); }
+  if (!r.ok) throw new GhError(r.status, await r.text());
+  return raw ? r.text() : r.json();
+}
+const repoPath = (p) => `/repos/${CFG.owner}/${CFG.repo}${p}`;
+function explain(e) {
+  if (e.status === 401) return '토큰이 올바르지 않거나 만료되었습니다. "토큰 만드는 방법"을 보고 새 토큰을 만드세요.';
+  if (e.status === 403 || e.status === 404) return '이 토큰으로는 icl.github 저장소에 쓸 수 없습니다. 토큰의 Repository access와 Contents: Read and write 권한을 확인하세요.';
+  if (e.status === 409 || e.status === 422) return '저장 중에 다른 변경과 겹쳤습니다. 페이지를 새로고침한 뒤 다시 해주세요.';
+  return e.message || String(e);
+}
+async function rawFile(path, ref) { return gh('GET', repoPath(`/contents/${path}?ref=${ref}`), null, true); }
+async function dataShas(ref) {
+  const list = await gh('GET', repoPath(`/contents/data?ref=${ref}`));
+  const out = {}; list.forEach((f) => (out[f.name.replace('.json', '')] = f.sha)); return out;
+}
+
+/* =====================================================================
+   로그인 / 불러오기
+   ===================================================================== */
+async function connect(token, remember) {
+  S.token = token.trim();
+  const repo = await gh('GET', repoPath(''));
+  if (!repo.permissions || !repo.permissions.push) throw new GhError(403, '');
+  try { S.user = (await gh('GET', '/user')).login; } catch (e) { S.user = CFG.owner; }
+  store(remember ? localStorage : sessionStorage, 'icl_token', S.token);
+  await loadAll();
+  $('login').hidden = true; $('app').hidden = false;
+  $('whoText').textContent = `${CFG.owner}/${CFG.repo} · ${S.user}`;
+  renderTabs(); renderMain(); renderTray();
+}
+async function loadAll() {
+  const ref = await gh('GET', repoPath(`/git/ref/heads/${CFG.branch}`));
+  S.head = ref.object.sha;
+  S.shas = await dataShas(S.head);
+  const entries = await Promise.all(Object.keys(KINDS).map(async (k) => [k, JSON.parse(await rawFile(`data/${k}.json`, S.head))]));
+  S.data = Object.fromEntries(entries);
+  S.dirty.clear(); S.log = []; S.uploads.clear(); S.deletes.clear(); S.copies.clear();
+}
+function logout() {
+  if (S.dirty.size && !confirm('저장하지 않은 변경이 있습니다. 그래도 로그아웃할까요?')) return;
+  store(localStorage, 'icl_token', null); store(sessionStorage, 'icl_token', null);
+  S.dirty.clear(); location.reload();
+}
+
+/* =====================================================================
+   변경 기록
+   ===================================================================== */
+function touch(kind, note) {
+  S.dirty.add(kind);
+  if (note && S.log.indexOf(note) < 0) S.log.push(note);
+  renderTabs(); renderMain(); renderTray();
+}
+function addUpload(path, img) { S.uploads.set(path, img); S.deletes.delete(path); }
+function removeFile(path) {
+  if (!path) return;
+  if (S.uploads.has(path)) { S.uploads.delete(path); return; }
+  if (S.copies.has(path)) { S.copies.delete(path); return; }
+  S.deletes.add(path);
+}
+function moveFile(from, to) {
+  if (from === to) return;
+  if (S.uploads.has(from)) { addUpload(to, S.uploads.get(from)); S.uploads.delete(from); return; }
+  S.copies.set(to, S.copies.get(from) || from); S.copies.delete(from); S.deletes.delete(to); S.deletes.add(from);
+}
+
+/* =====================================================================
+   저장 (하나의 커밋으로)
+   ===================================================================== */
+async function save() {
+  const msg = $('commitMsg').value.trim() || defaultMessage();
+  const btns = ['saveBtn', 'discardBtn', 'previewBtn'].map($);
+  btns.forEach((b) => (b.disabled = true));
+  const step = (t) => ($('progress').textContent = t);
+  try {
+    step('최신 상태 확인 중…');
+    const ref = await gh('GET', repoPath(`/git/ref/heads/${CFG.branch}`));
+    const head = ref.object.sha;
+    if (head !== S.head) {
+      const now = await dataShas(head);
+      const clash = [...S.dirty].filter((k) => now[k] !== S.shas[k]);
+      if (clash.length) throw new GhError(0, `다른 곳에서 ${clash.map((k) => KINDS[k].label).join(', ')} 내용이 먼저 바뀌었습니다. 지금 변경을 메모해 두고, 새로고침한 뒤 다시 입력해주세요.`);
+    }
+    const commit = await gh('GET', repoPath(`/git/commits/${head}`));
+    const tree = await gh('GET', repoPath(`/git/trees/${commit.tree.sha}?recursive=1`));
+    const exists = new Map(tree.tree.filter((t) => t.type === 'blob').map((t) => [t.path, t.sha]));
+
+    const entries = [];
+    const textBlob = async (path, content) => {
+      const b = await gh('POST', repoPath('/git/blobs'), { content: b64utf8(content), encoding: 'base64' });
+      entries.push({ path, mode: '100644', type: 'blob', sha: b.sha });
+    };
+    for (const kind of S.dirty) {
+      step(`${KINDS[kind].label} 페이지 만드는 중…`);
+      const page = R.PAGES[kind].page;
+      const html = await rawFile(page, head);
+      await textBlob(page, R.renderPage(kind, html, S.data[kind]));
+      await textBlob(`data/${kind}.json`, JSON.stringify(S.data[kind], null, 1) + '\n');
+    }
+    let i = 0;
+    for (const [path, img] of S.uploads) {
+      step(`사진 올리는 중… (${++i}/${S.uploads.size})`);
+      const b = await gh('POST', repoPath('/git/blobs'), { content: img.b64, encoding: 'base64' });
+      entries.push({ path, mode: '100644', type: 'blob', sha: b.sha });
+    }
+    for (const [to, from] of S.copies) if (exists.has(from)) entries.push({ path: to, mode: '100644', type: 'blob', sha: exists.get(from) });
+    const written = new Set(entries.map((e) => e.path));
+    for (const path of S.deletes) if (exists.has(path) && !written.has(path)) entries.push({ path, mode: '100644', type: 'blob', sha: null });
+
+    step('저장하는 중…');
+    const newTree = await gh('POST', repoPath('/git/trees'), { base_tree: commit.tree.sha, tree: entries });
+    const newCommit = await gh('POST', repoPath('/git/commits'), { message: msg, tree: newTree.sha, parents: [head] });
+    await gh('PATCH', repoPath(`/git/refs/heads/${CFG.branch}`), { sha: newCommit.sha });
+
+    S.head = newCommit.sha;
+    S.shas = await dataShas(S.head);
+    S.dirty.clear(); S.log = []; S.uploads.clear(); S.deletes.clear(); S.copies.clear();
+    $('commitMsg').value = '';
+    renderTabs(); renderMain(); renderTray();
+    toast(h('span', {}, '저장했습니다. 1~2분 뒤 홈페이지에 반영됩니다. ',
+      h('a', { href: `https://github.com/${CFG.owner}/${CFG.repo}/actions`, target: '_blank', rel: 'noopener' }, '반영 상태 보기')), 'ok', 12000);
+  } catch (e) {
+    toast(explain(e), 'err', 15000);
+  } finally {
+    btns.forEach((b) => (b.disabled = false)); step('');
+  }
+}
+function defaultMessage() { return yymmdd() + ' ' + (S.log.join(', ') || 'homepage updated'); }
+async function discard() {
+  if (!confirm('저장하지 않은 변경을 모두 버리고 GitHub의 최신 내용을 다시 불러올까요?')) return;
+  try { await loadAll(); renderTabs(); renderMain(); renderTray(); toast('최신 내용을 다시 불러왔습니다.'); }
+  catch (e) { toast(explain(e), 'err'); }
+}
+async function preview() {
+  const kind = R.PAGES[S.tab] ? S.tab : [...S.dirty][0];
+  if (!kind) return;
+  const w = window.open('', '_blank');
+  try {
+    let html = R.renderPage(kind, await rawFile(R.PAGES[kind].page, S.head), S.data[kind]);
+    for (const [p, img] of S.uploads) html = html.split(p).join(img.url);
+    for (const [to, from] of S.copies) html = html.split(to).join(from);
+    const base = new URL('.', location.href).href;
+    html = html.replace(/<head>/i, `<head><base href="${base}">`);
+    w.location = URL.createObjectURL(new Blob([html], { type: 'text/html' }));
+  } catch (e) { w.close(); toast(explain(e), 'err'); }
+}
+
+/* =====================================================================
+   사진 압축
+   ===================================================================== */
+function readAsDataURL(blob) { return new Promise((ok, no) => { const fr = new FileReader(); fr.onload = () => ok(fr.result); fr.onerror = no; fr.readAsDataURL(blob); }); }
+async function compress(file, opt) {
+  if (!/^image\/(jpeg|png|gif|webp|bmp)$/i.test(file.type)) throw new Error(`${file.name}: JPG나 PNG 사진만 올릴 수 있습니다. (아이폰 HEIC는 JPG로 바꿔서 올려주세요)`);
+  if (file.type === 'image/gif') { const url = await readAsDataURL(file); return { ext: 'gif', url, b64: url.split(',')[1], size: file.size, before: file.size }; }
+  const bmp = await createImageBitmap(file, { imageOrientation: 'from-image' }).catch(() => null);
+  if (!bmp) throw new Error(`${file.name}: 사진을 읽을 수 없습니다.`);
+  const scale = Math.min(1, opt.maxSide / Math.max(bmp.width, bmp.height));
+  if (opt.keepPngUnder && file.type === 'image/png' && scale === 1 && file.size <= opt.keepPngUnder) {
+    const url = await readAsDataURL(file); return { ext: 'png', url, b64: url.split(',')[1], size: file.size, before: file.size };
+  }
+  const c = document.createElement('canvas');
+  c.width = Math.round(bmp.width * scale); c.height = Math.round(bmp.height * scale);
+  const g = c.getContext('2d'); g.fillStyle = '#fff'; g.fillRect(0, 0, c.width, c.height); g.drawImage(bmp, 0, 0, c.width, c.height);
+  let blob = await new Promise((ok) => c.toBlob(ok, 'image/jpeg', opt.quality));
+  if (file.type === 'image/jpeg' && scale === 1 && blob.size >= file.size) blob = file;
+  const url = await readAsDataURL(blob);
+  return { ext: 'jpg', url, b64: url.split(',')[1], size: blob.size, before: file.size };
+}
+
+/* =====================================================================
+   DOI → 논문 정보 (Crossref)
+   ===================================================================== */
+function cleanTitle(t) {
+  let s = String(t || '').replace(/<(\/?)(sub|sup|i)>/gi, '[[$1$2]]').replace(/<[^>]+>/g, '');
+  const ta = document.createElement('textarea'); ta.innerHTML = s; s = ta.value;
+  return s.replace(/\[\[(\/?)(sub|sup|i)\]\]/gi, '<$1$2>').replace(/\s+/g, ' ').trim();
+}
+function initials(given) {
+  return String(given || '').trim().split(/\s+/).filter(Boolean)
+    .map((part) => part.split('-').filter(Boolean).map((x) => x[0].toUpperCase() + '.').join('-')).join('');
+}
+function parseDoi(input) {
+  const m = String(input).trim().match(/10\.\d{4,9}\/\S+/);
+  return m ? m[0].replace(/[.,;)]+$/, '') : '';
+}
+async function fetchDoi(doi) {
+  let r;
+  try { r = await fetch('https://api.crossref.org/works/' + encodeURIComponent(doi)); }
+  catch (e) { throw new Error('DOI 정보를 불러오지 못했습니다. 인터넷 연결을 확인하거나 직접 입력하세요.'); }
+  if (r.status === 404) throw new Error('이 DOI를 찾을 수 없습니다. 오타가 없는지 확인하세요. 막 나온 논문은 하루 이틀 뒤에 검색될 수 있습니다.');
+  if (!r.ok) throw new Error('DOI 정보를 불러오지 못했습니다. 잠시 후 다시 시도하거나 직접 입력하세요.');
+  const w = (await r.json()).message;
+  const dp = (k) => w[k] && w[k]['date-parts'] && w[k]['date-parts'][0] && w[k]['date-parts'][0][0];
+  const year = dp('published-print') || dp('journal-issue') || dp('published-online') || dp('issued') || thisYear();
+  const page = String(w.page || '').split(/[-–]/);
+  const authors = (w.author || []).map((a) => a.family ? `${a.family}${a.given ? ' ' + initials(a.given) : ''}` : (a.name || '')).join('; ');
+  const tdiv = document.createElement('textarea'); tdiv.innerHTML = (w['container-title'] || [''])[0];
+  const hasPages = !!(w.page || w['article-number']);
+  return {
+    year: Number(year), title: cleanTitle((w.title || [''])[0]), source: tdiv.value,
+    volume: w.volume || (hasPages ? '' : 'online published'), issue: w.issue || '',
+    artNo: w.page ? '' : (w['article-number'] || ''), pageStart: page[0] || '', pageEnd: page[1] || '',
+    doi: w.DOI || doi, authors
+  };
+}
+
+/* =====================================================================
+   대화상자 (입력 폼)
+   ===================================================================== */
+// fields: [{key,label,type,options,hint,required,row}] → 값을 돌려줌(취소하면 null)
+function openForm({ title, fields, values = {}, submitLabel = '적용', onDelete, deleteLabel = '삭제', live }) {
+  return new Promise((resolve) => {
+    const dlg = $('dlg'), body = $('dlgBody'), foot = $('dlgFoot');
+    $('dlgTitle').textContent = title; body.innerHTML = ''; foot.innerHTML = '';
+    const inputs = {}; const state = { file: null, img: null };
+    let rowWrap = null;
+    fields.forEach((f) => {
+      let control;
+      if (f.type === 'select') {
+        control = h('select', { name: f.key }, f.options.map((o) => h('option', { value: o.value ?? o }, o.label ?? o)));
+        control.value = values[f.key] ?? f.options[0]?.value ?? f.options[0];
+      } else if (f.type === 'textarea') {
+        control = h('textarea', { name: f.key, rows: 2 }); control.value = values[f.key] ?? '';
+      } else if (f.type === 'image') {
+        const prev = h('img', { alt: '', src: f.current || 'data:,' });
+        const info = h('div', { class: 'info' }, f.current ? '지금 사진' : '사진 없음');
+        const fi = h('input', { type: 'file', accept: 'image/*' });
+        fi.addEventListener('change', async () => {
+          const file = fi.files[0]; if (!file) return;
+          info.textContent = '압축 중…';
+          try {
+            state.img = await compress(file, f.opt); prev.src = state.img.url;
+            info.textContent = `${kb(state.img.before)} → ${kb(state.img.size)} (${state.img.ext.toUpperCase()})`;
+          } catch (e) { state.img = null; info.textContent = e.message; fi.value = ''; }
+        });
+        control = h('div', { class: 'imgfield' }, prev, h('div', {}, fi, info));
+      } else {
+        const listId = f.list ? 'dl-' + f.key : null;
+        control = h('input', { type: f.type || 'text', name: f.key, required: f.required, placeholder: f.placeholder, list: listId });
+        control.value = values[f.key] ?? '';
+        if (listId) body.append(h('datalist', { id: listId }, f.list.map((o) => h('option', { value: o }))));
+      }
+      if (f.key && f.type !== 'image') inputs[f.key] = control;
+      const lab = h(f.type === 'image' ? 'div' : 'label', { class: 'field' }, h('span', {}, f.label + (f.required ? ' *' : '')), control, f.hint ? h('small', {}, f.hint) : null);
+      if (f.row) {
+        if (!rowWrap || rowWrap.dataset.row !== f.row) { rowWrap = h('div', { class: f.row === '3' ? 'row3' : 'row2', 'data-row': f.row }); rowWrap.dataset.row = f.row; body.append(rowWrap); }
+        rowWrap.append(lab);
+      } else { rowWrap = null; body.append(lab); }
+    });
+    let pv = null;
+    const collect = () => { const v = {}; for (const [k, el] of Object.entries(inputs)) v[k] = el.value.trim(); return v; };
+    if (live) {
+      pv = h('div', { class: 'preview' }); body.append(pv);
+      const upd = () => (pv.innerHTML = '<span class="lbl">홈페이지에 이렇게 표시됩니다</span>' + live(collect()));
+      body.addEventListener('input', upd); body.addEventListener('change', upd); upd();
+    }
+    if (onDelete) foot.append(h('button', { type: 'button', class: 'btn danger left', onclick: () => { if (confirm('정말 삭제할까요?')) { onDelete(); finish(null); } } }, deleteLabel));
+    foot.append(h('button', { type: 'button', class: 'btn', onclick: () => finish(null) }, '취소'));
+    foot.append(h('button', { type: 'submit', class: 'btn primary', value: 'ok' }, submitLabel));
+    let done = false;
+    function finish(v) { if (done) return; done = true; dlg.close(); resolve(v); }
+    $('dlgForm').onsubmit = (ev) => {
+      ev.preventDefault();
+      for (const f of fields) if (f.required && !inputs[f.key].value.trim()) { inputs[f.key].focus(); return; }
+      finish(Object.assign(collect(), { _img: state.img }));
+    };
+    dlg.onclose = () => finish(null);
+    dlg.showModal();
+    const first = body.querySelector('input:not([type=file]),select,textarea'); if (first) first.focus();
+  });
+}
+
+/* =====================================================================
+   화면: 탭
+   ===================================================================== */
+function renderTabs() {
+  const nav = $('tabs'); nav.innerHTML = '';
+  [...Object.entries(KINDS), ['help', { label: '도움말' }]].forEach(([k, v]) => {
+    nav.append(h('button', { role: 'tab', type: 'button', 'aria-selected': String(S.tab === k), onclick: () => { S.tab = k; renderTabs(); renderMain(); } },
+      v.label, S.dirty.has(k) ? h('span', { class: 'dot', title: '저장 안 된 변경 있음' }) : null));
+  });
+}
+function renderMain() {
+  const m = $('main'); m.innerHTML = '';
+  if (S.tab === 'members' || S.tab === 'alumni') viewPeople(S.tab);
+  else ({ publications: viewPubs, patents: viewPatents, gallery: viewGallery, help: viewHelp })[S.tab](m);
+}
+function renderTray() {
+  const n = S.log.length || S.dirty.size;
+  $('tray').hidden = !S.dirty.size;
+  $('trayCount').textContent = `저장 안 된 변경 ${n}건`;
+  const ul = $('trayList'); ul.innerHTML = '';
+  S.log.forEach((l) => ul.append(h('li', {}, l)));
+  $('commitMsg').placeholder = defaultMessage();
+  $('previewBtn').hidden = !R.PAGES[S.tab] || !S.dirty.has(S.tab);
+}
+
+/* ---------------- 엑셀 (G:\icl.admin 의 엑셀과 같은 형식) ---------------- */
+const XL = {
+  publications: { file: 'icl_publications.xlsx', sheet: 'Publications_with_papernum',
+    cols: ['Paper No.', 'Authors', 'Title', 'Year', 'Source title', 'Volume', 'Issue', 'Art. No.', 'Page start', 'Page end', 'DOI', 'Image'],
+    need: ['Paper No.', 'Title', 'Year', 'Source title'] },
+  patents: { file: 'icl_patent.xlsx', sheet: '특허',
+    cols: ['No.', 'name', 'title', 'nation', 'Application_No.', 'Application_date', 'Registration_No.', 'Registration_date'],
+    need: ['No.', 'name', 'title', 'nation', 'Application_No.'] },
+  members: { file: 'members info.xlsx', cols: ['program', 'name', 'from', 'degree', 'email', 'photo'], need: ['name', 'from', 'degree', 'email'] },
+  alumni: { file: 'Alumni info.xlsx', cols: ['program', 'name', 'from', 'to', 'current', 'email', 'photo'], need: ['name', 'from', 'to', 'current', 'email'] }
+};
+let xlsxLoading = null;
+function loadXLSX() {
+  if (window.XLSX) return Promise.resolve();
+  return xlsxLoading || (xlsxLoading = new Promise((ok, no) => {
+    const s = document.createElement('script');
+    s.src = 'https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js';
+    s.onload = ok; s.onerror = () => { xlsxLoading = null; no(new Error('엑셀 기능을 불러오지 못했습니다. 인터넷 연결을 확인하세요.')); };
+    document.head.append(s);
+  }));
+}
+const cell = (v) => (v === '' || v == null) ? null : (/^\d+$/.test(String(v)) && String(v).length < 10 ? Number(v) : String(v));
+function txt(v) {
+  if (v == null) return '';
+  if (v instanceof Date) return `${v.getFullYear()}.${String(v.getMonth() + 1).padStart(2, '0')}.${String(v.getDate()).padStart(2, '0')}`;
+  return String(v).replace(/[\u200b\u00a0]/g, ' ').replace(/\s+/g, ' ').trim();
+}
+const sheetTitle = (t) => String(t).replace(/[\\/?*[\]:]/g, ' ').slice(0, 31);
+async function exportExcel(kind) {
+  try { await loadXLSX(); } catch (e) { toast(e.message, 'err'); return; }
+  const X = XL[kind], wb = XLSX.utils.book_new();
+  const add = (name, rows) => {
+    const ws = XLSX.utils.aoa_to_sheet([X.cols, ...rows]);
+    ws['!cols'] = X.cols.map((c) => ({ wch: /Title|title|Authors|degree|current/.test(c) ? 50 : 16 }));
+    XLSX.utils.book_append_sheet(wb, ws, sheetTitle(name));
+  };
+  const d = S.data[kind];
+  if (kind === 'publications') add(X.sheet, d.slice().sort((a, b) => a.no - b.no).map((p) =>
+    [p.no, p.authors, p.title, p.year, p.source, cell(p.volume), cell(p.issue), cell(p.artNo), cell(p.pageStart), cell(p.pageEnd), p.doi || null, p.image || null]));
+  if (kind === 'patents') add(X.sheet, d.slice().sort((a, b) => a.no - b.no).map((p) =>
+    [p.no, p.name, p.title, p.nation, p.applicationNo || null, p.applicationDate || null, p.registrationNo || null, p.registrationDate || null]));
+  if (kind === 'members') d.forEach((s) => add(s.title, s.people.map((m) => [s.title, m.name, cell(m.from), m.degree || null, m.email || null, m.photo || null])));
+  if (kind === 'alumni') d.forEach((s) => add(s.title, s.people.slice().reverse().map((m) => [s.title, m.name, cell(m.from), cell(m.to), m.current || null, m.email || null, m.photo || null])));
+  XLSX.writeFile(wb, X.file);
+}
+function findPhoto(kind, name) {
+  for (const s of S.data[kind]) for (const m of s.people) if (m.name === name && m.photo) return m.photo;
+  return '';
+}
+function readSheet(ws, X, label) {
+  const rows = XLSX.utils.sheet_to_json(ws, { defval: null, raw: true });
+  const have = rows.length ? Object.keys(rows[0]) : [];
+  const miss = X.need.filter((c) => !have.includes(c));
+  if (rows.length && miss.length) throw new Error(`'${label}' 시트에 ${miss.join(', ')} 열이 없습니다. 첫 줄의 열 이름을 확인하세요.`);
+  return rows;
+}
+async function importExcel(kind, file) {
+  try {
+    await loadXLSX();
+    const wb = XLSX.read(await file.arrayBuffer(), { cellDates: true });
+    const X = XL[kind]; let next;
+    if (kind === 'publications' || kind === 'patents') {
+      const ws = wb.Sheets[X.sheet] || wb.Sheets[wb.SheetNames[0]];
+      const rows = readSheet(ws, X, wb.SheetNames[0]);
+      if (kind === 'publications') {
+        const old = new Map(S.data.publications.map((p) => [p.no, p]));
+        next = rows.filter((r) => r['Paper No.'] != null).map((r) => {
+          const no = Number(r['Paper No.']);
+          return { no, authors: txt(r['Authors']), title: txt(r['Title']), year: Number(r['Year']), source: txt(r['Source title']),
+            volume: txt(r['Volume']), issue: txt(r['Issue']), artNo: txt(r['Art. No.']), pageStart: txt(r['Page start']), pageEnd: txt(r['Page end']),
+            doi: txt(r['DOI']).replace(/^https?:\/\/(dx\.)?doi\.org\//, '').replace(/\.$/, ''),
+            image: txt(r['Image']) || (old.get(no) && old.get(no).image) || '' };
+        }).sort((a, b) => b.no - a.no);
+      } else {
+        next = rows.filter((r) => r['No.'] != null).map((r) => ({ no: Number(r['No.']), name: txt(r['name']), title: txt(r['title']),
+          nation: txt(r['nation']) || '대한민국', applicationNo: txt(r['Application_No.']), applicationDate: txt(r['Application_date']),
+          registrationNo: txt(r['Registration_No.']), registrationDate: txt(r['Registration_date']) })).sort((a, b) => b.no - a.no);
+      }
+    } else {
+      next = wb.SheetNames.map((name) => {
+        const rows = readSheet(wb.Sheets[name], X, name).filter((r) => txt(r.name));
+        const title = (rows[0] && txt(rows[0].program)) || name.replace('Undergarduate', 'Undergraduate');
+        let people = rows.map((r) => kind === 'members'
+          ? { name: txt(r.name), from: txt(r.from), degree: txt(r.degree), email: txt(r.email), photo: txt(r.photo) || findPhoto(kind, txt(r.name)) }
+          : { name: txt(r.name), from: txt(r.from), to: txt(r.to), current: txt(r.current), email: txt(r.email), photo: txt(r.photo) || findPhoto(kind, txt(r.name)) });
+        if (kind === 'alumni') people = people.reverse();   // 엑셀은 오래된 순, 홈페이지는 최근 순
+        return { title, people };
+      });
+    }
+    const key = (x) => kind === 'publications' || kind === 'patents' ? x.no : x.name;
+    const flat = (d) => kind === 'publications' || kind === 'patents' ? d : d.flatMap((s) => s.people.map((p) => Object.assign({ _s: s.title }, p)));
+    const a = new Map(flat(S.data[kind]).map((x) => [key(x), JSON.stringify(x)]));
+    const b = new Map(flat(next).map((x) => [key(x), JSON.stringify(x)]));
+    const added = [...b.keys()].filter((k) => !a.has(k)), removed = [...a.keys()].filter((k) => !b.has(k));
+    const changed = [...b.keys()].filter((k) => a.has(k) && a.get(k) !== b.get(k));
+    if (!added.length && !removed.length && !changed.length && JSON.stringify(next) === JSON.stringify(S.data[kind])) { toast('엑셀 내용이 지금과 같습니다. 바뀐 것이 없습니다.'); return; }
+    const show = (l) => l.slice(0, 8).join(', ') + (l.length > 8 ? ` 외 ${l.length - 8}` : '');
+    const msg = `${file.name} 내용으로 ${KINDS[kind].label} 전체를 바꿉니다.\n\n` +
+      `추가 ${added.length}${added.length ? ' (' + show(added) + ')' : ''}\n변경 ${changed.length}${changed.length ? ' (' + show(changed) + ')' : ''}\n삭제 ${removed.length}${removed.length ? ' (' + show(removed) + ')' : ''}\n\n계속할까요?`;
+    if (!confirm(msg)) return;
+    S.data[kind] = next;
+    touch(kind, `${kind} updated from Excel`);
+    toast(`엑셀을 반영했습니다. 새로 추가된 항목의 사진·그림은 "수정"에서 올려주세요. 아래 "GitHub에 저장"을 눌러야 홈페이지에 올라갑니다.`, 'ok', 9000);
+  } catch (e) { toast(e.message || String(e), 'err', 12000); }
+}
+function excelButtons(kind) {
+  const fi = h('input', { type: 'file', accept: '.xlsx,.xls', hidden: true, onchange: () => { if (fi.files[0]) importExcel(kind, fi.files[0]); fi.value = ''; } });
+  return [
+    h('button', { class: 'btn', type: 'button', onclick: () => exportExcel(kind) }, '엑셀로 내려받기'),
+    h('button', { class: 'btn', type: 'button', onclick: () => fi.click(), title: `${XL[kind].file}와 같은 형식` }, '엑셀 올리기'), fi];
+}
+
+/* ---------------- 논문 ---------------- */
+function pubFields(p, isNew) {
+  return [
+    { key: 'no', label: 'Paper No.', type: 'number', required: true, row: '2' },
+    { key: 'year', label: 'Year', type: 'number', required: true, row: '2' },
+    { key: 'title', label: 'Title', type: 'textarea', required: true, hint: '아래첨자는 <sub>2</sub>, 위첨자는 <sup>+</sup>, 기울임은 <i>…</i> 로 쓸 수 있습니다.' },
+    { key: 'source', label: 'Source title (저널)', required: true },
+    { key: 'volume', label: 'Volume', row: '2', list: ['online published', 'Pre-proof', 'In press'], hint: '권호가 아직 없으면 online published 등을 적습니다.' },
+    { key: 'issue', label: 'Issue', row: '2' },
+    { key: 'artNo', label: 'Art. No.', row: '3', hint: '있으면 쪽 대신 표시' }, { key: 'pageStart', label: 'Page start', row: '3' }, { key: 'pageEnd', label: 'Page end', row: '3' },
+    { key: 'authors', label: 'Authors', type: 'textarea', hint: '예) Baek J.; Park H.; Yoon S.' },
+    { key: 'doi', label: 'DOI', placeholder: '10.1039/…', hint: 'https://doi.org/ 없이 적어도 되고, 붙여도 됩니다.' },
+    { key: 'image', label: isNew ? '대표 그림 (TOC)' : '대표 그림 바꾸기', type: 'image', opt: IMG.pub, current: p.image ? imgUrl('images/publications/' + p.image) : '' }
+  ];
+}
+function pubPreview(v) { return R.citation(v) + '<br><span style="color:var(--ink-3)">' + R.esc(v.authors) + '</span>'; }
+function toPub(v, old) {
+  return Object.assign({}, old, {
+    no: Number(v.no), year: Number(v.year), title: v.title, source: v.source, volume: v.volume, issue: v.issue.replace(/(\d)-(\d)/g, '$1–$2'),
+    artNo: v.artNo, pageStart: v.pageStart, pageEnd: v.pageEnd, authors: v.authors, doi: parseDoi(v.doi) || v.doi
+  });
+}
+async function editPub(p) {
+  const isNew = !S.data.publications.includes(p);
+  const v = await openForm({
+    title: isNew ? '새 논문 추가' : `논문 ${p.no} 수정`, fields: pubFields(p, isNew), values: p, live: pubPreview,
+    submitLabel: isNew ? '목록에 추가' : '적용',
+    onDelete: isNew ? null : () => {
+      S.data.publications.splice(S.data.publications.indexOf(p), 1);
+      if (p.image) removeFile('images/publications/' + p.image);
+      touch('publications', `pub ${p.no} deleted`);
+    }
+  });
+  if (!v) return;
+  const np = toPub(v, p);
+  const clash = S.data.publications.find((x) => x !== p && x.no === np.no);
+  if (clash && !confirm(`${np.no}번 논문이 이미 있습니다. 그래도 같은 번호로 저장할까요?`)) return;
+  if (v._img) {
+    const name = `${String(np.year).slice(2)}_${np.no}.${v._img.ext}`;
+    if (p.image && p.image !== name) removeFile('images/publications/' + p.image);
+    addUpload('images/publications/' + name, v._img); np.image = name;
+  }
+  if (isNew) S.data.publications.push(np); else Object.assign(p, np);
+  touch('publications', isNew ? `pub ${np.no} added` : `pub ${np.no} edited`);
+}
+function nextPubNo() { return Math.max(0, ...S.data.publications.map((p) => p.no)) + 1; }
+function emptyPub() { return { no: nextPubNo(), authors: '', title: '', year: thisYear(), source: '', volume: '', issue: '', artNo: '', pageStart: '', pageEnd: '', doi: '', image: '' }; }
+function viewPubs(m) {
+  const list = R.sortPubs(S.data.publications);
+  m.append(h('h2', {}, '논문'), h('p', { class: 'lead' }, `모두 ${list.length}편. Paper No.가 큰 순서로 홈페이지에 표시되고, 연도 선택 목록은 자동으로 만들어집니다.`));
+  const doiIn = h('input', { type: 'text', placeholder: '예) 10.1039/d6ta05756j 또는 https://doi.org/…', 'aria-label': 'DOI' });
+  const doiBtn = h('button', { class: 'btn primary', type: 'submit' }, '불러오기');
+  const doiMsg = h('div');
+  m.append(h('form', { class: 'box doi-box', onsubmit: async (e) => {
+    e.preventDefault(); doiMsg.innerHTML = '';
+    const doi = parseDoi(doiIn.value);
+    if (!doi) { doiMsg.append(h('div', { class: 'msg err' }, 'DOI 형식이 아닙니다. 10.으로 시작하는 주소를 넣어주세요.')); return; }
+    const dup = S.data.publications.find((p) => (p.doi || '').toLowerCase() === doi.toLowerCase());
+    if (dup && !confirm(`이미 ${dup.no}번 논문으로 등록된 DOI입니다. 그래도 새로 추가할까요?`)) return;
+    doiBtn.disabled = true; doiBtn.textContent = '불러오는 중…';
+    try {
+      const info = await fetchDoi(doi);
+      doiIn.value = '';
+      await editPub(Object.assign(emptyPub(), info));
+    } catch (err) { doiMsg.append(h('div', { class: 'msg err' }, err.message)); }
+    finally { doiBtn.disabled = false; doiBtn.textContent = '불러오기'; }
+  } }, h('label', {}, 'DOI로 새 논문 추가'), doiIn, doiBtn,
+    h('button', { class: 'btn', type: 'button', onclick: () => editPub(emptyPub()) }, '직접 입력'),
+    h('div', { style: 'flex-basis:100%' }, doiMsg)));
+  const q = h('input', { type: 'text', class: 'grow', placeholder: '제목, 저자, 저널, 번호로 찾기', value: S.pubQuery, 'aria-label': '논문 찾기' });
+  const ul = h('ul', { class: 'list' });
+  const draw = () => {
+    S.pubQuery = q.value; const s = q.value.trim().toLowerCase(); ul.innerHTML = '';
+    const shown = list.filter((p) => !s || [p.no, p.title, p.authors, p.source, p.year, p.doi].join(' ').toLowerCase().includes(s));
+    let year = null;
+    shown.forEach((p) => {
+      if (p.year !== year) { year = p.year; ul.append(h('li', { class: 'yearhead', style: 'display:block' }, String(year))); }
+      ul.append(h('li', { class: 'pubrow' },
+        h('span', { class: 'no' }, p.no),
+        p.image ? h('img', { class: 'thumb', src: imgUrl('images/publications/' + p.image), alt: '', loading: 'lazy' }) : h('span', { class: 'thumb' }),
+        h('div', {}, h('div', { class: 't', html: R.richText(p.title) }),
+          h('div', { class: 'm', html: R.citation(Object.assign({}, p, { title: '' })).replace(/^, /, '') + ' · ' + R.esc(p.authors) })),
+        h('div', { class: 'acts' }, h('button', { class: 'btn small', type: 'button', onclick: () => editPub(p) }, '수정'))));
+    });
+    if (!shown.length) ul.append(h('li', { class: 'empty', style: 'display:block' }, '찾는 논문이 없습니다.'));
+  };
+  q.addEventListener('input', draw);
+  m.append(h('div', { class: 'toolbar' }, q, excelButtons('publications')), h('div', { class: 'box' }, ul));
+  draw();
+}
+
+/* ---------------- 특허 ---------------- */
+function moveInList(list, item, dir, kind, note) {
+  const i = list.indexOf(item), j = i + dir;
+  if (j < 0 || j >= list.length || (list[j].year !== undefined && list[j].year !== item.year)) return;
+  [list[i], list[j]] = [list[j], list[i]]; touch(kind, note);
+}
+async function editPatent(p) {
+  const isNew = !S.data.patents.includes(p);
+  const v = await openForm({
+    title: isNew ? '새 특허 추가' : `특허 ${p.no} 수정`, values: p, submitLabel: isNew ? '목록에 추가' : '적용',
+    fields: [
+      { key: 'no', label: 'No.', type: 'number', required: true, row: '2' },
+      { key: 'nation', label: 'nation', row: '2', list: ['대한민국', '미국', 'PCT'], required: true },
+      { key: 'title', label: 'title', type: 'textarea', required: true, hint: '예) 포름산 칼슘의 제조 방법 (MANUFACTURING METHOD FOR CALCIUM FORMATE)' },
+      { key: 'name', label: 'name (발명자)', hint: '예) 윤성호, 박홍진' },
+      { key: 'applicationNo', label: 'Application_No.', row: '2', required: true }, { key: 'applicationDate', label: 'Application_date', row: '2', placeholder: '2024.10.28' },
+      { key: 'registrationNo', label: 'Registration_No.', row: '2', hint: '등록되면 채우세요. 그러면 "등록"으로 바뀝니다.' }, { key: 'registrationDate', label: 'Registration_date', row: '2', placeholder: '2025.05.01' }
+    ],
+    live: (v) => { const y = R.patentYear(v); return `${R.esc(v.title)} <i>${R.esc(R.patentNumberText(v))}</i>, <b>${y || '?'}</b><br><span style="color:var(--ink-3)">${R.esc(v.name)}</span>`; },
+    onDelete: isNew ? null : () => { S.data.patents.splice(S.data.patents.indexOf(p), 1); touch('patents', `patent ${p.no} deleted`); }
+  });
+  if (!v) return;
+  if (!R.patentYear(v)) { alert('Application_date 또는 Registration_date를 2024.10.28 처럼 연도부터 적어주세요. 홈페이지의 연도는 이 날짜에서 정해집니다.'); return; }
+  const np = { no: Number(v.no), name: v.name, title: v.title, nation: v.nation || '대한민국', applicationNo: v.applicationNo, applicationDate: v.applicationDate,
+    registrationNo: v.registrationNo, registrationDate: v.registrationDate };
+  if (isNew) S.data.patents.unshift(np); else Object.assign(p, np);
+  S.data.patents.sort((a, b) => b.no - a.no);
+  touch('patents', isNew ? `patent ${np.no} added` : `patent ${np.no} edited`);
+}
+function viewPatents(m) {
+  const list = S.data.patents;
+  m.append(h('h2', {}, '특허'), h('p', { class: 'lead' }, `모두 ${list.length}건. 등록번호가 있으면 "등록", 없으면 "출원"으로 표시되고, 연도는 등록일(없으면 출원일)에서 정해집니다. 연도별로 묶여 No.가 큰 순서로 나옵니다.`));
+  m.append(h('div', { class: 'toolbar' },
+    h('button', { class: 'btn primary', type: 'button', onclick: () => editPatent({ no: Math.max(0, ...list.map((p) => p.no)) + 1, name: '', title: '', nation: '대한민국', applicationNo: '', applicationDate: '', registrationNo: '', registrationDate: '' }) }, '새 특허 추가'),
+    excelButtons('patents')));
+  const ul = h('ul', { class: 'list' }); let year = null;
+  const sorted = list.slice().sort((a, b) => R.patentYear(b) - R.patentYear(a) || b.no - a.no);
+  sorted.forEach((p) => {
+    const y = R.patentYear(p);
+    if (y !== year) { year = y; ul.append(h('li', { class: 'yearhead', style: 'display:block' }, String(year))); }
+    ul.append(h('li', {}, h('span', { class: 'no' }, p.no),
+      h('div', {}, h('div', { class: 't' }, p.title), h('div', { class: 'm' }, `${R.patentNumberText(p)} · ${p.name}`)),
+      h('div', { class: 'acts' }, h('button', { class: 'btn small', type: 'button', onclick: () => editPatent(p) }, '수정'))));
+  });
+  m.append(h('div', { class: 'box' }, ul));
+}
+
+/* ---------------- 멤버 · 졸업생 ---------------- */
+const FOLDER = { members: 'images/members/', alumni: 'images/Alumni/' };
+function photoPath(kind, m) { return m.photo ? FOLDER[kind] + m.photo : 'images/members/blank_profile.png'; }
+const yearOf = (v) => (String(v || '').match(/\d{4}/) || [''])[0];
+async function editPerson(kind, sec, m) {
+  const secs = S.data[kind];
+  const isNew = !m;
+  m = m || (kind === 'alumni' ? { name: '', from: '', to: String(thisYear()), current: '', email: '', photo: '' } : { name: '', from: String(thisYear()), degree: '', email: '', photo: '' });
+  const fields = [
+    { key: 'name', label: 'name (영문, 성 이름 순)', required: true, placeholder: '예) Byun Sanghun', row: '2' },
+    { key: 'section', label: 'program (구분)', type: 'select', options: secs.map((s) => s.title), row: '2' }];
+  if (kind === 'alumni') fields.push({ key: 'from', label: 'from (입학 연도)', type: 'number', row: '2' }, { key: 'to', label: 'to (졸업 연도)', type: 'number', row: '2' },
+    { key: 'current', label: 'current (현재 소속)', hint: '예) Samsung Electronics (비워두면 Unknown으로 표시)' });
+  else fields.push({ key: 'from', label: 'from (시작 연도)', type: 'number', row: '2' }, { key: 'email', label: 'email', row: '2' },
+    { key: 'degree', label: 'degree (학력)', hint: '예) B.S. Chung-Ang University, 2025' });
+  if (kind === 'alumni') fields.push({ key: 'email', label: 'email' });
+  fields.push({ key: 'photo', label: isNew ? '사진' : '사진 바꾸기', type: 'image', opt: IMG.person, current: m.photo ? imgUrl(photoPath(kind, m)) : '' });
+  const v = await openForm({
+    title: isNew ? (kind === 'alumni' ? '졸업생 추가' : '멤버 추가') : m.name, values: Object.assign({ section: sec ? sec.title : secs[0].title }, m),
+    submitLabel: isNew ? '추가' : '적용', fields,
+    onDelete: isNew ? null : () => {
+      sec.people.splice(sec.people.indexOf(m), 1);
+      if (m.photo) removeFile(FOLDER[kind] + m.photo);
+      touch(kind, `${m.name} removed from ${kind}`);
+    }
+  });
+  if (!v) return;
+  const nm = kind === 'alumni'
+    ? { name: v.name, from: yearOf(v.from), to: yearOf(v.to), current: v.current, email: v.email, photo: m.photo }
+    : { name: v.name, from: yearOf(v.from), degree: v.degree, email: v.email, photo: m.photo };
+  if (v._img) {
+    const file = safeName(v.name) + '.' + v._img.ext;
+    if (m.photo && m.photo !== file) removeFile(FOLDER[kind] + m.photo);
+    addUpload(FOLDER[kind] + file, v._img); nm.photo = file;
+  }
+  const target = secs.find((s) => s.title === v.section) || secs[0];
+  if (isNew) { if (kind === 'alumni') target.people.unshift(nm); else target.people.push(nm); }
+  else { Object.keys(m).forEach((k) => delete m[k]); Object.assign(m, nm); if (target !== sec) { sec.people.splice(sec.people.indexOf(m), 1); target.people.push(m); } }
+  touch(kind, isNew ? `${nm.name} added to ${kind}` : `${nm.name} updated`);
+}
+async function graduate(sec, m) {
+  const alSecs = S.data.alumni;
+  const v = await openForm({
+    title: `${m.name} 졸업생으로 옮기기`, submitLabel: '졸업생으로 옮기기',
+    values: { section: (alSecs.find((s) => s.title === sec.title) || alSecs[0]).title, to: thisYear(), current: '' },
+    fields: [
+      { key: 'section', label: 'program (졸업생 구분)', type: 'select', options: alSecs.map((s) => s.title), row: '2' },
+      { key: 'to', label: 'to (졸업·퇴임 연도)', type: 'number', required: true, row: '2' },
+      { key: 'current', label: 'current (현재 소속)', hint: '예) Post Doc. at Chung-Ang University, Seoul (모르면 비워두세요)' }
+    ]
+  });
+  if (!v) return;
+  const am = { name: m.name, from: m.from, to: yearOf(v.to), current: v.current, email: m.email, photo: m.photo };
+  if (m.photo) moveFile(FOLDER.members + m.photo, FOLDER.alumni + m.photo);
+  sec.people.splice(sec.people.indexOf(m), 1);
+  (alSecs.find((s) => s.title === v.section) || alSecs[0]).people.unshift(am);
+  S.dirty.add('alumni');
+  touch('members', `${m.name} moved to alumni`);
+}
+async function editSection(kind, sec) {
+  const secs = S.data[kind];
+  const v = await openForm({
+    title: sec ? '구분 이름 바꾸기' : '새 구분 추가', values: { title: sec ? sec.title : '' }, submitLabel: sec ? '적용' : '추가',
+    fields: [{ key: 'title', label: '구분 이름 (엑셀의 시트 이름)', required: true, hint: '예) Ph.D program, Master Program, Faculty, Postdoctoral Researcher, Undergraduate Student' }],
+    onDelete: sec ? () => {
+      if (sec.people.length) { alert('사람이 있는 구분은 지울 수 없습니다. 먼저 사람을 다른 구분으로 옮기세요.'); return; }
+      secs.splice(secs.indexOf(sec), 1); touch(kind, `section ${sec.title} removed`);
+    } : null, deleteLabel: '구분 삭제'
+  });
+  if (!v) return;
+  if (sec) { sec.title = v.title; touch(kind, `section ${v.title} renamed`); }
+  else { secs.push({ title: v.title, people: [] }); touch(kind, `section ${v.title} added`); }
+}
+function viewPeople(kind) {
+  const m = $('main'); const secs = S.data[kind];
+  const total = secs.reduce((n, s) => n + s.people.length, 0);
+  m.append(h('h2', {}, KINDS[kind].label),
+    h('p', { class: 'lead' }, kind === 'members'
+      ? `현재 ${total}명. 구분은 엑셀의 시트와 같습니다. 졸업하거나 연구실을 떠나면 "졸업 처리"를 누르세요. 사진도 함께 졸업생 페이지로 옮겨집니다.`
+      : `모두 ${total}명. 홈페이지에는 최근 졸업자가 위에 오도록 이 순서대로 표시됩니다. (엑셀로 내려받으면 예전처럼 오래된 순서입니다.)`));
+  m.append(h('div', { class: 'toolbar' },
+    h('button', { class: 'btn primary', type: 'button', onclick: () => editPerson(kind, null, null) }, kind === 'members' ? '멤버 추가' : '졸업생 추가'),
+    h('button', { class: 'btn', type: 'button', onclick: () => editSection(kind, null) }, '구분 추가'),
+    excelButtons(kind)));
+  secs.forEach((sec, si) => {
+    const grid = h('div', { class: 'people' });
+    sec.people.forEach((p, i) => {
+      const mv = (d) => { const j = i + d; if (j < 0 || j >= sec.people.length) return; [sec.people[i], sec.people[j]] = [sec.people[j], sec.people[i]]; touch(kind, `${kind} order changed`); };
+      const period = kind === 'alumni' ? `${p.from}–${p.to}` : `${p.from}–present`;
+      grid.append(h('div', { class: 'person' },
+        h('img', { class: 'ph', src: imgUrl(photoPath(kind, p)), alt: '', loading: 'lazy' }),
+        h('div', {}, h('div', { class: 't' }, p.name), h('div', { class: 'm' }, period),
+          h('div', { class: 'm' }, kind === 'alumni' ? (p.current || 'Unknown') : (p.degree || ' ')), h('div', { class: 'm' }, p.email)),
+        h('div', { class: 'acts' },
+          h('button', { class: 'btn small', type: 'button', onclick: () => editPerson(kind, sec, p) }, '수정'),
+          kind === 'members' ? h('button', { class: 'btn small', type: 'button', onclick: () => graduate(sec, p) }, '졸업 처리') : null,
+          h('button', { class: 'btn icon', type: 'button', 'aria-label': '앞으로', title: '앞으로', onclick: () => mv(-1) }, '←'),
+          h('button', { class: 'btn icon', type: 'button', 'aria-label': '뒤로', title: '뒤로', onclick: () => mv(1) }, '→'))));
+    });
+    if (!sec.people.length) grid.append(h('div', { class: 'empty', style: 'background:#fff;grid-column:1/-1' }, '아직 아무도 없습니다. 이 구분은 홈페이지에 표시되지 않습니다.'));
+    const mvs = (d) => { const j = si + d; if (j < 0 || j >= secs.length) return; [secs[si], secs[j]] = [secs[j], secs[si]]; touch(kind, 'section order changed'); };
+    m.append(h('div', { class: 'box section' },
+      h('div', { class: 'section-head' }, h('h3', {}, `${sec.title} (${sec.people.length})`),
+        h('button', { class: 'btn icon', type: 'button', 'aria-label': '구분 위로', title: '구분 위로', onclick: () => mvs(-1) }, '↑'),
+        h('button', { class: 'btn icon', type: 'button', 'aria-label': '구분 아래로', title: '구분 아래로', onclick: () => mvs(1) }, '↓'),
+        h('button', { class: 'btn small', type: 'button', onclick: () => editSection(kind, sec) }, '이름 바꾸기')),
+      grid));
+  });
+}
+
+/* ---------------- 갤러리 ---------------- */
+function nextGalleryNo() {
+  let n = 0;
+  S.data.gallery.forEach((g) => { const m = g.file.match(/_g(\d+)\./); if (m) n = Math.max(n, Number(m[1])); });
+  for (const p of S.uploads.keys()) { const m = p.match(/gallery\/\d+_g(\d+)\./); if (m) n = Math.max(n, Number(m[1])); }
+  return n + 1;
+}
+function insertGallery(item) {
+  const list = S.data.gallery;
+  let i = list.findIndex((g) => g.year <= item.year);
+  if (i < 0) i = list.length;
+  list.splice(i, 0, item);
+}
+async function editGallery(g) {
+  const v = await openForm({
+    title: '사진 정보', values: g, fields: [
+      { key: 'year', label: '연도', type: 'number', required: true },
+      { key: 'caption', label: '설명 (선택)', hint: '사진 아래와 크게 볼 때 표시됩니다.' }],
+    onDelete: () => { S.data.gallery.splice(S.data.gallery.indexOf(g), 1); removeFile('images/gallery/' + g.file); touch('gallery', `gallery ${g.file} deleted`); }
+  });
+  if (!v) return;
+  g.caption = v.caption;
+  if (Number(v.year) !== g.year) { S.data.gallery.splice(S.data.gallery.indexOf(g), 1); g.year = Number(v.year); insertGallery(g); }
+  touch('gallery', 'gallery edited');
+}
+function viewGallery(m) {
+  const list = S.data.gallery;
+  m.append(h('h2', {}, '갤러리'), h('p', { class: 'lead' }, `모두 ${list.length}장. 사진은 올릴 때 자동으로 줄여서(긴 변 1920px) 저장합니다.`));
+  const yearIn = h('input', { type: 'number', value: thisYear(), 'aria-label': '연도' });
+  const capIn = h('input', { type: 'text', placeholder: '예) 2026 MT', 'aria-label': '설명' });
+  const fileIn = h('input', { type: 'file', accept: 'image/*', multiple: true, 'aria-label': '사진 선택' });
+  const msg = h('div', { class: 'm', style: 'font-size:13px;color:var(--ink-3);margin-top:8px' });
+  const addBtn = h('button', { class: 'btn primary', type: 'button', onclick: async () => {
+    const files = [...fileIn.files];
+    if (!files.length) { msg.textContent = '먼저 사진을 고르세요.'; return; }
+    addBtn.disabled = true; let before = 0, after = 0, added = 0; const errs = [];
+    const year = Number(yearIn.value) || thisYear(); const yy = String(year).slice(2);
+    const items = [];
+    for (const f of files) {
+      msg.textContent = `압축 중… ${items.length + errs.length + 1}/${files.length}`;
+      try {
+        const img = await compress(f, IMG.gallery);
+        const file = `${yy}_g${nextGalleryNo()}.${img.ext}`;
+        addUpload('images/gallery/' + file, img); before += img.before; after += img.size; added++;
+        items.push({ year, file, caption: capIn.value.trim() });
+      } catch (e) { errs.push(e.message); }
+    }
+    items.reverse().forEach(insertGallery);   // 마지막에 고른 사진이 맨 앞
+    addBtn.disabled = false; fileIn.value = '';
+    if (added) touch('gallery', `gallery ${added} photos added`);
+    if (errs.length) toast(errs.join(' / '), 'err', 10000);
+    else if (added) toast(`사진 ${added}장 추가 (${kb(before)} → ${kb(after)}). 아래 "GitHub에 저장"을 눌러야 홈페이지에 올라갑니다.`);
+  } }, '사진 추가');
+  m.append(h('div', { class: 'box upload' },
+    h('div', { class: 'row3' },
+      h('label', { class: 'field' }, h('span', {}, '연도'), yearIn),
+      h('label', { class: 'field' }, h('span', {}, '설명 (선택, 같이 올리는 사진 모두에 적용)'), capIn),
+      h('label', { class: 'field' }, h('span', {}, '사진 (여러 장 선택 가능)'), fileIn)),
+    addBtn, msg));
+  let year = null, grid = null;
+  const wrap = h('div', { class: 'box' });
+  list.forEach((g) => {
+    if (g.year !== year) { year = g.year; wrap.append(h('div', { class: 'yearhead' }, String(year))); grid = h('div', { class: 'ggrid' }); wrap.append(grid); }
+    const path = 'images/gallery/' + g.file;
+    grid.append(h('div', { class: 'tile' },
+      S.uploads.has(path) ? h('span', { class: 'badge' }, '새 사진') : null,
+      h('img', { src: imgUrl(path), alt: g.caption || g.file, loading: 'lazy' }),
+      h('div', { class: 'bar' }, h('span', { class: 'cap', title: g.caption }, g.caption || g.file),
+        h('button', { class: 'btn icon', type: 'button', 'aria-label': '앞으로', title: '앞으로', onclick: () => moveInList(list, g, -1, 'gallery', 'gallery order changed') }, '←'),
+        h('button', { class: 'btn icon', type: 'button', 'aria-label': '뒤로', title: '뒤로', onclick: () => moveInList(list, g, 1, 'gallery', 'gallery order changed') }, '→'),
+        h('button', { class: 'btn icon', type: 'button', onclick: () => editGallery(g) }, '수정'))));
+  });
+  m.append(wrap);
+}
+
+/* ---------------- 도움말 ---------------- */
+function viewHelp(m) {
+  m.append(h('h2', {}, '도움말'), h('p', { class: 'lead' }, '처음 맡은 사람은 이 페이지를 한 번 읽어주세요.'));
+  const box = h('div', { class: 'box help' });
+  box.innerHTML = `
+    <h3>어떻게 동작하나요?</h3>
+    <ul>
+      <li>홈페이지 내용(논문·특허·멤버·졸업생·갤러리)은 저장소의 <code>data/</code> 폴더에 정리되어 있고, 각 HTML 페이지는 이 데이터로 자동으로 만들어집니다.</li>
+      <li>이 관리 페이지에서 고친 내용은 바로 올라가지 않고, 화면 아래 노란 줄에 "저장 안 된 변경"으로 모입니다.</li>
+      <li><b>GitHub에 저장</b>을 누르면 모든 변경이 한 번에 저장되고, 1~2분 뒤 <a href="${SITE_URL}" target="_blank" rel="noopener">${SITE_URL}</a>에 반영됩니다.</li>
+      <li>잘못 저장해도 GitHub에 모든 기록이 남아 있어 되돌릴 수 있습니다.</li>
+    </ul>
+    <h3>자주 하는 일</h3>
+    <ul>
+      <li><b>새 논문</b>: 논문 탭에서 DOI를 넣고 불러오기 → 내용 확인 → 대표 그림 선택 → 목록에 추가 → GitHub에 저장. 온라인 공개만 된 논문은 상태를 "online published"로 두었다가, 권·호가 나오면 수정에서 상태를 "출판됨"으로 바꾸고 권·호·쪽을 채우세요.</li>
+      <li><b>새 멤버</b>: 멤버 탭 → 멤버 추가 → 사진은 정사각형에 가까운 증명사진이 가장 잘 보입니다.</li>
+      <li><b>졸업·퇴임</b>: 멤버 탭에서 그 사람의 "졸업 처리" → 졸업 연도와 현재 소속 입력. 멤버 페이지에서 빠지고 졸업생 페이지 맨 앞에 추가됩니다.</li>
+      <li><b>사진</b>: 갤러리 탭에서 연도를 고르고 여러 장을 한 번에 선택하세요. 큰 사진도 자동으로 줄여서 올립니다.</li>
+      <li><b>엑셀로 한꺼번에</b>: 논문·특허·멤버·졸업생 탭의 "엑셀로 내려받기"는 예전 G:\\icl.admin 의 엑셀(icl_publications.xlsx, icl_patent.xlsx, members info.xlsx, Alumni info.xlsx)과 같은 열·시트 구성입니다. 엑셀에서 여러 줄을 고친 뒤 "엑셀 올리기"로 넣으면 추가·변경·삭제 개수를 보여주고 반영합니다. 맨 뒤의 Image/photo 열은 그림 파일 이름이니 그대로 두세요.</li>
+      <li><b>미리보기</b>: 저장하기 전에 아래 "사이트 미리보기"로 실제 페이지 모양을 확인할 수 있습니다.</li>
+    </ul>
+    <h3>주의</h3>
+    <ul>
+      <li>HTML 파일에서 <code>&lt;!-- ADMIN:… --&gt;</code> 표시 사이는 직접 고치지 마세요. 관리 페이지에서 저장하면 덮어써집니다. 교수님 소개, 연구 소개, 메인 화면처럼 표시가 없는 부분은 예전처럼 HTML을 직접 고치면 됩니다.</li>
+      <li>연구실 PC(G:\\icl.github)에서 HTML을 직접 고칠 때는 먼저 <code>git_push_backup.bat</code>를 한 번 실행해서 최신 내용을 받아온 뒤 고치세요.</li>
+      <li>두 사람이 동시에 같은 탭을 고치면 나중에 저장하는 사람에게 안내가 나옵니다. 새로고침 후 다시 입력하면 됩니다.</li>
+    </ul>
+    <h3>토큰 만들기 / 바꾸기</h3>`;
+  box.append($('tokenHelp').content.cloneNode(true));
+  m.append(box);
+}
+
+/* =====================================================================
+   시작
+   ===================================================================== */
+$('tokenHelpSlot').append($('tokenHelp').content.cloneNode(true));
+$('loginForm').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const btn = $('loginBtn'); btn.disabled = true; btn.textContent = '접속 중…'; $('loginMsg').innerHTML = '';
+  try { await connect($('tokenInput').value, $('remember').checked); }
+  catch (err) { $('loginMsg').append(h('div', { class: 'msg err' }, explain(err))); }
+  finally { btn.disabled = false; btn.textContent = '접속'; }
+});
+$('logoutBtn').onclick = logout;
+$('saveBtn').onclick = save;
+$('discardBtn').onclick = discard;
+$('previewBtn').onclick = preview;
+window.addEventListener('beforeunload', (e) => { if (S.dirty.size) { e.preventDefault(); e.returnValue = ''; } });
+
+(async () => {
+  let saved = null, remembered = false;
+  try { remembered = !!localStorage.getItem('icl_token'); saved = localStorage.getItem('icl_token') || sessionStorage.getItem('icl_token'); } catch (e) {}
+  if (!saved) return;
+  $('tokenInput').value = saved; $('remember').checked = remembered;
+  $('loginBtn').disabled = true; $('loginBtn').textContent = '접속 중…';
+  try { await connect(saved, $('remember').checked); }
+  catch (err) { $('loginMsg').append(h('div', { class: 'msg err' }, explain(err))); }
+  finally { $('loginBtn').disabled = false; $('loginBtn').textContent = '접속'; }
+})();
+</script>
+</body>
+</html>

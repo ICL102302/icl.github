@@ -1,0 +1,8 @@
+# Notepad++ 자동 백업 (PC에는 남지만 홈페이지에는 올리지 않음)
+nppBackup/
+
+# 백업 기록 (git_push_backup.ps1이 씀)
+backup_log.txt
+
+# macOS 폴더 정보 파일
+.DS_Store

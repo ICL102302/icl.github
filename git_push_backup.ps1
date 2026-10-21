@@ -1,28 +1,32 @@
-# Git 저장소 및 백업 경로 설정
+﻿# Git 저장소 및 백업 경로 설정
 $repoPath = "G:\icl.github"
 $backupPath = "E:\icl.website"
 $logFile = "$repoPath\backup_log.txt"
 
-# 로그 기록 시작
-Add-Content -Path $logFile -Value "$(Get-Date) - Git Push Detected, Starting Backup..."
+function Log($text) { Add-Content -Path $logFile -Value $text }
+
+# 로그 기록 시작 (예전 기록은 지우지 않고 아래에 덧붙입니다)
+Log ""
+Log "$(Get-Date) - Sync started"
 
 # Git 저장소로 이동
 Set-Location -Path $repoPath
-
-# git push 실행 (사용자가 수동으로 실행하는 것과 동일)
-$ErrorActionPreference = 'SilentlyContinue'
-try {
-    git push origin main 2>&1 | Tee-Object -FilePath $logFile -Append
-} catch {
-    # 오류 무시: 로그를 통해 실제 푸시 결과를 확인
-}
 $ErrorActionPreference = 'Continue'
 
-# 백업 실행 (ROBOCOPY 사용)
-Robocopy $repoPath $backupPath /MIR /XD .git > $logFile 2>&1
+# 1. 관리자 페이지(admin.html)에서 저장한 내용을 먼저 받아오기
+git pull --ff-only origin main 2>&1 | ForEach-Object { Log "$_" }
+if ($LASTEXITCODE -ne 0) {
+    Write-Host "GitHub의 최신 내용을 받지 못했습니다. backup_log.txt 를 확인하세요." -ForegroundColor Yellow
+}
+
+# 2. 이 PC에서 직접 고치고 커밋한 내용이 있으면 올리기 (예전과 같음)
+git push origin main 2>&1 | ForEach-Object { Log "$_" }
+
+# 3. 백업 (ROBOCOPY, 결과는 로그에 덧붙임)
+Robocopy $repoPath $backupPath /MIR /XD .git /NP /NFL /NDL "/LOG+:$logFile" | Out-Null
 
 # 로그 기록 완료
-Add-Content -Path $logFile -Value "$(Get-Date) - Backup Completed after Git Push"
+Log "$(Get-Date) - Backup Completed"
 
 # 콘솔에 완료 메시지 출력
-Write-Host "Push backup has completed successfully."
+Write-Host "Pull, push and backup have completed. (details: backup_log.txt)"
